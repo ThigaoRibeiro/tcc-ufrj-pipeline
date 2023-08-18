@@ -1,13 +1,22 @@
 # Linha 3: Importa o módulo 'os', que fornece funções para interagir com o sistema operacional.
 # Linha 4: Importa o módulo 'shutil', que fornece funções para operações de cópia/movimentação de arquivos e diretórios.
 import os
-#import shutil
+import os
+from minio import Minio
+from minio.error import S3Error
 
 
 # Linha 9: Definir a constante 'DATALAKE_STAGE' como o caminho do diretório de destino no datalake.
 # Linha 10: Definir a constante 'DOWNLOADS' como o caminho para o diretório de downloads.
 DATALAKE_STAGE = 'DATALAKE_STAGE'
 DOWNLOADS = '/home/thiago/Downloads/'
+MINIO_DATA_LAKE = 'datalake'
+
+
+minioclient = Minio('localhost:9000',
+    access_key='minioadmin',
+    secret_key='minioadmin',
+    secure=False)
 
 
 # Linha 19: Cria uma lista de nomes de arquivos para renomear. Isso é feito percorrendo os arquivos no diretório de downloads
@@ -28,8 +37,22 @@ for file_name in files_to_rename:
 # Linha 33-34: Constrói os caminhos de origem e destino dos arquivos usando o diretório de downloads e o diretório do datalake.
 # Linha 35: Usa a função 'os.rename' para mover o arquivo. O arquivo é movido da origem para o destino especificado.
 #           Isso também efetivamente renomeia o arquivo, uma vez que o diretório de destino é diferente do diretório de downloads.
+
+# files_to_move = [files for files in os.listdir(DOWNLOADS) if files.endswith(".gpx")]
+# for name_files in files_to_move:
+#     origin_path = os.path.join(DOWNLOADS, name_files)
+#     destiny_path = os.path.join(DATALAKE_STAGE, name_files)
+#     os.rename(origin_path, destiny_path)
+
+
+
+## Aqui os arquivos com a extensão .gpx saem da pasta Download para o bucket MinIO
 files_to_move = [files for files in os.listdir(DOWNLOADS) if files.endswith(".gpx")]
-for name_files in files_to_move:
-    origin_path = os.path.join(DOWNLOADS, name_files)
-    destiny_path = os.path.join(DATALAKE_STAGE, name_files)
-    os.rename(origin_path, destiny_path)
+for name_file in files_to_move:
+    local_path = os.path.join(DOWNLOADS, name_file)    
+    if os.path.isfile(local_path):
+        try:
+            minioclient.fput_object(MINIO_DATA_LAKE, name_file, local_path)
+            #print(f"Arquivo {name_file} enviado com sucesso para o bucket.")
+        except S3Error as e:
+            print(f"Erro ao enviar o arquivo: {item} -> Erro: {e}")
