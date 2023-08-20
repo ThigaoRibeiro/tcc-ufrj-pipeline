@@ -1,58 +1,45 @@
-# Linha 3: Importa o módulo 'os', que fornece funções para interagir com o sistema operacional.
-# Linha 4: Importa o módulo 'shutil', que fornece funções para operações de cópia/movimentação de arquivos e diretórios.
-import os
+# Importação dos Módulos Necessários - *** pip install minio ***
+# Linha 6: O módulo os é usado para interagir com o sistema operacional
+# Linha 7: O módulo minio é usado para interagir com um servidor MinIO
+# Linha 8: O módulo S3Error é uma exceção específica do MinIO para exibição de forma semelhante ao Amazon S3
 import os
 from minio import Minio
 from minio.error import S3Error
 
-
-# Linha 9: Definir a constante 'DATALAKE_STAGE' como o caminho do diretório de destino no datalake.
-# Linha 10: Definir a constante 'DOWNLOADS' como o caminho para o diretório de downloads.
-DATALAKE_STAGE = 'DATALAKE_STAGE'
+# Definição de variáveis. 
+# Linha 14: DOWNLOADS recebe o caminho do diretório de downloads
+# Linha 15: BRONZE_LAYER recebe uma string que representa uma camada ("layer") no servidor MinIO.
 DOWNLOADS = '/home/thiago/Downloads/'
-MINIO_DATA_LAKE = 'datalake'
+BRONZE_LAYER = 'bronze'
 
-
+# Aqui, uma instância do cliente Minio é criada. 
+# Linha 23: O cliente é configurado para se conectar a um servidor MinIO local usando as credenciais fornecidas
+# Linhas 24 e 25: A chave de acesso = usuário e chave secreta = Senha 
+# Linha 26: Sem usar conexão segura (HTTPS).
 minioclient = Minio('localhost:9000',
     access_key='minioadmin',
     secret_key='minioadmin',
     secure=False)
 
-
-# Linha 19: Cria uma lista de nomes de arquivos para renomear. Isso é feito percorrendo os arquivos no diretório de downloads
-#           e selecionando apenas aqueles que terminam com a extensão ".crdownload".
-# Linha 20-22: Um loop 'for' é usado para iterar sobre cada nome de arquivo a ser renomeado.
-# Linha 21: Cria um novo nome de arquivo removendo a extensão ".crdownload" do nome original.
-# Linha 22: Usar a função 'os.rename' para renomear o arquivo. Isso é feito combinando o caminho completo do arquivo original
-#           com o novo nome. O arquivo é renomeado no mesmo diretório.
+# Linha 27: Uma lista é gerada com os arquivos do diretório de downloads que possuem a extensão ".crdownload" 
+# Linhas 28 e 29: Em seguida, estes são renomeados removendo a extensão ".crdownload"  
+# Linha 30: Para cada arquivo, um novo nome é gerado e a função os.rename é usada para remover essa extensão
 files_to_rename = [arquivo for arquivo in os.listdir(DOWNLOADS) if arquivo.endswith(".crdownload")]
 for file_name in files_to_rename:
         new_name = file_name.replace(".crdownload", "")
         os.rename(os.path.join(DOWNLOADS, file_name), os.path.join(DOWNLOADS, new_name))
 
-
-# Linha 31: Cria uma lista de nomes de arquivos a serem movidos para o datalake. Isso é feito percorrendo os arquivos no diretório
-#           de downloads e selecionando apenas aqueles que terminam com a extensão ".gpx".
-# Linha 32-35: Um loop 'for' é usado para iterar sobre cada nome de arquivo a ser movido.
-# Linha 33-34: Constrói os caminhos de origem e destino dos arquivos usando o diretório de downloads e o diretório do datalake.
-# Linha 35: Usa a função 'os.rename' para mover o arquivo. O arquivo é movido da origem para o destino especificado.
-#           Isso também efetivamente renomeia o arquivo, uma vez que o diretório de destino é diferente do diretório de downloads.
-
-# files_to_move = [files for files in os.listdir(DOWNLOADS) if files.endswith(".gpx")]
-# for name_files in files_to_move:
-#     origin_path = os.path.join(DOWNLOADS, name_files)
-#     destiny_path = os.path.join(DATALAKE_STAGE, name_files)
-#     os.rename(origin_path, destiny_path)
-
-
-
-## Aqui os arquivos com a extensão .gpx saem da pasta Download para o bucket MinIO
+# Linha 35: Uma lista é gerada com os arquivos do diretório de downloads que possuem a extensão ".gpx" 
+# Linhas 36 à 39: Para cada arquivo encontrado, verifica-se se é um arquivo válido (não um diretório)
+# Linhas 41 à 44: usa-se o cliente Minio para enviar o arquivo para o bucket especificado (BRONZE_LAYER), e após o envio bem-sucedido, o arquivo é excluído da pasta de downloads. 
+# Linhas 45 e 46: Se ocorrer um erro durante o envio, uma mensagem de erro é exibida.
 files_to_move = [files for files in os.listdir(DOWNLOADS) if files.endswith(".gpx")]
 for name_file in files_to_move:
     local_path = os.path.join(DOWNLOADS, name_file)    
     if os.path.isfile(local_path):
         try:
-            minioclient.fput_object(MINIO_DATA_LAKE, name_file, local_path)
-            #print(f"Arquivo {name_file} enviado com sucesso para o bucket.")
+            minioclient.fput_object(BRONZE_LAYER, name_file, local_path)
+            print(f"Arquivo {name_file} enviado com sucesso para o bucket.")
+            os.remove(local_path)
         except S3Error as e:
-            print(f"Erro ao enviar o arquivo: {item} -> Erro: {e}")
+            print(f"Erro ao enviar o arquivo: {name_file} -> Erro: {e}")
