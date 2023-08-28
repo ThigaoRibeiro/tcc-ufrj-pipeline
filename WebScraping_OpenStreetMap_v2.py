@@ -1,3 +1,6 @@
+##############################################
+### IMPORTAÇÃO DAS BIBLIOTECAS NECESSÁRIAS ###
+##############################################
 # pip install selenium
 # pip install webdriver-manager
 # pip install BeautifulSoup4
@@ -93,5 +96,5 @@ for file_to_move_pre_processing in files_to_move_pre_processing: # Iterando sobr
     dest_path = os.path.join(PRE_PROCESSING, file_to_move_pre_processing) # Montando o caminho absoluto da pasta de destino dos arquivos (PRE_PROCESSING + arquivo)
     try: # Adicionado tratamento de erro para caso não seja possivel a transferencia
         os.rename(src_path,dest_path) # Efetivando a transferencia do arquivo da pasta de download para a pasta PRE_PROCESSING
-    except Exception as e:
-        print(f"Erro ao mover o arquivo: '{file_to_move_pre_processing}': {e}.")
+    except Exception as e: #--> Capturando qualquer erro que porventura ocorra
+        print(f"Erro ao mover o arquivo: '{file_to_move_pre_processing}': {e}.") #--> Exibindo o erro
