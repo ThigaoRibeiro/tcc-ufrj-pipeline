@@ -68,7 +68,7 @@ for list_route in list_routes: # Itera pelas rotas na lista de rotas obtidas no 
         user_name = re.sub(r'\s|\.|\(|\)','_',user_name) # Usando Regex para ajustar o nome do usuário de modo que fique de facil entendimento ao renomear o arquivo
         navegador.find_element('xpath','//*[@id="content"]/div[2]/div/table/tbody/tr[1]/td/a').click() # Capturando o 'xpath' do elemento que possui o link para download e efetuamos efetivamente o clique. O download do arquivo.gpx com o conteúdo da rota é feito na pasta Download.
         users.append(user_name) # Adicionando o nome do usuário em uma na lista
-time.sleep(3) # Adicionado um time de 3 segundos antes de fechar o navegador. Dessa forma garantimos que qualquer download finalize com sucesso.
+time.sleep(5) # Adicionado um time de 5 segundos antes de fechar o navegador. Dessa forma tentamos garantir que os downloads finalizem com sucesso.
 navegador.close() # Fechando o navegador.
 
 #########################################################################
