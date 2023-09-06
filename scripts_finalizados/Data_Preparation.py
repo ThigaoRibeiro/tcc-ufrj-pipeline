@@ -68,7 +68,7 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
                             length=len(csv_bytes), #--> Especificando o comprimento dos bytes do arquivo CSV que você está enviando.
                             content_type='application/csv') #--> Definindo o tipo de conteúdo do arquivo como "application/csv", o que é apropriado para arquivos CSV.
         
-        #minioclient.remove_object(CAMADA_BRONZE, nome_arquivo) #--> Removendo o arquivo do bucket
+        minioclient.remove_object(CAMADA_BRONZE, nome_arquivo) #--> Removendo o arquivo do bucket
 
     except S3Error as e: #--> Capturando qualquer erro que porventura ocorra
         print(f"Erro ao enviar o arquivo: {nome_arquivo} para a [camada silver]. Erro: {e}") #--> Exibindo o erro
