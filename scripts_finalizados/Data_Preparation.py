@@ -40,7 +40,7 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
     df = pd.read_csv(arquivo_csv) #--> Convertendo string para pandas dataframe
 
     ### SEPARANDO A INFORMAÇÃO DE DATA E HORA EM 2 COLUNAS SEPARADAS ###
-    df['time_point'] = pd.to_datetime(df['time_point']) #--> Convertendo a coluna time_point em objetos de data e hora do tipo datetime 
+    df['time_point'] = pd.to_datetime(df['time_point'], format='%Y-%m-%d %H:%M:%S.%f%z', errors='coerce') #--> Convertendo a coluna time_point em objetos de data e hora do tipo datetime 
     df['data'] = df['time_point'].dt.date #--> Extraindo apenas a parte da data da coluna time_point e atribuindo à nova coluna data.
     df['hora'] = df['time_point'].dt.strftime('%H:%M:%S') #--> Formatando a parte de hora (horas, minutos e segundos) da coluna time_point e atribuindo à nova coluna hora.
     df = df.drop(columns=['time_point']) #--> Removendo a coluna time_point do DataFrame.
