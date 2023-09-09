@@ -70,7 +70,7 @@ try:
             conn.commit()        
 
             # Remove o arquivo do bucket "silver" no Minio após ser processado
-            # minioclient.remove_object(CAMADA_SILVER, arquivo_rotas_gpx_csv.object_name) 
+            minioclient.remove_object(CAMADA_SILVER, arquivo_rotas_gpx_csv.object_name) 
 
         # Fecha a conexão com o banco de dados PostgreSQL
         conn.close()
