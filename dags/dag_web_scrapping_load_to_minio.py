@@ -1,30 +1,25 @@
 #from airflow.operators.bash_operator import BashOperator
-from datetime import datetime
+from datetime import datetime, timedelta
 from airflow.models import DAG
 from airflow.operators.bash import BashOperator
-# from airflow.operators.python import PythonOperator
-# import pytz  
 
-# tz = 'America/Sao_Paulo'
+default_args={
+     'owner': 'thiago',     
+     'retries': 5,
+     'retry_delay': timedelta(minutes=5)
+}
 
-# Defina a DAG
-#dag = DAG(
-#    'exec-web-scraping',
-#    default_args={
-#        'owner': 'thiago',
-#        'start_date': datetime(2023, 9, 4, tzinfo=pytz.timezone(tz)),  # Adicione tzinfo aqui
-#        'retries': 1,
-#    },
-#    schedule_interval='*/5 * * * *',  # Expressão cron para cada 5 minutos
-#    end_date=datetime(2030, 12, 31, tzinfo=pytz.timezone(tz)),  # Defina uma data de término futura
-#)
 
 with DAG (
     dag_id='exec-web-scraping',
+    default_args= default_args,
+    description='DAG Responsável pelo processo de raspagem dos dados do OpenStreetMap, pré processamento e carga no bucket.',
+    start_date=datetime(2023,9,8),
+    #schedule_interval='@daily',
     schedule_interval='*/5 * * * *',
-    start_date=datetime(year=2023, month=9, day=8),
     catchup=False
 ) as dag:
+      
 
 # Tarefa para executar o script WebScraping_OpenStreetMap_v2.py
     executar_web_scraping = BashOperator(
