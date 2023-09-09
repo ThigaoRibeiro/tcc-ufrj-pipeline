@@ -22,7 +22,7 @@ from airflow.operators.bash import BashOperator
 with DAG (
     dag_id='exec-web-scraping',
     schedule_interval='*/5 * * * *',
-    start_date=datetime(year=2023, month=9, day=7),
+    start_date=datetime(year=2023, month=9, day=8),
     catchup=False
 ) as dag:
 

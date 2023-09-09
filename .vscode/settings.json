@@ -1,6 +1,18 @@
 {
     "cSpell.words": [
+        "Minio",
+        "minioadmin",
+        "minioclient",
         "Openstreet",
+        "psycopg",
         "webscrapping"
-    ]
+    ],
+    "cSpell.customDictionaries": {
+        "custom-dictionary-workspace": {
+            "name": "custom-dictionary-workspace",
+            "path": "${workspaceFolder:tcc_ufrj}/.cspell/custom-dictionary-workspace.txt",
+            "addWords": true,
+            "scope": "workspace"
+        }
+    }
 }
