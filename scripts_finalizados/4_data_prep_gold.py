@@ -73,3 +73,5 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
         data=enriched_csv_buffer,
         length=len(enriched_csv_bytes),
         content_type='application/csv')
+    
+    minioclient.remove_object(CAMADA_SILVER, arquivo_rotas_gpx_csv.object_name) #--> Removendo o arquivo do bucket
