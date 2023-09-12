@@ -17,7 +17,9 @@ import numpy as np #--> Importação da biblioteca numpy para manipulação de d
 ##############################
 CAMADA_BRONZE = 'bronze' #--> CAMADA_BRONZE recebe uma string que representa uma camada no servidor MinIO.
 CAMADA_SILVER = 'silver' #--> CAMADA_SILVER recebe uma string que representa uma camada no servidor MinIO.
-PADRAO_REGEX = r'(.*?)__' #--> Padrão criado para separar o id da rota e o nome do usuário em variáveis.
+#PADRAO_REGEX = r'(.*?)__' #--> Padrão criado para separar o id da rota e o nome do usuário em variáveis.
+PADRAO_REGEX_1 = r'(\d+)__(.*?)\.csv'
+PADRAO_REGEX_2 = r'(.*?)__'
 
 ##############################################
 ### CRIANDO UMA INSTÂNCIA DO CLIENTE MINIO ###
@@ -37,7 +39,7 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
     obj_rota_csv = minioclient.get_object(CAMADA_BRONZE, arquivo_rotas_gpx_csv.object_name) #--> Obtendo o nome do arquivo de dentro da camada bronze
     csv_decod = obj_rota_csv.data.decode('utf-8') #--> Decodificando o arquivo encontrado para utf-8 - Essa conversão transforma os dados obtidos do arquivo no bucket em bytes
     arquivo_csv = StringIO(csv_decod) #--> Convertendo os bytes em string
-    df = pd.read_csv(arquivo_csv) #--> Convertendo string para pandas dataframe
+    df = pd.read_csv(arquivo_csv, sep=';') #--> Convertendo string para pandas dataframe
 
     ### SEPARANDO A INFORMAÇÃO DE DATA E HORA EM 2 COLUNAS SEPARADAS ###
     df['time_point'] = pd.to_datetime(df['time_point'], format='%Y-%m-%d %H:%M:%S.%f%z', errors='coerce') #--> Convertendo a coluna time_point em objetos de data e hora do tipo datetime 
@@ -47,9 +49,23 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
 
     ### USANDO O REGEX PARA PEGAR O ID DA ROTA E O NOME DO USUÁRIO (DADOS PRESENTES NO NOME DO ARQUIVO) ###
     nome_arquivo = arquivo_rotas_gpx_csv.object_name #--> Pegando o nome do arquivo no bucket e salvando como uma string na variável
-    padrao_encontrado = re.findall(PADRAO_REGEX, nome_arquivo) #--> Localizando os padrões definidos (pegue tudo que esteja antes de '__')
-    id_rota = padrao_encontrado[0] #--> Pegando a primeira ocorrência do padrão encontrado e atribuindo à variável id_rota
-    nome_usuario = padrao_encontrado[-1] #--> Pegando a última ocorrência do padrão encontrado e atribuindo à variável nome_usuario
+    
+    padrao_encontrado = re.search(PADRAO_REGEX_1, nome_arquivo)
+    if padrao_encontrado:
+        id_rota = padrao_encontrado.group(1)
+        nome_usuario = padrao_encontrado.group(2)
+
+        substrings = re.findall(PADRAO_REGEX_2, nome_usuario)
+        if substrings:
+            nome_usuario = substrings[-1]
+        else:
+            nome_usuario = nome_usuario
+
+    
+    #padrao_encontrado = re.findall(PADRAO_REGEX, nome_arquivo) #--> Localizando os padrões definidos (pegue tudo que esteja antes de '__')
+    #id_rota = padrao_encontrado[0] #--> Pegando a primeira ocorrência do padrão encontrado e atribuindo à variável id_rota
+    #nome_usuario = padrao_encontrado[-1] #--> Pegando a última ocorrência do padrão encontrado e atribuindo à variável nome_usuario
+    
     num_df = len(df) #--> Obtendo a quantidade de linhas presentes no dataframe
     replic_id_rota = np.tile(id_rota, num_df) #--> Criando uma matriz e repetindo os id_rota várias vezes, de acordo com o valor especificado em num_df. 
     replic_nome_usuario = np.tile(nome_usuario, num_df) #--> #--> Criando uma matriz e repetindo os nome_usuario várias vezes, de acordo com o valor especificado em num_df. 
@@ -59,7 +75,7 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
     df = df.reindex(columns=ordenacao_df) #--> Reordenando as colunas de acordo com a ordem especificada em ordenacao_df
 
     try:
-        csv_bytes = df.to_csv(index=False).encode('utf-8')  #--> Convertendo o dataframe(sem o indice) em bytes com a codificação utf-8
+        csv_bytes = df.to_csv(index=False,sep=';').encode('utf-8')  #--> Convertendo o dataframe(sem o indice) em bytes com a codificação utf-8
         csv_buffer = BytesIO(csv_bytes) #--> Criando um objeto (BytesIO) chamado csv_buffer a partir do comando anterior. Isso cria um buffer em memória que contém os bytes do arquivo CSV.
         minioclient.put_object( #-->Usdndo o metodo do MinIO responsável por adicionar arquivos no Bucket
                             CAMADA_SILVER, #--> Nome da camada de destino do arquivo transformado

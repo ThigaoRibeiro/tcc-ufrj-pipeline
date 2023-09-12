@@ -21,26 +21,34 @@ with DAG (
 ) as dag:
       
 
-# Tarefa para executar o script WebScraping_OpenStreetMap_v2.py
-    executar_web_scraping = BashOperator(
+# 1ª Tarefa
+    exec_web_scraping = BashOperator(
         task_id='web_scraping',
-        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/WebScraping_OpenStreetMap_v2.py',
+        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/1_webScraping_openstreetmap.py',
         dag=dag,
     )
 
-# Tarefa para executar o segundo script (Rename_Processing_Files_v2_csv.py)
-    executar_rename_processing_files = BashOperator(
+# 2ª Tarefa
+    exec_rename_processing_files = BashOperator(
         task_id='rename_processing_files',
-        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/Rename_Processing_Files_v2_csv.py',
+        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/2_rename_processing_files.py',
         dag=dag,
     )
 
-# Tarefa para executar o terceiro script (Data_Preparation.py)
-    executar_data_preparation = BashOperator(
-        task_id='data_preparation',
-        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/Data_Preparation.py',
+# 3ª Tarefa
+    exec_data_prep_silver = BashOperator(
+        task_id='data_prep_silver',
+        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/3_data_prep_silver.py',
         dag=dag,
     )
 
-# Defina a ordem das tarefas
-executar_web_scraping >> executar_rename_processing_files >> executar_data_preparation
+# 4ª Tarefa
+    exec_data_prep_gold = BashOperator(
+        task_id='data_prep_gold',
+        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/4_data_prep_gold.py',
+        dag=dag,
+    )
+
+
+# Definindo a ordem das tarefas
+exec_web_scraping >> exec_rename_processing_files >> exec_data_prep_silver >> exec_data_prep_gold

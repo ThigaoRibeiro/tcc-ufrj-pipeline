@@ -22,7 +22,7 @@ with DAG (
 # Tarefa para executar o script WebScraping_OpenStreetMap_v2.py
     exec_minio_to_postgres_sync = BashOperator(
         task_id='load_minio_to_bucket',
-        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/Minio_to_Postgresql.py',
+        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/5_minio_to_postgresql.py',
         dag=dag,
     )
 

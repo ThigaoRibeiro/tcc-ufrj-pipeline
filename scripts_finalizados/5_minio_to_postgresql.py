@@ -11,7 +11,7 @@ import io
 ####################################
 ### DEFINIÇÃO DA CAMADA NO MINIO ###
 ####################################
-CAMADA_SILVER = 'silver'
+CAMADA_GOLD = 'gold'
 
 ##############################################
 ### CRIANDO UMA INSTÂNCIA DO CLIENTE MINIO ###
@@ -35,13 +35,13 @@ db_config = {
 ### COMANDO SQL PARA A OPERAÇÃO COPY ###
 ########################################
 copy_sql = """
-    COPY tb_gpx_full (id_rota, nome_usuario, latitude, longitude, elevacao, data_rota, hora_rota)
-    FROM stdin WITH CSV HEADER DELIMITER as ','
+    COPY tb_gpx_full (id_rota, nome_usuario, latitude, longitude, elevacao, data_rota, hora_rota, cidade, estado, pais)
+    FROM stdin WITH CSV HEADER DELIMITER as ';'
 """
 
 try:
     # Lista todos os arquivos na camada "silver" do Minio que têm extensão .csv
-    arquivos_rotas_gpx_csv = [arquivo_gpx for arquivo_gpx in minioclient.list_objects(CAMADA_SILVER) if arquivo_gpx.object_name.endswith(".csv")]
+    arquivos_rotas_gpx_csv = [arquivo_gpx for arquivo_gpx in minioclient.list_objects(CAMADA_GOLD) if arquivo_gpx.object_name.endswith(".csv")]
     
     # Verifica se há arquivos no bucket antes de continuar
     if not arquivos_rotas_gpx_csv:
@@ -55,7 +55,7 @@ try:
         # Itera sobre cada arquivo CSV encontrado no Minio
         for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
             # Obtém o objeto do arquivo CSV do Minio  
-            obj_rota_csv = minioclient.get_object(CAMADA_SILVER, arquivo_rotas_gpx_csv.object_name)            
+            obj_rota_csv = minioclient.get_object(CAMADA_GOLD, arquivo_rotas_gpx_csv.object_name)            
 
             # Decodifica os dados do arquivo CSV de bytes para string
             csv_decod = obj_rota_csv.data.decode('utf-8')  # Convertendo bytes para string            
@@ -70,7 +70,7 @@ try:
             conn.commit()        
 
             # Remove o arquivo do bucket "silver" no Minio após ser processado
-            #minioclient.remove_object(CAMADA_SILVER, arquivo_rotas_gpx_csv.object_name) 
+            #minioclient.remove_object(CAMADA_GOLD, arquivo_rotas_gpx_csv.object_name) 
 
         # Fecha a conexão com o banco de dados PostgreSQL
         conn.close()

@@ -48,7 +48,7 @@ for arquivo_pre_processamento in arquivos_pre_processamento: #--> Iterando sobre
                     })
         arquivo_pre_processamento_csv = arquivo_pre_processamento.replace('.gpx','.csv') #--> Ajustando o nome do arquivo para ficar com a extensão .csv ao inves de .gpx
         info_rota_df = pd.DataFrame(info_rota) #--> Criando um dataframe a partir da lista 
-        info_rota_df.to_csv(f'{PRE_PROCESSAMENTO}/{arquivo_pre_processamento_csv}', index=False) #--> Criando um .csv a partir do DF criado acima e com o nome definido na variável anterior
+        info_rota_df.to_csv(f'{PRE_PROCESSAMENTO}/{arquivo_pre_processamento_csv}', index=False, sep=';') #--> Criando um .csv a partir do DF criado acima e com o nome definido na variável anterior
         os.remove(caminho_arquivo) #--> Excluindo o arquivo .gpx da pasta PRE_PROCESSAMENTO
     except Exception as e: #--> Capturando qualquer erro que porventura ocorra
         print(f"Erro ao converter o '{arquivo_pre_processamento}': {e}.") #--> Exibindo o erro
@@ -56,9 +56,9 @@ for arquivo_pre_processamento in arquivos_pre_processamento: #--> Iterando sobre
         print(f"Excluindo o arquivo defeituoso: {arquivo_pre_processamento}")
         
 
-################################################################################################################
+###################################################################################################################
 ### MOVENDO OS ARQUIVOS COM A EXTENSÃO .CSV DA PASTA PRE_PROCESSAMENTO PARA A PRIMEIRA CAMADA (BRONZE) NO MINIO ###
-################################################################################################################
+###################################################################################################################
 arquivos_para_datalake = [arquivo for arquivo in os.listdir(PRE_PROCESSAMENTO) if arquivo.endswith(".csv")] #--> Listando todos os arquivos da pasta pré-processamento com extensão .csv
 for nome_arquivo in arquivos_para_datalake: #--> Iterando sobre cada item da lista
     caminho_pre_proc = os.path.join(PRE_PROCESSAMENTO, nome_arquivo) #--> Criando o caminho completo para o arquivo .csv
