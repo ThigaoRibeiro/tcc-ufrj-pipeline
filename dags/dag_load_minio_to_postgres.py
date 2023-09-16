@@ -14,7 +14,8 @@ with DAG (
     default_args= default_args,
     description='DAG Responsável por verificar a existência de arquivos na camada Silver. Caso existam arquivos, estes serão carregados na tabela "tb_gpx_full" no Postgres.',
     start_date=datetime(2023,9,8),        
-    schedule_interval='0 */2 * * *',
+    #schedule_interval='0 */2 * * *',
+    schedule_interval='*/5 * * * *',
     catchup=False
 ) as dag:
       
