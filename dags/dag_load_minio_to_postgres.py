@@ -1,3 +1,5 @@
+'''
+
 from datetime import datetime, timedelta
 from airflow.models import DAG
 from airflow.operators.bash import BashOperator
@@ -5,17 +7,16 @@ from airflow.operators.bash import BashOperator
 default_args={
      'owner': 'thiago',     
      'retries': 5,
-     'retry_delay': timedelta(minutes=2)
+     'retry_delay': timedelta(minutes=5)
 }
 
 
 with DAG (
     dag_id='load_minio_to_postgres',
     default_args= default_args,
-    description='DAG Responsável por verificar a existência de arquivos na camada Silver. Caso existam arquivos, estes serão carregados na tabela "tb_gpx_full" no Postgres.',
-    start_date=datetime(2023,9,8),        
-    #schedule_interval='0 */2 * * *',
-    schedule_interval='*/5 * * * *',
+    description='DAG Responsável por verificar a existência de arquivos na camada "gold". Caso existam arquivos, estes serão carregados na tabela "tb_gpx_full" no Postgres. Após a carga estes arquivos são movidos para o bucket "files-in-table".',
+    start_date=datetime(2023,9,18),            
+    schedule_interval='*/10 * * * *',
     catchup=False
 ) as dag:
       
@@ -29,3 +30,6 @@ with DAG (
 
 # Defina a ordem das tarefas
 exec_minio_to_postgres_sync
+
+
+'''

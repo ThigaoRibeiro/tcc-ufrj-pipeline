@@ -14,7 +14,7 @@ with DAG (
     dag_id='exec-web-scraping',
     default_args= default_args,
     description='DAG Responsável pelo processo de raspagem dos dados do OpenStreetMap, pré processamento e carga no bucket.',
-    start_date=datetime(2023,9,8),
+    start_date=datetime(2023,9,18),
     #schedule_interval='@daily',
     schedule_interval='*/5 * * * *',
     catchup=False
@@ -50,5 +50,12 @@ with DAG (
     )
 
 
+# 5ª Tarefa
+    exec_minio_to_postgres_sync = BashOperator(
+        task_id='load_minio_to_bucket',
+        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/5_minio_to_postgresql.py',
+        dag=dag,
+    )
+
 # Definindo a ordem das tarefas
-exec_web_scraping >> exec_rename_processing_files >> exec_data_prep_silver >> exec_data_prep_gold
+exec_web_scraping >> exec_rename_processing_files >> exec_data_prep_silver >> exec_data_prep_gold >> exec_minio_to_postgres_sync

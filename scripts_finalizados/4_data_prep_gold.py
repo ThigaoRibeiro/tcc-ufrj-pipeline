@@ -7,6 +7,8 @@ from minio.error import S3Error
 from io import StringIO, BytesIO
 import pandas as pd
 from geopy.geocoders import Nominatim
+from datetime import datetime
+
 
 CAMADA_SILVER = 'silver'
 CAMADA_GOLD = 'gold'
@@ -31,7 +33,7 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
     batch_list = [df[i:i+batch_size].copy() for i in range(0, len(df), batch_size)]
     geolocator = Nominatim(user_agent="geoapiExercises", timeout=10)
     processed_batches = []  # Inicialize a lista de lotes processados
-    last_locations = {}
+    last_location = {}
 
     for batch_df in batch_list:
         # Obtenha a primeira e a última linha do lote
@@ -59,6 +61,9 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
         df.loc[:, 'cidade'] = cidade
         df.loc[:, 'estado'] = estado
         df.loc[:, 'pais'] = pais
+
+        data_carga_banco = datetime.now().strftime('%Y-%m-%d')
+        df['data_carga_banco'] = data_carga_banco
 
     # Converta o DataFrame enriquecido de volta para CSV
     enriched_csv = df.to_csv(index=False, sep=';')
