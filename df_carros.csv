@@ -1,0 +1,106 @@
+city_mpg;class;combination_mpg;drive;fuel_type;highway_mpg;make;model;transmission;year;cylinders;displacement
+128;small station wagon;119;fwd;electricity;110;chevrolet;bolt ev;a;2017;;
+128;small station wagon;119;fwd;electricity;110;chevrolet;bolt ev;a;2018;;
+128;small station wagon;119;fwd;electricity;110;chevrolet;bolt ev;a;2019;;
+127;small station wagon;118;fwd;electricity;108;chevrolet;bolt ev;a;2020;;
+127;small station wagon;118;fwd;electricity;108;chevrolet;bolt ev;a;2021;;
+15;sport utility vehicle;17;fwd;gas;21;chrysler;pacifica 2wd;a;2004;6.0;3.5
+15;sport utility vehicle;17;awd;gas;20;chrysler;pacifica awd;a;2004;6.0;3.5
+15;sport utility vehicle;17;fwd;gas;21;chrysler;pacifica 2wd;a;2005;6.0;3.5
+16;sport utility vehicle;18;fwd;gas;23;chrysler;pacifica 2wd;a;2005;6.0;3.8
+15;sport utility vehicle;17;awd;gas;20;chrysler;pacifica awd;a;2005;6.0;3.5
+18;small station wagon;21;fwd;gas;24;honda;accord wagon;a;1993;4.0;2.2
+20;small station wagon;22;fwd;gas;26;honda;accord wagon;m;1993;4.0;2.2
+20;compact car;22;fwd;gas;27;honda;accord;a;1994;4.0;2.2
+20;compact car;23;fwd;gas;27;honda;accord;a;1994;4.0;2.2
+22;compact car;25;fwd;gas;29;honda;accord;m;1994;4.0;2.2
+25;two seater;28;fwd;gas;33;honda;civic del sol;a;1994;4.0;1.5
+30;two seater;33;fwd;gas;37;honda;civic del sol;m;1994;4.0;1.5
+23;two seater;26;fwd;gas;30;honda;civic del sol;a;1994;4.0;1.6
+25;two seater;28;fwd;gas;32;honda;civic del sol;m;1994;4.0;1.6
+23;two seater;25;fwd;gas;28;honda;civic del sol;m;1994;4.0;1.6
+15;sport utility vehicle;17;awd;gas;21;honda;pilot 4wd;a;2003;6.0;3.5
+15;sport utility vehicle;17;awd;gas;21;honda;pilot 4wd;a;2004;6.0;3.5
+15;sport utility vehicle;17;awd;gas;20;honda;pilot 4wd;a;2005;6.0;3.5
+16;sport utility vehicle;18;fwd;gas;22;honda;pilot 2wd;a;2006;6.0;3.5
+15;sport utility vehicle;17;awd;gas;20;honda;pilot 4wd;a;2006;6.0;3.5
+150;midsize car;136;fwd;electricity;122;hyundai;ioniq electric;a;2017;;
+55;large car;55;fwd;gas;54;hyundai;ioniq;a;2017;4.0;1.6
+57;large car;58;fwd;gas;59;hyundai;ioniq blue;a;2017;4.0;1.6
+57;large car;58;fwd;gas;59;hyundai;ioniq blue;a;2018;4.0;1.6
+55;large car;55;fwd;gas;54;hyundai;ioniq;a;2018;4.0;1.6
+28;small sport utility vehicle;30;fwd;gas;32;hyundai;kona fwd;a;2018;4.0;1.6
+27;small sport utility vehicle;30;fwd;gas;33;hyundai;kona fwd;a;2018;4.0;2.0
+26;small sport utility vehicle;27;awd;gas;29;hyundai;kona awd;a;2018;4.0;1.6
+25;small sport utility vehicle;27;awd;gas;30;hyundai;kona awd;a;2018;4.0;2.0
+28;small sport utility vehicle;30;fwd;gas;32;hyundai;kona fwd;a;2019;4.0;1.6
+19;standard sport utility vehicle;21;awd;gas;24;hyundai;palisade awd;a;2020;6.0;3.8
+19;standard sport utility vehicle;22;fwd;gas;26;hyundai;palisade fwd;a;2020;6.0;3.8
+19;standard sport utility vehicle;22;fwd;gas;26;hyundai;palisade fwd;a;2021;6.0;3.8
+19;standard sport utility vehicle;21;awd;gas;24;hyundai;palisade awd;a;2021;6.0;3.8
+19;standard sport utility vehicle;22;fwd;gas;26;hyundai;palisade fwd;a;2022;6.0;3.8
+18;sport utility vehicle;20;fwd;gas;25;hyundai;santa fe 2wd;a;2001;4.0;2.4
+19;sport utility vehicle;21;fwd;gas;26;hyundai;santa fe 2wd;m;2001;4.0;2.4
+17;sport utility vehicle;20;fwd;gas;24;hyundai;santa fe 2wd;a;2001;6.0;2.7
+17;sport utility vehicle;18;awd;gas;21;hyundai;santa fe 4wd;a;2001;6.0;2.7
+17;sport utility vehicle;20;fwd;gas;24;hyundai;santa fe 2wd;a;2002;4.0;2.4
+18;midsize car;20;fwd;gas;25;hyundai;sonata;a;1993;4.0;2.0
+18;midsize car;20;fwd;gas;24;hyundai;sonata;m;1993;4.0;2.0
+16;midsize car;18;fwd;gas;22;hyundai;sonata;a;1993;6.0;3.0
+18;midsize car;21;fwd;gas;25;hyundai;sonata;a;1994;4.0;2.0
+18;midsize car;20;fwd;gas;24;hyundai;sonata;m;1994;4.0;2.0
+116;small station wagon;105;awd;electricity;94;kia;ev6 awd (long range);a;2022;;
+134;small station wagon;117;rwd;electricity;101;kia;ev6 rwd (long range);a;2022;;
+136;small station wagon;117;rwd;electricity;100;kia;ev6 rwd (standard range);a;2022;;
+85;small station wagon;79;awd;electricity;74;kia;ev6 awd gt;a;2023;;
+120;small station wagon;109;awd;electricity;98;kia;ev6 long range awd (19 inch tires);a;2023;;
+51;small station wagon;49;fwd;gas;46;kia;niro;a;2017;4.0;1.6
+46;small station wagon;43;fwd;gas;40;kia;niro touring;a;2017;4.0;1.6
+52;small station wagon;50;fwd;gas;49;kia;niro fe;a;2017;4.0;1.6
+51;small station wagon;49;fwd;gas;46;kia;niro;a;2018;4.0;1.6
+52;small station wagon;50;fwd;gas;49;kia;niro fe;a;2018;4.0;1.6
+16;compact car;18;fwd;gas;22;lexus;es 300;a;1994;6.0;3.0
+18;compact car;21;fwd;gas;26;lexus;es 300;a;1995;6.0;3.0
+18;compact car;21;fwd;gas;26;lexus;es 300;a;1996;6.0;3.0
+17;compact car;19;fwd;gas;24;lexus;es 300;a;1997;6.0;3.0
+17;compact car;20;fwd;gas;25;lexus;es 300;a;1998;6.0;3.0
+17;midsize station wagon;19;fwd;gas;22;lexus;rx 300;a;1999;6.0;3.0
+17;midsize station wagon;18;awd;gas;20;lexus;rx 300 4wd;a;1999;6.0;3.0
+17;midsize station wagon;19;fwd;gas;22;lexus;rx 300;a;2000;6.0;3.0
+16;midsize station wagon;18;awd;gas;21;lexus;rx 300 4wd;a;2000;6.0;3.0
+16;midsize station wagon;18;awd;gas;21;lexus;rx 300 4wd;a;2001;6.0;3.0
+14;standard pickup truck;16;rwd;gas;20;ram;1500 2wd;a;2013;8.0;4.7
+14;standard pickup truck;16;rwd;gas;20;ram;1500 2wd;a;2013;8.0;5.7
+17;standard pickup truck;20;rwd;gas;25;ram;1500 2wd;a;2013;6.0;3.6
+14;standard pickup truck;16;4wd;gas;19;ram;1500 4wd;a;2013;8.0;4.7
+13;standard pickup truck;15;4wd;gas;19;ram;1500 4wd;a;2013;8.0;5.7
+18;midsize car;21;fwd;gas;26;toyota;camry;a;1993;4.0;2.2
+19;midsize car;22;fwd;gas;27;toyota;camry;m;1993;4.0;2.2
+16;midsize car;19;fwd;gas;22;toyota;camry;a;1993;6.0;3.0
+16;midsize car;18;fwd;gas;22;toyota;camry;m;1993;6.0;3.0
+18;midsize-large station wagon;21;fwd;gas;26;toyota;camry wagon;a;1993;4.0;2.2
+23;compact car;24;fwd;gas;26;toyota;corolla;a;1993;4.0;1.6
+23;compact car;26;fwd;gas;31;toyota;corolla;m;1993;4.0;1.6
+23;compact car;25;fwd;gas;30;toyota;corolla;a;1993;4.0;1.8
+23;compact car;26;fwd;gas;30;toyota;corolla;m;1993;4.0;1.8
+23;small station wagon;25;fwd;gas;30;toyota;corolla wagon;a;1993;4.0;1.8
+19;sport utility vehicle;22;fwd;gas;25;toyota;highlander 2wd;a;2001;4.0;2.4
+17;sport utility vehicle;18;fwd;gas;21;toyota;highlander 2wd;a;2001;6.0;3.0
+17;sport utility vehicle;19;awd;gas;22;toyota;highlander 4wd;a;2001;4.0;2.4
+16;sport utility vehicle;18;awd;gas;21;toyota;highlander 4wd;a;2001;6.0;3.0
+19;sport utility vehicle;22;fwd;gas;25;toyota;highlander 2wd;a;2002;4.0;2.4
+42;compact car;41;fwd;gas;41;toyota;prius;a;2001;4.0;1.5
+42;compact car;41;fwd;gas;41;toyota;prius;a;2002;4.0;1.5
+42;compact car;41;fwd;gas;41;toyota;prius;a;2003;4.0;1.5
+48;midsize car;46;fwd;gas;45;toyota;prius;a;2004;4.0;1.5
+48;midsize car;46;fwd;gas;45;toyota;prius;a;2005;4.0;1.5
+21;special purpose vehicle;23;fwd;gas;26;toyota;rav4 2wd;a;1996;4.0;2.0
+21;special purpose vehicle;24;fwd;gas;27;toyota;rav4 2wd;m;1996;4.0;2.0
+19;special purpose vehicle;21;awd;gas;24;toyota;rav4 4wd;a;1996;4.0;2.0
+19;special purpose vehicle;21;awd;gas;24;toyota;rav4 4wd;m;1996;4.0;2.0
+21;special purpose vehicle;23;fwd;gas;26;toyota;rav4 2wd;a;1997;4.0;2.0
+18;compact car;21;fwd;gas;26;volkswagen;golf iii / gti;a;1993;4.0;2.0
+21;compact car;24;fwd;gas;29;volkswagen;golf iii / gti;m;1993;4.0;2.0
+18;compact car;21;fwd;gas;26;volkswagen;golf iii;a;1994;4.0;2.0
+21;compact car;24;fwd;gas;29;volkswagen;golf iii;m;1994;4.0;2.0
+20;compact car;22;fwd;gas;26;volkswagen;golf iii;a;1995;4.0;2.0

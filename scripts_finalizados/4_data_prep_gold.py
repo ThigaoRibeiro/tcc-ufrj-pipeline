@@ -10,6 +10,10 @@ from geopy.geocoders import Nominatim
 from datetime import datetime
 
 
+# import time
+# start_time = time.time()
+
+
 CAMADA_SILVER = 'silver'
 CAMADA_GOLD = 'gold'
 
@@ -80,3 +84,14 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
         content_type='application/csv')
     
     minioclient.remove_object(CAMADA_SILVER, arquivo_rotas_gpx_csv.object_name) #--> Removendo o arquivo do bucket
+
+
+# end_time = time.time()
+# execution_time = end_time - start_time
+# 
+# hours, remainder = divmod(execution_time, 3600)
+# minutes, remainder = divmod(remainder, 60)
+# seconds, milliseconds = divmod(remainder, 1)
+# 
+# print(f"Tempo de execução: {int(hours)} horas, {int(minutes)} minutos, {int(seconds)} segundos e {int(milliseconds * 1000)} milissegundos")
+

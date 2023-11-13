@@ -12,6 +12,11 @@ import pandas as pd #--> Importação da biblioteca pandas para análise e manip
 import re #--> Biblioteca padrão de expressões regulares é usada para realizar operações de busca e manipulação de padrões em strings.
 import numpy as np #--> Importação da biblioteca numpy para manipulação de dados e trabalhar com arrays
 
+
+# import time
+# start_time = time.time()
+
+
 ##############################
 ### DEFINIÇÃO DE VARIÁVEIS ### 
 ##############################
@@ -88,3 +93,13 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
 
     except S3Error as e: #--> Capturando qualquer erro que porventura ocorra
         print(f"Erro ao enviar o arquivo: {nome_arquivo} para a [camada silver]. Erro: {e}") #--> Exibindo o erro
+
+
+# end_time = time.time()
+# execution_time = end_time - start_time
+# 
+# hours, remainder = divmod(execution_time, 3600)
+# minutes, remainder = divmod(remainder, 60)
+# seconds, milliseconds = divmod(remainder, 1)
+# 
+# print(f"Tempo de execução: {int(hours)} horas, {int(minutes)} minutos, {int(seconds)} segundos e {int(milliseconds * 1000)} milissegundos")

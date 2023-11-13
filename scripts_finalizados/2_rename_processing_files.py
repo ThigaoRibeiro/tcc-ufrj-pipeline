@@ -12,6 +12,10 @@ import os #--> # Importação do módulo os para interagir com o sistema operaci
 from minio import Minio #--> O módulo minio é usado para interagir com um servidor MinIO
 from minio.error import S3Error #--> O módulo S3Error é uma exceção específica do MinIO para exibição de forma semelhante ao Amazon S3
 
+
+# import time
+# start_time = time.time()
+
 ##############################
 ### DEFINIÇÃO DE VARIÁVEIS ### 
 ##############################
@@ -65,7 +69,18 @@ for nome_arquivo in arquivos_para_datalake: #--> Iterando sobre cada item da lis
     if os.path.isfile(caminho_pre_proc): #--> Verificando se o caminho especificado está apontando para um arquivo válido no sistema de arquivos.
         try:
             minioclient.fput_object(CAMADA_BRONZE, nome_arquivo, caminho_pre_proc) #--> Usando o cliente Minio para enviar o arquivo da pasta de pré processamento para o bucket especificado (CAMADA_BRONZE)
-            print(f"Arquivo {nome_arquivo} enviado com sucesso para o bucket.") #--> Exibindo a mensagem de sucesso após o upload dos arquivos para o bucket.
+            #print(f"Arquivo {nome_arquivo} enviado com sucesso para o bucket.") #--> Exibindo a mensagem de sucesso após o upload dos arquivos para o bucket.
             os.remove(caminho_pre_proc) # --> Após o envio bem sucedido para o bucket o arquivo é excluído da pasta PRE_PROCESSAMENTO
         except S3Error as e: #--> Capturando qualquer erro que porventura ocorra
             print(f"Erro ao enviar o arquivo: {nome_arquivo} -> Erro: {e}") #--> Exibindo o erro
+
+
+
+# end_time = time.time()
+# execution_time = end_time - start_time
+# 
+# hours, remainder = divmod(execution_time, 3600)
+# minutes, remainder = divmod(remainder, 60)
+# seconds, milliseconds = divmod(remainder, 1)
+# 
+# print(f"Tempo de execução: {int(hours)} horas, {int(minutes)} minutos, {int(seconds)} segundos e {int(milliseconds * 1000)} milissegundos")

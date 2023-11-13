@@ -14,6 +14,10 @@ servico = Service(ChromeDriverManager().install()) # Configura o serviço do dri
 import re # Importa o módulo re para expressões regulares.
 import os # Importa o módulo os para funcionalidades relacionadas ao sistema operacional.
 
+# import time
+# start_time = time.time()
+
+
 URL_OPEN_STREET_MAP_TRACES = 'https://www.openstreetmap.org/traces' # URL principal onde será feita a raspagem dos dados com o intuito de listar todas as rotas para download.
 PREFIXO_URL_DOWNLOAD = 'https://www.openstreetmap.org' # URL que será usada como prefixo para montar as URLs das páginas de download.
 DOWNLOADS = '/home/thiago/Downloads/' # Caminho para a pasta de downloads.
@@ -98,3 +102,15 @@ for arquivo_para_pre_processamento in arquivos_para_pre_processamento: # Iterand
         os.rename(caminho_origem,caminho_destino) # Efetivando a transferencia do arquivo da pasta de download para a pasta PRE_PROCESSING
     except Exception as e: #--> Capturando qualquer erro que porventura ocorra
         print(f"Erro ao mover o arquivo: '{arquivo_para_pre_processamento}': {e}.") #--> Exibindo o erro
+
+
+
+# end_time = time.time()
+# execution_time = end_time - start_time
+# 
+# hours, remainder = divmod(execution_time, 3600)
+# minutes, remainder = divmod(remainder, 60)
+# seconds, milliseconds = divmod(remainder, 1)
+# 
+# print(f"Tempo de execução: {int(hours)} horas, {int(minutes)} minutos, {int(seconds)} segundos e {int(milliseconds * 1000)} milissegundos")
+

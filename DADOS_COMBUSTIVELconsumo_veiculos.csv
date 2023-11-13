@@ -1,0 +1,106 @@
+class;drive;fuel_type;make;model;transmission;year;cylinders;displacement;city_km/l;highway_km/l
+small station wagon;fwd;electricity;chevrolet;bolt ev;a;2017;;;54.41839455107482;46.76580781732993
+small station wagon;fwd;electricity;chevrolet;bolt ev;a;2018;;;54.41839455107482;46.76580781732993
+small station wagon;fwd;electricity;chevrolet;bolt ev;a;2019;;;54.41839455107482;46.76580781732993
+small station wagon;fwd;electricity;chevrolet;bolt ev;a;2020;;;53.99325084364455;45.91552040246938
+small station wagon;fwd;electricity;chevrolet;bolt ev;a;2021;;;53.99325084364455;45.91552040246938
+sport utility vehicle;fwd;gas;chrysler;pacifica 2wd;a;2004;6.0;3.5;6.37715561145408;8.928017856035712
+sport utility vehicle;awd;gas;chrysler;pacifica awd;a;2004;6.0;3.5;6.37715561145408;8.502874148605441
+sport utility vehicle;fwd;gas;chrysler;pacifica 2wd;a;2005;6.0;3.5;6.37715561145408;8.928017856035712
+sport utility vehicle;fwd;gas;chrysler;pacifica 2wd;a;2005;6.0;3.8;6.802299318884352;9.778305270896258
+sport utility vehicle;awd;gas;chrysler;pacifica awd;a;2005;6.0;3.5;6.37715561145408;8.502874148605441
+small station wagon;fwd;gas;honda;accord wagon;a;1993;4.0;2.2;7.652586733744897;10.203448978326529
+small station wagon;fwd;gas;honda;accord wagon;m;1993;4.0;2.2;8.502874148605441;11.053736393187073
+compact car;fwd;gas;honda;accord;a;1994;4.0;2.2;8.502874148605441;11.478880100617346
+compact car;fwd;gas;honda;accord;a;1994;4.0;2.2;8.502874148605441;11.478880100617346
+compact car;fwd;gas;honda;accord;m;1994;4.0;2.2;9.353161563465985;12.32916751547789
+two seater;fwd;gas;honda;civic del sol;a;1994;4.0;1.5;10.628592685756802;14.029742345198978
+two seater;fwd;gas;honda;civic del sol;m;1994;4.0;1.5;12.75431122290816;15.730317174920065
+two seater;fwd;gas;honda;civic del sol;a;1994;4.0;1.6;9.778305270896258;12.75431122290816
+two seater;fwd;gas;honda;civic del sol;m;1994;4.0;1.6;10.628592685756802;13.604598637768705
+two seater;fwd;gas;honda;civic del sol;m;1994;4.0;1.6;9.778305270896258;11.904023808047617
+sport utility vehicle;awd;gas;honda;pilot 4wd;a;2003;6.0;3.5;6.37715561145408;8.928017856035712
+sport utility vehicle;awd;gas;honda;pilot 4wd;a;2004;6.0;3.5;6.37715561145408;8.928017856035712
+sport utility vehicle;awd;gas;honda;pilot 4wd;a;2005;6.0;3.5;6.37715561145408;8.502874148605441
+sport utility vehicle;fwd;gas;honda;pilot 2wd;a;2006;6.0;3.5;6.802299318884352;9.353161563465985
+sport utility vehicle;awd;gas;honda;pilot 4wd;a;2006;6.0;3.5;6.37715561145408;8.502874148605441
+midsize car;fwd;electricity;hyundai;ioniq electric;a;2017;;;63.77155611454081;51.86753230649319
+large car;fwd;gas;hyundai;ioniq;a;2017;4.0;1.6;23.382903908664964;22.95776020123469
+large car;fwd;gas;hyundai;ioniq blue;a;2017;4.0;1.6;24.233191323525503;25.083478738386052
+large car;fwd;gas;hyundai;ioniq blue;a;2018;4.0;1.6;24.233191323525503;25.083478738386052
+large car;fwd;gas;hyundai;ioniq;a;2018;4.0;1.6;23.382903908664964;22.95776020123469
+small sport utility vehicle;fwd;gas;hyundai;kona fwd;a;2018;4.0;1.6;11.904023808047617;13.604598637768705
+small sport utility vehicle;fwd;gas;hyundai;kona fwd;a;2018;4.0;2.0;11.478880100617346;14.029742345198978
+small sport utility vehicle;awd;gas;hyundai;kona awd;a;2018;4.0;1.6;11.053736393187073;12.32916751547789
+small sport utility vehicle;awd;gas;hyundai;kona awd;a;2018;4.0;2.0;10.628592685756802;12.75431122290816
+small sport utility vehicle;fwd;gas;hyundai;kona fwd;a;2019;4.0;1.6;11.904023808047617;13.604598637768705
+standard sport utility vehicle;awd;gas;hyundai;palisade awd;a;2020;6.0;3.8;8.077730441175168;10.203448978326529
+standard sport utility vehicle;fwd;gas;hyundai;palisade fwd;a;2020;6.0;3.8;8.077730441175168;11.053736393187073
+standard sport utility vehicle;fwd;gas;hyundai;palisade fwd;a;2021;6.0;3.8;8.077730441175168;11.053736393187073
+standard sport utility vehicle;awd;gas;hyundai;palisade awd;a;2021;6.0;3.8;8.077730441175168;10.203448978326529
+standard sport utility vehicle;fwd;gas;hyundai;palisade fwd;a;2022;6.0;3.8;8.077730441175168;11.053736393187073
+sport utility vehicle;fwd;gas;hyundai;santa fe 2wd;a;2001;4.0;2.4;7.652586733744897;10.628592685756802
+sport utility vehicle;fwd;gas;hyundai;santa fe 2wd;m;2001;4.0;2.4;8.077730441175168;11.053736393187073
+sport utility vehicle;fwd;gas;hyundai;santa fe 2wd;a;2001;6.0;2.7;7.227443026314624;10.203448978326529
+sport utility vehicle;awd;gas;hyundai;santa fe 4wd;a;2001;6.0;2.7;7.227443026314624;8.928017856035712
+sport utility vehicle;fwd;gas;hyundai;santa fe 2wd;a;2002;4.0;2.4;7.227443026314624;10.203448978326529
+midsize car;fwd;gas;hyundai;sonata;a;1993;4.0;2.0;7.652586733744897;10.628592685756802
+midsize car;fwd;gas;hyundai;sonata;m;1993;4.0;2.0;7.652586733744897;10.203448978326529
+midsize car;fwd;gas;hyundai;sonata;a;1993;6.0;3.0;6.802299318884352;9.353161563465985
+midsize car;fwd;gas;hyundai;sonata;a;1994;4.0;2.0;7.652586733744897;10.628592685756802
+midsize car;fwd;gas;hyundai;sonata;m;1994;4.0;2.0;7.652586733744897;10.203448978326529
+small station wagon;awd;electricity;kia;ev6 awd (long range);a;2022;;;49.31667006191156;39.96350849844558
+small station wagon;rwd;electricity;kia;ev6 rwd (long range);a;2022;;;56.969256795656456;42.93951445045747
+small station wagon;rwd;electricity;kia;ev6 rwd (standard range);a;2022;;;57.819544210516995;42.51437074302721
+small station wagon;awd;electricity;kia;ev6 awd gt;a;2023;;;36.13721513157312;31.46063434984013
+small station wagon;awd;electricity;kia;ev6 long range awd (19 inch tires);a;2023;;;51.01724489163264;41.664083328166654
+small station wagon;fwd;gas;kia;niro;a;2017;4.0;1.6;21.682329078943877;19.556610541792516
+small station wagon;fwd;gas;kia;niro touring;a;2017;4.0;1.6;19.556610541792516;17.005748297210882
+small station wagon;fwd;gas;kia;niro fe;a;2017;4.0;1.6;22.107472786374146;20.832041664083327
+small station wagon;fwd;gas;kia;niro;a;2018;4.0;1.6;21.682329078943877;19.556610541792516
+small station wagon;fwd;gas;kia;niro fe;a;2018;4.0;1.6;22.107472786374146;20.832041664083327
+compact car;fwd;gas;lexus;es 300;a;1994;6.0;3.0;6.802299318884352;9.353161563465985
+compact car;fwd;gas;lexus;es 300;a;1995;6.0;3.0;7.652586733744897;11.053736393187073
+compact car;fwd;gas;lexus;es 300;a;1996;6.0;3.0;7.652586733744897;11.053736393187073
+compact car;fwd;gas;lexus;es 300;a;1997;6.0;3.0;7.227443026314624;10.203448978326529
+compact car;fwd;gas;lexus;es 300;a;1998;6.0;3.0;7.227443026314624;10.628592685756802
+midsize station wagon;fwd;gas;lexus;rx 300;a;1999;6.0;3.0;7.227443026314624;9.353161563465985
+midsize station wagon;awd;gas;lexus;rx 300 4wd;a;1999;6.0;3.0;7.227443026314624;8.502874148605441
+midsize station wagon;fwd;gas;lexus;rx 300;a;2000;6.0;3.0;7.227443026314624;9.353161563465985
+midsize station wagon;awd;gas;lexus;rx 300 4wd;a;2000;6.0;3.0;6.802299318884352;8.928017856035712
+midsize station wagon;awd;gas;lexus;rx 300 4wd;a;2001;6.0;3.0;6.802299318884352;8.928017856035712
+standard pickup truck;rwd;gas;ram;1500 2wd;a;2013;8.0;4.7;5.952011904023808;8.502874148605441
+standard pickup truck;rwd;gas;ram;1500 2wd;a;2013;8.0;5.7;5.952011904023808;8.502874148605441
+standard pickup truck;rwd;gas;ram;1500 2wd;a;2013;6.0;3.6;7.227443026314624;10.628592685756802
+standard pickup truck;4wd;gas;ram;1500 4wd;a;2013;8.0;4.7;5.952011904023808;8.077730441175168
+standard pickup truck;4wd;gas;ram;1500 4wd;a;2013;8.0;5.7;5.5268681965935365;8.077730441175168
+midsize car;fwd;gas;toyota;camry;a;1993;4.0;2.2;7.652586733744897;11.053736393187073
+midsize car;fwd;gas;toyota;camry;m;1993;4.0;2.2;8.077730441175168;11.478880100617346
+midsize car;fwd;gas;toyota;camry;a;1993;6.0;3.0;6.802299318884352;9.353161563465985
+midsize car;fwd;gas;toyota;camry;m;1993;6.0;3.0;6.802299318884352;9.353161563465985
+midsize-large station wagon;fwd;gas;toyota;camry wagon;a;1993;4.0;2.2;7.652586733744897;11.053736393187073
+compact car;fwd;gas;toyota;corolla;a;1993;4.0;1.6;9.778305270896258;11.053736393187073
+compact car;fwd;gas;toyota;corolla;m;1993;4.0;1.6;9.778305270896258;13.179454930338434
+compact car;fwd;gas;toyota;corolla;a;1993;4.0;1.8;9.778305270896258;12.75431122290816
+compact car;fwd;gas;toyota;corolla;m;1993;4.0;1.8;9.778305270896258;12.75431122290816
+small station wagon;fwd;gas;toyota;corolla wagon;a;1993;4.0;1.8;9.778305270896258;12.75431122290816
+sport utility vehicle;fwd;gas;toyota;highlander 2wd;a;2001;4.0;2.4;8.077730441175168;10.628592685756802
+sport utility vehicle;fwd;gas;toyota;highlander 2wd;a;2001;6.0;3.0;7.227443026314624;8.928017856035712
+sport utility vehicle;awd;gas;toyota;highlander 4wd;a;2001;4.0;2.4;7.227443026314624;9.353161563465985
+sport utility vehicle;awd;gas;toyota;highlander 4wd;a;2001;6.0;3.0;6.802299318884352;8.928017856035712
+sport utility vehicle;fwd;gas;toyota;highlander 2wd;a;2002;4.0;2.4;8.077730441175168;10.628592685756802
+compact car;fwd;gas;toyota;prius;a;2001;4.0;1.5;17.856035712071424;17.43089200464115
+compact car;fwd;gas;toyota;prius;a;2002;4.0;1.5;17.856035712071424;17.43089200464115
+compact car;fwd;gas;toyota;prius;a;2003;4.0;1.5;17.856035712071424;17.43089200464115
+midsize car;fwd;gas;toyota;prius;a;2004;4.0;1.5;20.406897956653058;19.13146683436224
+midsize car;fwd;gas;toyota;prius;a;2005;4.0;1.5;20.406897956653058;19.13146683436224
+special purpose vehicle;fwd;gas;toyota;rav4 2wd;a;1996;4.0;2.0;8.928017856035712;11.053736393187073
+special purpose vehicle;fwd;gas;toyota;rav4 2wd;m;1996;4.0;2.0;8.928017856035712;11.478880100617346
+special purpose vehicle;awd;gas;toyota;rav4 4wd;a;1996;4.0;2.0;8.077730441175168;10.203448978326529
+special purpose vehicle;awd;gas;toyota;rav4 4wd;m;1996;4.0;2.0;8.077730441175168;10.203448978326529
+special purpose vehicle;fwd;gas;toyota;rav4 2wd;a;1997;4.0;2.0;8.928017856035712;11.053736393187073
+compact car;fwd;gas;volkswagen;golf iii / gti;a;1993;4.0;2.0;7.652586733744897;11.053736393187073
+compact car;fwd;gas;volkswagen;golf iii / gti;m;1993;4.0;2.0;8.928017856035712;12.32916751547789
+compact car;fwd;gas;volkswagen;golf iii;a;1994;4.0;2.0;7.652586733744897;11.053736393187073
+compact car;fwd;gas;volkswagen;golf iii;m;1994;4.0;2.0;8.928017856035712;12.32916751547789
+compact car;fwd;gas;volkswagen;golf iii;a;1995;4.0;2.0;8.502874148605441;11.053736393187073

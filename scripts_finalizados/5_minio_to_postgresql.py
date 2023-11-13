@@ -10,6 +10,11 @@ import io
 from io import StringIO, BytesIO
 import pandas as pd
 
+
+# import time
+# start_time = time.time()
+
+
 ####################################
 ### DEFINIÇÃO DA CAMADA NO MINIO ###
 ####################################
@@ -96,3 +101,13 @@ try:
 except Exception as e:
     # Em caso de erro, imprime a mensagem de erro
     print(f"Erro: {str(e)}")
+
+
+# end_time = time.time()
+# execution_time = end_time - start_time
+# 
+# hours, remainder = divmod(execution_time, 3600)
+# minutes, remainder = divmod(remainder, 60)
+# seconds, milliseconds = divmod(remainder, 1)
+# 
+# print(f"Tempo de execução: {int(hours)} horas, {int(minutes)} minutos, {int(seconds)} segundos e {int(milliseconds * 1000)} milissegundos")

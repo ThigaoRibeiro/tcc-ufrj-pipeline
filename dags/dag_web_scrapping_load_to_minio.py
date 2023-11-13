@@ -16,7 +16,7 @@ with DAG (
     description='DAG Responsável pelo processo de raspagem dos dados do OpenStreetMap, pré processamento e carga no bucket.',
     start_date=datetime(2023,9,18),
     #schedule_interval='@daily',
-    schedule_interval='*/5 * * * *',
+    schedule_interval='*/3 * * * *',
     catchup=False
 ) as dag:
       
@@ -59,3 +59,4 @@ with DAG (
 
 # Definindo a ordem das tarefas
 exec_web_scraping >> exec_rename_processing_files >> exec_data_prep_silver >> exec_data_prep_gold >> exec_minio_to_postgres_sync
+#exec_web_scraping
