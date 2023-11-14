@@ -10,9 +10,9 @@ default_args={
 
 
 with DAG (
-    dag_id='load_minio_to_postgres',
+    dag_id='dados-combustivel',
     default_args= default_args,
-    description='DAG Responsável por alimentar as tabelas referente ao cáalculo de combustível e consumo por veículo',
+    description='DAG Responsável por alimentar as tabelas referente ao cálculo de combustível e consumo por veículo',
     start_date=datetime(2023,9,18),            
     schedule_interval='0 10 * * 1',
     catchup=False
