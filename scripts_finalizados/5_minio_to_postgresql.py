@@ -93,7 +93,7 @@ try:
 
             
             # Após a copia para o bucket de segurança os arquivos são eliminados da camada gold
-            minioclient.remove_object(CAMADA_GOLD, arquivo_rotas_gpx_csv.object_name) 
+            minioclient.remove_object(CAMADA_GOLD, arquivo_rotas_gpx_csv.object_name)
 
         # Fecha a conexão com o banco de dados PostgreSQL
         conn.close()
