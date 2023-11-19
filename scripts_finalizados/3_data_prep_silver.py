@@ -25,6 +25,7 @@ CAMADA_SILVER = 'silver' #--> CAMADA_SILVER recebe uma string que representa uma
 #PADRAO_REGEX = r'(.*?)__' #--> Padrão criado para separar o id da rota e o nome do usuário em variáveis.
 PADRAO_REGEX_1 = r'(\d+)__(.*?)\.csv'
 PADRAO_REGEX_2 = r'(.*?)__'
+PADRAO_REGEX_3 = '__.+'
 
 ##############################################
 ### CRIANDO UMA INSTÂNCIA DO CLIENTE MINIO ###
@@ -47,7 +48,8 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
     df = pd.read_csv(arquivo_csv, sep=';') #--> Convertendo string para pandas dataframe
 
     ### SEPARANDO A INFORMAÇÃO DE DATA E HORA EM 2 COLUNAS SEPARADAS ###
-    df['time_point'] = pd.to_datetime(df['time_point'], format='%Y-%m-%d %H:%M:%S.%f%z', errors='coerce') #--> Convertendo a coluna time_point em objetos de data e hora do tipo datetime 
+    #df['time_point'] = pd.to_datetime(df['time_point'], format='%Y-%m-%d %H:%M:%S.%f%z', errors='coerce') #--> Convertendo a coluna time_point em objetos de data e hora do tipo datetime 
+    df['time_point'] = pd.to_datetime(df['time_point'],errors='coerce') #--> Convertendo a coluna time_point em objetos de data e hora do tipo datetime 
     df['data'] = df['time_point'].dt.date #--> Extraindo apenas a parte da data da coluna time_point e atribuindo à nova coluna data.
     df['hora'] = df['time_point'].dt.strftime('%H:%M:%S') #--> Formatando a parte de hora (horas, minutos e segundos) da coluna time_point e atribuindo à nova coluna hora.
     df = df.drop(columns=['time_point']) #--> Removendo a coluna time_point do DataFrame.
@@ -59,12 +61,16 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
     if padrao_encontrado:
         id_rota = padrao_encontrado.group(1)
         nome_usuario = padrao_encontrado.group(2)
+        substrings = re.findall(PADRAO_REGEX_3, nome_usuario)                
+        nome_usuario = [substring.replace('__','') for substring in substrings]
 
-        substrings = re.findall(PADRAO_REGEX_2, nome_usuario)
-        if substrings:
-            nome_usuario = substrings[-1]
-        else:
-            nome_usuario = nome_usuario
+
+
+        #substrings = re.findall(PADRAO_REGEX_2, nome_usuario)
+        #if substrings:
+        #    nome_usuario = substrings[-1]
+        #else:
+        #    nome_usuario = nome_usuario
 
     
     #padrao_encontrado = re.findall(PADRAO_REGEX, nome_arquivo) #--> Localizando os padrões definidos (pegue tudo que esteja antes de '__')

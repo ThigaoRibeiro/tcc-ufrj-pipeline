@@ -2,7 +2,8 @@
 ### IMPORTAÇÃO DAS BIBLIOTECAS NECESSÁRIAS ###
 ##############################################
 # pip install minio
-# pip install psycopg2
+# pip install psycopg2-binary
+
 
 import psycopg2
 from minio import Minio
@@ -34,7 +35,7 @@ minioclient = Minio('localhost:9000',
 #############################################
 db_config = {
 'host': 'localhost',
-'database': 'gold-saint',
+'database': 'postgres',
 'user': 'postgres',
 'password': 'postgres',
 }

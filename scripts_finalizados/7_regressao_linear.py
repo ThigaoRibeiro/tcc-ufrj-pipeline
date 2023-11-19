@@ -17,7 +17,7 @@ minioclient = Minio('localhost:9000',
 
 db_config = {
 'host': 'localhost',
-'database': 'gold-saint',
+'database': 'postgres',
 'user': 'postgres',
 'password': 'postgres',
 }

@@ -16,7 +16,7 @@ with DAG (
     description='DAG Responsável pelo processo de raspagem dos dados do OpenStreetMap, pré processamento e carga no bucket.',
     start_date=datetime(2023,9,18),
     #schedule_interval='@daily',
-    schedule_interval='*/3 * * * *',
+    schedule_interval='*/10 * * * *',
     catchup=False
 ) as dag:
       

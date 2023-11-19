@@ -1,6 +1,7 @@
 # pip install minio
 # pip install pandas
 # pip install numpy
+# pip install geopy
 
 from minio import Minio
 from minio.error import S3Error
