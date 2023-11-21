@@ -4,14 +4,12 @@
 # pip install minio
 # pip install psycopg2-binary
 
-
 import psycopg2
 from minio import Minio
 import io
 from io import StringIO, BytesIO
 import pandas as pd
-
-
+import requests
 # import time
 # start_time = time.time()
 
@@ -39,6 +37,77 @@ db_config = {
 'user': 'postgres',
 'password': 'postgres',
 }
+
+token_api = '5b3ce3597851110001cf624838eb860780704eca99c41867a83c9f6b'
+
+arquivos_rotas_gpx_csv = [arquivo_gpx for arquivo_gpx in minioclient.list_objects(CAMADA_GOLD) if arquivo_gpx.object_name.endswith(".csv")] #--> Listando todos os arquivos da camada bronze do datalake com extensão .csv
+for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista encontrada
+    try:    
+        obj_rota_csv = minioclient.get_object(CAMADA_GOLD, arquivo_rotas_gpx_csv.object_name) #--> Obtendo o nome do arquivo de dentro da camada bronze
+        csv_decod = obj_rota_csv.data.decode('utf-8') #--> Decodificando o arquivo encontrado para utf-8 - Essa conversão transforma os dados obtidos do arquivo no bucket em bytes
+        arquivo_csv = StringIO(csv_decod) #--> Convertendo os bytes em string
+        df = pd.read_csv(arquivo_csv, sep=';') #--> Convertendo string para pandas dataframe        
+        id_rota = df.loc[df.index[0], 'id_rota']
+        nome_usuario = df.loc[df.index[0], 'nome_usuario']
+        data_inicio_rota = df.loc[df.index[0], 'data']
+        data_fim_rota = df.loc[df.index[-1], 'data']
+        inicio_rota = df.loc[df.index[0], 'hora']
+        fim_rota = df.loc[df.index[-1], 'hora']
+        latitude_inicial = df.loc[df.index[0], 'latitude']
+        longitude_inicial = df.loc[df.index[0], 'longitude']
+        latitude_final = df.loc[df.index[-1], 'latitude']
+        longitude_final = df.loc[df.index[-1], 'longitude']
+        cidade = df.loc[df.index[0], 'cidade']
+        estado = df.loc[df.index[0], 'estado']
+        pais = df.loc[df.index[0], 'pais']
+        id_unico = f'{id_rota}__{data_inicio_rota}__{inicio_rota}__{nome_usuario}'
+        data_carga_banco = df.loc[df.index[0], 'data_carga_banco']
+        longitude_inicial_float = float(longitude_inicial)
+        latitude_inicial_float = float(latitude_inicial)    
+        longitude_final_float = float(longitude_final)
+        latitude_final_float = float(latitude_final)    
+        #body = {"coordinates":[[8.681495,49.41461],[8.687872,49.420318]],"radiuses":"-1"}
+        body = {"coordinates": [[longitude_inicial_float, latitude_inicial_float],[longitude_final_float, latitude_final_float]],"radiuses": "-1"}
+
+        headers = {
+            'Accept': 'application/json, application/geo+json, application/gpx+xml, img/png; charset=utf-8',
+            'Authorization': token_api,
+            'Content-Type': 'application/json; charset=utf-8'
+        }
+    
+        call = requests.post('https://api.openrouteservice.org/v2/directions/driving-car', json=body, headers=headers)
+        response = eval(call.text)
+        duration = response['routes'][0]['summary']['duration']
+        distance = response['routes'][0]['summary']['distance']
+        distancia_real = distance / 1000
+
+        conn = psycopg2.connect(**db_config)
+        cursor = conn.cursor()
+        insert = f'''
+            insert into tb_distancias_percorridas_api (id_unico,nome_usuario,data_inicio_rota,data_fim_rota,hora_inicio_rota,hora_fim_rota,latitude_inicial,longitude_inicial,latitude_final,longitude_final,cidade,estado,pais,distancia_real_km_api,data_carga_banco)
+            values (
+                '{id_unico}',
+                '{nome_usuario}',
+                '{data_inicio_rota}',
+                '{data_fim_rota}',
+                '{inicio_rota}',
+                '{fim_rota}',
+                '{latitude_inicial}',
+                '{longitude_inicial}',
+                '{latitude_final}',
+                '{longitude_final}',
+                '{cidade}',
+                '{estado}',
+                '{pais}',              
+                '{distancia_real}',
+                '{data_carga_banco}'
+                )'''
+        cursor.execute(insert)
+        conn.commit()
+        conn.close()
+    except Exception as e:        
+        print(f"Erro: {str(e)} no id {id_unico}")
+        continue
 
 ########################################
 ### COMANDO SQL PARA A OPERAÇÃO COPY ###
@@ -84,14 +153,12 @@ try:
             ## Commit para salvar as alterações no banco de dados    
             conn.commit()
 
-
             minioclient.put_object( #-->Usdndo o metodo do MinIO responsável por adicionar arquivos no Bucket
                     CAMADA_FILES_IN_TABLE, #--> Nome da camada de destino do arquivo transformado
                     nome_arquivo, #--> Nome do arquivo a ser adicionado na nova camada
                     data=csv_buffer, #--> Objeto csv_buffer que contém os bytes do arquivo CSV.
                     length=len(csv_bytes), #--> Especificando o comprimento dos bytes do arquivo CSV que você está enviando.
                     content_type='application/csv')        
-
             
             # Após a copia para o bucket de segurança os arquivos são eliminados da camada gold
             minioclient.remove_object(CAMADA_GOLD, arquivo_rotas_gpx_csv.object_name)

@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup # Importa o Beautiful Soup para analisar HTML.
 servico = Service(ChromeDriverManager().install()) # Configura o serviço do driver do Chrome.
 import re # Importa o módulo re para expressões regulares.
 import os # Importa o módulo os para funcionalidades relacionadas ao sistema operacional.
-
+import gzip
 import random
 
 # import time
@@ -84,6 +84,17 @@ arquivos_para_renomear = [arquivo for arquivo in os.listdir(DOWNLOADS) if arquiv
 for arquivo_para_renomear in arquivos_para_renomear: # Iterando sobre os resultados encontrados.
         novo_nome = arquivo_para_renomear.replace(".crdownload", "") # Removendo a extensão incorreta do nome do arquivo.
         os.rename(os.path.join(DOWNLOADS, arquivo_para_renomear), os.path.join(DOWNLOADS, novo_nome)) # Substituindo os arquivos com a extensão incorreta pelos arquivos corrigidos.
+
+
+files_to_rename = [arquivo for arquivo in os.listdir(DOWNLOADS) if arquivo.endswith(".gz")]
+for file_to_rename in files_to_rename:
+    diretorio_origem = os.path.join(DOWNLOADS, file_to_rename)
+    diretorio_destino = os.path.dirname(diretorio_origem)
+    nome_arquivo_extraido = file_to_rename[:-3]  # Remover a extensão .gz
+    with gzip.open(diretorio_origem, 'rb') as arquivo_gz, open(os.path.join(diretorio_destino, nome_arquivo_extraido), 'wb') as arquivo_extraido:
+        arquivo_extraido.write(arquivo_gz.read())
+    os.remove(diretorio_origem)   
+
 
 arquivos_para_renomear_gpx = sorted([arquivo for arquivo in os.listdir(DOWNLOADS) if arquivo.endswith(".gpx")], reverse=True) # Listando arquivos com extensão [.gpx] na pasta de download.
 

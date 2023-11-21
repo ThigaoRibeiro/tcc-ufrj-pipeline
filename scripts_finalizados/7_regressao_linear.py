@@ -1,3 +1,6 @@
+# pip install scikit-learn
+
+
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 from sklearn import metrics
@@ -9,6 +12,7 @@ import psycopg2
 from datetime import datetime
 data_hora_atual = datetime.now()
 REGRESSAO_LINEAR = 'regressao-linear'
+ML_RESULTS = 'resultados-ml'
 
 minioclient = Minio('localhost:9000',
     access_key='minioadmin',
@@ -32,7 +36,7 @@ select
 	nome_usuario,
 	tipo_combustivel,	
 	dist_km,
-	cons_por_km	
+	cons_por_km as consumo_litros_viagem
 from vw_valores_combustivel_por_viagem 
 """
 
@@ -44,7 +48,7 @@ df_consumo_veiculos = pd.DataFrame(resultados_consumo_veiculos, columns=[desc[0]
 
 # Definindo variáveis independentes (X) e dependente (Y)
 X = df_consumo_veiculos[['dist_km','nome_usuario']]
-Y = df_consumo_veiculos['cons_por_km']
+Y = df_consumo_veiculos['consumo_litros_viagem']
 X = pd.get_dummies(X, columns=['nome_usuario'], drop_first=True)
 
 # Dividindo os dados em conjuntos de treinamento e teste
@@ -97,7 +101,7 @@ truncate = """ truncate table regressao_linear_temp; """
 cursor.execute(truncate)
 
 copy_sql = """
-    COPY regressao_linear_temp (variavel, Coeficiente, Coeficiente_Abs)
+    COPY regressao_linear_temp (variavel, coeficiente, coeficiente_abs)
     FROM stdin WITH CSV HEADER DELIMITER as ';'"""
 
 
@@ -120,7 +124,7 @@ for arquivo_regressao in arquivos_regressao:
 conn = psycopg2.connect(**db_config)
 cursor = conn.cursor()
 insert = """
-insert into regressao_linear (Variavel, Coeficiente, Coeficiente_Abs, data_execucao )
+insert into regressao_linear (variavel, coeficiente, coeficiente_abs, data_execucao )
 select 	replace (variavel,'nome_usuario_','') as variavel, 
 		Coeficiente, 
 		Coeficiente_Abs, 

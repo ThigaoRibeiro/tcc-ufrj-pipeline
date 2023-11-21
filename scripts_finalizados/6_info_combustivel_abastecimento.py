@@ -1,6 +1,7 @@
 # pip install selenium
 # pip install webdriver-manager
 # pip install BeautifulSoup4
+# pip install openpyxl
 
 import time
 import os
@@ -19,7 +20,7 @@ db_config = {
 }
 
 DADOS_COMBUSTIVEL = '/home/thiago/tcc_ufrj/DADOS_COMBUSTIVEL/'
-BUCKET_DADOS_COMBUSTIVEL = 'bucket-dados-combustivel'
+BUCKET_DADOS_COMBUSTIVEL = 'dados-combustivel'
 
 minioclient = Minio('localhost:9000', #--> O cliente é configurado para se conectar a um servidor MinIO local usando as credenciais fornecidas
     access_key='minioadmin', #--> A chave de acesso = usuário
@@ -104,7 +105,6 @@ except Exception as e:
     # Em caso de erro, imprime a mensagem de erro
     print(f"Erro: {str(e)}")
 
-
 # Abrindo novamente a conexão com o banco para selecionar da tabela gpx full somente o nome a marca e o modelo dos veículos
 time.sleep(5)
 conn = psycopg2.connect(**db_config)
@@ -183,7 +183,7 @@ try:
         cursor.execute(truncate)
 
         copy_sql = """
-            COPY tb_consumo_veiculos (class,drive,fuel_type,make,model,transmission,year,cylinders,displacement,city_km_l,highway_km_l)
+            COPY tb_consumo_veiculos (classe,drive,fuel_type,make,model,transmission,years,cylinders,displacement,city_km_l,highway_km_l)
             FROM stdin WITH CSV HEADER DELIMITER as ';'
         """
 

@@ -67,7 +67,7 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
         df.loc[:, 'estado'] = estado
         df.loc[:, 'pais'] = pais
 
-        data_carga_banco = datetime.now().strftime('%Y-%m-%d')
+        data_carga_banco = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         df['data_carga_banco'] = data_carga_banco
 
     # Converta o DataFrame enriquecido de volta para CSV

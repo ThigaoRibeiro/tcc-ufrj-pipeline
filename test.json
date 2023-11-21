@@ -1,0 +1,159 @@
+{
+    "bbox": [
+        -117.48224,
+        40.641444,
+        -116.900234,
+        41.152267
+    ],
+    "metadata": {
+        "attribution": "openrouteservice.org | OpenStreetMap contributors",
+        "engine": {
+            "build_date": "2023-07-09T01:31:50Z",
+            "graph_date": "2023-11-10T16:57:08Z",
+            "version": "7.1.0"
+        },
+        "query": {
+            "coordinates": [
+                [
+                    -116.915649,
+                    40.738178
+                ],
+                [
+                    -117.06134,
+                    41.152271
+                ]
+            ],
+            "format": "json",
+            "profile": "driving-car"
+        },
+        "service": "routing",
+        "timestamp": 1700412104846
+    },
+    "routes": [
+        {
+            "bbox": [
+                -117.48224,
+                40.641444,
+                -116.900234,
+                41.152267
+            ],
+            "geometry": "stswFzarhUhLuBxDu@rDcDjPkOtGeGrYkWdd@yb@zBe@xe@~Gf@RlBnAb@N\\Fl@A`p@aB~JI`T@dmAX~BH`AH|Bb@lAZnCjAzAz@pCxBl@j@pA|Af@p@p@dAnBzD~@jCxAbF|k@~rBx@bCz@pB|@hBnArBh@v@hCrC`BxAl@`@lBlAjDjBpBdAvCdBdBx@bBl@pBh@|Bb@dBNzAHnC?|CSjw@qMfFeAlR{CzMyBtACfAJrA\\j@Zb@Rn@f@|@dAvBxCdCtD`ClDdDzE`@n@}@lAk@t@o@|@{CbEuC|DuCdEsCxDoC~D}ExG{CpDw@fA]d@aFbHg@t@sC|D}@xA}@dAqGxLiBpDqEhI_AnBs@lB}@`FQj@e@xCi@lC[nAoAxD{A`CeCrD}I|H_BlAgFlEqCxCeJ`LsW`^}CfE{J~MgwBtvC}KrPg_BlzBw_DxkEgOtSW\\yMtQozEfwG_RpWcHlK}O|WaFtH{o@b~@}T`[q@|@cT|Yq^vf@gG~HiSnUgGzHygEl`GwKdOQRyNdS}CrEsRtWkFtHwHjMaElIyF|MwjCjxGsCnHexBrsFuPlb@m@zAUl@es@xgBuAvDoNde@cCfIgEjN}_@npAiB`IcA~Gq@fJK~DAxFTbIzDvo@DvIWxJu@dIcAbGo@rC}[ndAqA|FmA|Ic@hGOrEE|BHzHXvFbEdg@pBvVNxCDhDCfBEtAWzDg@vDm@xCo@~BaAjCuApCmCjFa`@~t@gBpE_A~Ds@`GO`CGhGFtCXrD\\zBnHd]n@fEb@jERlG?tEOzEa@tEWpBuAvGq|ApcHqDlN[`A]z@{@jAm@h@o@\\q@Vs@JoAByE?|y@owDNs@H}@C_AKq@Qq@]s@_iB}oCsIsMaAaBwBaEs@_Bu@iBgAyCkAsDgFmRg@oBwSuv@mAoDaA}BmBmDe@q@iBaCoSkW{@cAuAmAm@e@_@WqAm@kBo@wH}BkBm@cW{HgAi@a@Y[c@mHaR{EmJy@sC_@wC_F}z@o@}EoA}FkAuD{BuFsWmn@iAaCcDiFkEkEiCkBsE}B}EuAo|@qL{KiBcGsBoEyBqD{BqGoFeF}FgMqPweAewAqh@er@qS}XmCaDacGebIe@e@iAaA_C}ALa@ToAJiA@gACu@OkAql@yaDyk@i`Du\\kaBs\\s}A}Sk{AoAsH}Gy[sSq~@gZe{AyNcp@mMum@{Jq^wHwZeFuW{Gg[e@sC{KijAoC{Ze@qHWcLa@sHeZigDmFqo@UmAuKkc@iFqV[}@mDfFaCjF}@tFi@pBq@n@cATaBl@{CpCwC~CcBxCyE`L_AfCc@~CkAxBkDfFyJrKeD|B}EzCqF`DwBn@mBDaE|B}@d@",
+            "legs": [],
+            "segments": [
+                {
+                    "distance": 119915.4,
+                    "duration": 7646.5,
+                    "steps": [
+                        {
+                            "distance": 12728.1,
+                            "duration": 1467.4,
+                            "instruction": "Head south on Izzenhood Road",
+                            "name": "Izzenhood Road",
+                            "type": 11,
+                            "way_points": [
+                                0,
+                                69
+                            ]
+                        },
+                        {
+                            "distance": 2204.8,
+                            "duration": 145.2,
+                            "instruction": "Turn right onto Front Street, I 80 BUS, NV 304",
+                            "name": "Front Street, I 80 BUS, NV 304",
+                            "type": 1,
+                            "way_points": [
+                                69,
+                                92
+                            ]
+                        },
+                        {
+                            "distance": 56487.0,
+                            "duration": 1793.8,
+                            "instruction": "Keep right",
+                            "name": "-",
+                            "type": 13,
+                            "way_points": [
+                                92,
+                                201
+                            ]
+                        },
+                        {
+                            "distance": 623.3,
+                            "duration": 40.8,
+                            "instruction": "Keep right",
+                            "name": "-",
+                            "type": 13,
+                            "way_points": [
+                                201,
+                                211
+                            ]
+                        },
+                        {
+                            "distance": 24936.6,
+                            "duration": 1163.9,
+                            "instruction": "Turn sharp right onto Old Highway 40, NV 789",
+                            "name": "Old Highway 40, NV 789",
+                            "type": 3,
+                            "way_points": [
+                                211,
+                                279
+                            ]
+                        },
+                        {
+                            "distance": 20575.9,
+                            "duration": 2469.1,
+                            "instruction": "Turn right onto Midas Road, 18",
+                            "name": "Midas Road, 18",
+                            "type": 1,
+                            "way_points": [
+                                279,
+                                312
+                            ]
+                        },
+                        {
+                            "distance": 2321.9,
+                            "duration": 557.3,
+                            "instruction": "Turn sharp left",
+                            "name": "-",
+                            "type": 2,
+                            "way_points": [
+                                312,
+                                334
+                            ]
+                        },
+                        {
+                            "distance": 37.7,
+                            "duration": 9.0,
+                            "instruction": "Keep left",
+                            "name": "-",
+                            "type": 12,
+                            "way_points": [
+                                334,
+                                335
+                            ]
+                        },
+                        {
+                            "distance": 0.0,
+                            "duration": 0.0,
+                            "instruction": "Arrive at your destination, on the right",
+                            "name": "-",
+                            "type": 10,
+                            "way_points": [
+                                335,
+                                335
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "summary": {
+                "distance": 119915.4,
+                "duration": 7646.5
+            },
+            "way_points": [
+                0,
+                335
+            ]
+        }
+    ]
+}
