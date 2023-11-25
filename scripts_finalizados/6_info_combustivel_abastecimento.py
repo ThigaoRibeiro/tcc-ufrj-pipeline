@@ -65,8 +65,8 @@ try:
         conn = psycopg2.connect(**db_config)
         cursor = conn.cursor()
 
-        truncate = """ truncate table preco_combustivel_semanal; """
-        cursor.execute(truncate)
+        # truncate = """ truncate table preco_combustivel_semanal; """
+        # cursor.execute(truncate)
 
         copy_sql = """
             COPY preco_combustivel_semanal (data_inicial,data_final,estado,municipio,produto,numero_de_postos_pesquisados,unidade_de_medida,preco_medio_revenda,desvio_padrao_revenda,preco_minimo_revenda,preco_maximo_revenda,coef_de_variacao_revenda)
