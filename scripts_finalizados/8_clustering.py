@@ -8,6 +8,8 @@ from io import StringIO, BytesIO
 import psycopg2
 from datetime import datetime
 data_hora_atual = datetime.now()
+from time import sleep
+from decimal import Decimal
 CLUSTERING = 'clustering'
 ML_RESULTS = 'resultados-ml'
 
@@ -17,6 +19,7 @@ minioclient = Minio('localhost:9000',
     secret_key='minioadmin',
     secure=False)
 
+
 db_config = {
 'host': 'localhost',
 'database': 'postgres',
@@ -25,7 +28,15 @@ db_config = {
 }
 
 
-sql_query_1 = """
+arquivos_clustering = [arquivo for arquivo in minioclient.list_objects(CLUSTERING) if arquivo.object_name.endswith(".csv")]
+## Itera sobre cada arquivo CSV encontrado no Minio
+for arquivo_clustering in arquivos_clustering:
+    # Obtém o objeto do arquivo CSV do Minio      
+    nome_arquivo = arquivo_clustering.object_name    
+    minioclient.remove_object(CLUSTERING, nome_arquivo)
+
+
+sql_query = """
 select	
 	nome_usuario,
 	case when tipo_combustivel = 'gas' then 1 end as tipo_combustivel, 	
@@ -42,26 +53,10 @@ group by
 	custo_trajeto 
 """
 
-sql_query_2 = """
-select	
-	nome_usuario,
-	case when tipo_combustivel = 'gas' then 1 end as tipo_combustivel, 	
-	sum(dist_km) as distancia,
-	media_consumo_km_l,
-	sum(custo_trajeto) as custo_trajeto  	
-from vw_valores_combustivel_por_viagem
-where tipo_combustivel = 'gas' and custo_trajeto is not null
-group by
-	nome_usuario,
-	tipo_combustivel,
-	media_consumo_km_l
-"""
-
-
 
 conn = psycopg2.connect(**db_config)
 cursor = conn.cursor()
-cursor.execute(sql_query_2)
+cursor.execute(sql_query)
 resultados_agrup_veiculos = cursor.fetchall()
 conn.close()
 df_agrup_veiculos = pd.DataFrame(resultados_agrup_veiculos, columns=[desc[0] for desc in cursor.description])
@@ -77,7 +72,7 @@ X_normalized = scaler.fit_transform(X)
 
 
 # Especificando o número de clusters
-num_clusters = 3  # ou o número que você achar mais apropriado
+num_clusters = 3  
 
 
 # Aplicando o K-means
@@ -88,19 +83,16 @@ df_agrup_veiculos['cluster_consumo'] = kmeans.fit_predict(X_normalized)
 # Criando um novo DataFrame com os resultados do agrupamento
 df_veiculos_clusterizados = df_agrup_veiculos[['nome_usuario', 'dist_km', 'media_consumo_km_l', 'cluster_consumo']].copy()
 
+# Adicionando informações adicionais conforme necessário
+# df_resultado['informacao_adicional'] = ...
 
+# Salvando o DataFrame resultante em um arquivo CSV ou inserindo no banco de dados
 df_veiculos_clusterizados.to_csv('resultado_agrupamento.csv', index=False)
 
-##--------------------------------------------------------------------------------------------------##
-##--------------------------------------------------------------------------------------------------##
-## Adicionando informações adicionais conforme necessário
-#df_resultado['informacao_adicional'] = ...
-## Salvando o DataFrame resultante em um arquivo CSV ou inserindo no banco de dados
-#df_resultado.to_csv('resultado_agrupamento.csv', index=False)
-
 
 ##--------------------------------------------------------------------------------------------------##
 ##--------------------------------------------------------------------------------------------------##
+
 ## Calculando a média do consumo de combustível para cada cluster
 #media_consumo_por_cluster = df_agrup_veiculos.groupby('cluster_consumo')['media_consumo_km_l'].mean()
 ## Exibindo os resultados
@@ -108,6 +100,10 @@ df_veiculos_clusterizados.to_csv('resultado_agrupamento.csv', index=False)
 #    print(f"\nCluster {cluster} - Média de Consumo: {media_consumo}")
 #    veiculos_cluster = df_agrup_veiculos[df_agrup_veiculos['cluster_consumo'] == cluster]
 #    print(veiculos_cluster[['nome_usuario', 'media_consumo_km_l']])
+
+##--------------------------------------------------------------------------------------------------##
+##--------------------------------------------------------------------------------------------------##
+
 
 ## Converta o DataFrame enriquecido de volta para CSV
 csv_veiculos_clusterizados = df_veiculos_clusterizados.to_csv(index=False, sep=';')
@@ -117,6 +113,7 @@ csv_veiculos_clusterizados_bytes = csv_veiculos_clusterizados.encode('utf-8')
 csv_veiculos_clusterizados_buffer = BytesIO(csv_veiculos_clusterizados_bytes)
 nome_arquivo = f'clustering_{data_hora_atual}.csv'
 
+
 minioclient.put_object(
         CLUSTERING,
         nome_arquivo,  # Use o mesmo nome de arquivo
@@ -124,7 +121,7 @@ minioclient.put_object(
         length=len(csv_veiculos_clusterizados_bytes),
         content_type='application/csv')
 
-## Enviando o clustering para o Banco 
+## Enviando a regressão Linear para o Banco 
 conn = psycopg2.connect(**db_config)
 cursor = conn.cursor()
 
@@ -152,6 +149,24 @@ for arquivo_clustering in arquivos_clustering:
 conn.commit()
 conn.close()
 
+
+conn = psycopg2.connect(**db_config)
+cursor = conn.cursor()
+insert = """
+        insert into veiculos_clusterizados (nome_usuario, dist_km, media_consumo_km_l, cluster_consumo, data_execucao )
+        select 	
+        	nome_usuario,
+        	dist_km,
+        	media_consumo_km_l,
+        	cluster_consumo,
+        	now() as data_execucao 
+        from veiculos_clusterizados_temp
+    """
+cursor.execute(truncate)
+cursor.execute(insert)
+conn.commit()
+conn.close()
+
 minioclient.put_object(
         ML_RESULTS,
         arquivo_clustering.object_name,  # Use o mesmo nome de arquivo
@@ -162,7 +177,6 @@ minioclient.put_object(
 minioclient.remove_object(CLUSTERING, nome_arquivo)
 
 
-## Adicionando dados obtidos do cluster de veículos em uma nova tabela para simulação dos veiculos com melhor consumo de combustível
 conn = psycopg2.connect(**db_config)
 cursor = conn.cursor()
 pior_desempenho = """
@@ -171,7 +185,7 @@ select
 	round(media_consumo_km_l::numeric,2) as media_consumo_km_l,
 	round(sum(dist_km::numeric),2) as dist_km, 
 	round(sum((dist_km::numeric / media_consumo_km_l::numeric) * (select AVG(preco_medio_revenda::NUMERIC) from preco_combustivel_semanal where estado = 'RIO DE JANEIRO' and produto like '%GAS%')),2) as custo_viagem 
-from veiculos_clusterizados_temp
+from veiculos_clusterizados
 where cluster_consumo between '0' and '1'
 group by nome_usuario,
 	media_consumo_km_l
@@ -182,7 +196,7 @@ cursor.execute(pior_desempenho)
 resultados_pior_desempenho = cursor.fetchall()
 conn.close()
 df_pior_desempenho = pd.DataFrame(resultados_pior_desempenho, columns=[desc[0] for desc in cursor.description])
-
+df_pior_desempenho = df_pior_desempenho.sort_values(by='custo_viagem')
 
 conn = psycopg2.connect(**db_config)
 cursor = conn.cursor()
@@ -192,7 +206,7 @@ select
 	round(media_consumo_km_l::numeric, 2) as media_consumo_km_l,
 	round(sum(dist_km::numeric),2) as dist_km, 
 	round(sum((dist_km::numeric / media_consumo_km_l::numeric) * (select AVG(preco_medio_revenda::NUMERIC) from preco_combustivel_semanal where estado = 'RIO DE JANEIRO' and produto like '%GAS%')),2) as custo_viagem  
-from veiculos_clusterizados_temp
+from veiculos_clusterizados
 where cluster_consumo = '2'
 group by nome_usuario,
 	media_consumo_km_l	
@@ -203,10 +217,24 @@ cursor.execute(melhor_desempenho)
 resultados_melhor_desempenho = cursor.fetchall()
 conn.close()
 df_melhor_desempenho = pd.DataFrame(resultados_melhor_desempenho, columns=[desc[0] for desc in cursor.description])
-
-
-df_pior_desempenho = df_pior_desempenho.sort_values(by='custo_viagem')
 df_melhor_desempenho = df_melhor_desempenho.sort_values(by='custo_viagem')
+
+conn = psycopg2.connect(**db_config)
+cursor = conn.cursor()
+preco_medio_gasolina = """
+select 
+	avg(preco_medio_revenda::numeric) as media
+from preco_combustivel_semanal
+where
+	 produto like '%GASOLINA%' and 
+     estado = 'RIO DE JANEIRO'
+"""
+cursor.execute(preco_medio_gasolina)
+resultados_preco_medio_gasolina = cursor.fetchall()
+conn.close()
+df_preco_medio_gasolina = pd.DataFrame(resultados_preco_medio_gasolina, columns=[desc[0] for desc in cursor.description])
+valor_medio = Decimal(df_preco_medio_gasolina['media'].iloc[0])
+
 
 df_simulado = pd.DataFrame({
     'nome_usuario_original': df_pior_desempenho['nome_usuario'],
@@ -214,8 +242,10 @@ df_simulado = pd.DataFrame({
     'nome_usuario_simulado': df_melhor_desempenho['nome_usuario'],
     'media_consumo_km_l_simulado': df_melhor_desempenho['media_consumo_km_l'],
     'dist_km_original': df_pior_desempenho['dist_km'],
-    'custo_viagem_simulado': df_pior_desempenho['dist_km'] / df_melhor_desempenho['media_consumo_km_l'] * df_melhor_desempenho['custo_viagem']
+    'custo_viagem_original': df_pior_desempenho['custo_viagem'],    
+    'custo_viagem_simulado': df_pior_desempenho['dist_km'] / df_melhor_desempenho['media_consumo_km_l'] * valor_medio
     })
+
 
 ## Converta o DataFrame enriquecido de volta para CSV
 csv_simulado = df_simulado.to_csv(index=False, sep=';')
@@ -240,8 +270,9 @@ truncate = """ truncate table cluster_simulacao; """
 cursor.execute(truncate)
 
 copy_sql = """
-    COPY cluster_simulacao (nome_usuario_original,media_consumo_km_original,nome_usuario_simulado,media_consumo_km_l_simulado,dist_km_simulado,custo_viagem_simulado)
-    FROM stdin WITH CSV HEADER DELIMITER as ';'"""
+    COPY cluster_simulacao (nome_usuario_original,media_consumo_km_original,nome_usuario_simulado,media_consumo_km_l_simulado,dist_km_original,custo_viagem_original,custo_viagem_simulado)
+    FROM stdin WITH CSV HEADER DELIMITER as ';'
+    """
 
 arquivos_clustering = [arquivo for arquivo in minioclient.list_objects(CLUSTERING) if arquivo.object_name.endswith(".csv")]
 ## Itera sobre cada arquivo CSV encontrado no Minio
