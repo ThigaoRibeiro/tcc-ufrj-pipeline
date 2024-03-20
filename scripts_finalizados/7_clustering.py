@@ -13,6 +13,9 @@ from decimal import Decimal
 CLUSTERING = 'clustering'
 ML_RESULTS = 'resultados-ml'
 
+import time
+start_time = time.time()
+
 
 minioclient = Minio('localhost:9000',
     access_key='minioadmin',
@@ -53,7 +56,6 @@ group by
 	custo_trajeto 
 """
 
-
 conn = psycopg2.connect(**db_config)
 cursor = conn.cursor()
 cursor.execute(sql_query)
@@ -61,24 +63,19 @@ resultados_agrup_veiculos = cursor.fetchall()
 conn.close()
 df_agrup_veiculos = pd.DataFrame(resultados_agrup_veiculos, columns=[desc[0] for desc in cursor.description])
 
-
 # Selecionando colunas relevantes
 X = df_agrup_veiculos[['dist_km', 'media_consumo_km_l']]
-
 
 # Normalizando os dados
 scaler = StandardScaler()
 X_normalized = scaler.fit_transform(X)
 
-
 # Especificando o número de clusters
 num_clusters = 3  
-
 
 # Aplicando o K-means
 kmeans = KMeans(n_clusters=num_clusters, random_state=0)
 df_agrup_veiculos['cluster_consumo'] = kmeans.fit_predict(X_normalized)
-
 
 # Criando um novo DataFrame com os resultados do agrupamento
 df_veiculos_clusterizados = df_agrup_veiculos[['nome_usuario', 'dist_km', 'media_consumo_km_l', 'cluster_consumo']].copy()
@@ -299,3 +296,13 @@ minioclient.put_object(
         content_type='application/csv')
 
 minioclient.remove_object(CLUSTERING, nome_arquivo)
+
+
+end_time = time.time()
+execution_time = end_time - start_time
+
+hours, remainder = divmod(execution_time, 3600)
+minutes, remainder = divmod(remainder, 60)
+seconds, milliseconds = divmod(remainder, 1)
+
+print(f"Tempo de execução: {int(hours)} horas, {int(minutes)} minutos, {int(seconds)} segundos e {int(milliseconds * 1000)} milissegundos")

@@ -11,7 +11,7 @@ default_args={
 
 
 with DAG (
-    dag_id='exec-web-scraping',
+    dag_id='machine-learning',
     default_args= default_args,
     description='DAG Responsável por executar modelos de Machine Learning nos dados do banco de dados.',
     start_date=datetime(2023,9,18),
@@ -20,20 +20,20 @@ with DAG (
     catchup=False
 ) as dag:
       
-
 # 1ª Tarefa
-    regressao_linear = BashOperator(
-        task_id='regressao_linear',
-        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/7_regressao_linear.py',        
+    clustering = BashOperator(
+        task_id='clustering',
+        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/7_clustering.py',
         dag=dag,
     )
 
 # 2ª Tarefa
-    clustering = BashOperator(
-        task_id='clustering',
-        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/8_clustering.py',
-        dag=dag,
-    )
+#    regressao_linear = BashOperator(
+#        task_id='regressao_linear',
+#        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/7_regressao_linear.py',        
+#        dag=dag,
+#    )
 
 # Definindo a ordem das tarefas
-regressao_linear >> clustering
+#regressao_linear >> clustering
+clustering

@@ -98,26 +98,30 @@ for file_to_rename in files_to_rename:
 
 arquivos_para_renomear_gpx = sorted([arquivo for arquivo in os.listdir(DOWNLOADS) if arquivo.endswith(".gpx")], reverse=True) # Listando arquivos com extensão [.gpx] na pasta de download.
 
-#for usuario, arquivo_para_renomear_gpx in zip(usuarios, arquivos_para_renomear_gpx): # Iterando sobre a lista de arquivos na pasta download e sobre a lista com o nome dos usuários.         
-
+# for usuario, arquivo_para_renomear_gpx in zip(usuarios, arquivos_para_renomear_gpx): # Iterando sobre a lista de arquivos na pasta download e sobre a lista com o nome dos usuários.         
 # Linhas temporárias 93 - 94 - 98 - 102 -- Descomentar as linhas 90 e 101
+# for usuario, arquivo_para_renomear_gpx in zip(usuarios, arquivos_para_renomear_gpx):        
+#     caminho_antigo = os.path.join(DOWNLOADS, arquivo_para_renomear_gpx)
+#     novo_nome = f"{arquivo_para_renomear_gpx.replace('.gpx', '')}__{usuario}.gpx"        
+#     caminho_novo = os.path.join(DOWNLOADS,novo_nome)            
+#     os.rename(caminho_antigo, caminho_novo)
+
+
 users = ['CHEVROLET_BOLT_EUV_2022','CHEVROLET_MALIBU_2022','CHEVROLET_EQUINOX_2022','CHEVROLET_SILVERADO_1500','CHRYSLER_PACIFICA_HYBRID_2019','FORD_MUSTANG','FORD_F-150','FORD_EXPLORER','HONDA_ACCORD_2018','HONDA_ACCORD_HYBRID_2018','HONDA_CIVIC_2016','HONDA_CIVIC_2022','HONDA_PILOT_2017','HYUNDAI_IONIQ_5_2022','HYUNDAI_IONIQ_PHEV_2020','HYUNDAI_KONA_ELECTRIC_2019','HYUNDAI_PALISADE_2020','HYUNDAI_SANTA_FE_2019','HYUNDAI_SANTA_FE_HYBRID_2022','HYUNDAI_SONATA_2020','KIA_EV6_2022','KIA_NIRO_EV_2020','LEXUS_ES_2016','LEXUS_RX_2016','LEXUS_RX_2020','RAM_1500_5TH_GEN','TOYOTA_CAMRY_HYBRID_2021','TOYOTA_COROLLA_HYBRID_TSS2_2019','TOYOTA_COROLLA_TSS2_2019','TOYOTA_HIGHLANDER_2020','TOYOTA_PRIUS_2017','TOYOTA_PRIUS_2017-20','TOYOTA_PRIUS_v_2017','TOYOTA_RAV4_2019','TOYOTA_RAV4_HYBRID_2019','VOLKSWAGEN_GOLF_7TH_GEN','VOLKSWAGEN_PASSAT_2022','VOLKSWAGEN_TIGUAN_2022','VOLKSWAGEN_ATLAS_CROSS_SPORT']
 prefix = '__routes'
-
-for arquivo_para_renomear_gpx in arquivos_para_renomear_gpx:
-    
+for arquivo_para_renomear_gpx in arquivos_para_renomear_gpx:    
     user = random.choice(users)
-
     caminho_antigo = os.path.join(DOWNLOADS, arquivo_para_renomear_gpx) # Montando o caminho absoluto da pasta download + arquivo
     #novo_nome = f"{arquivo_para_renomear_gpx.replace('.gpx', '')}__{usuario}.gpx" # Montando o novo nome do arquivo. Forçando que o nome do usuário esteja sempre entre "__"
     novo_nome = f"{arquivo_para_renomear_gpx.replace('.gpx', '')}{prefix}__{user}.gpx"                
     caminho_novo = os.path.join(DOWNLOADS,novo_nome) # Montando o novo caminho absoluto da pasta download + arquivo renomeado
     os.rename(caminho_antigo, caminho_novo) # Efetivando a renomeação do arquivo antigo pelo novo
-time.sleep(3) # Adicionando uma pausa de 3 segundos.
+
 
 ##########################################################################################
 ### MOVENDO OS ARQUIVOS RENOMEADOS DA PASTA DOWNLOAD PARA A PASTA DE PRÉ PROCESSAMENTO ###
 ##########################################################################################
+time.sleep(3) # Adicionando uma pausa de 3 segundos.
 arquivos_para_pre_processamento = [arquivo for arquivo in os.listdir(DOWNLOADS) if arquivo.endswith(".gpx")] # Listando arquivos com extensão [.gpx] (agora renomeados) na pasta de download.
 for arquivo_para_pre_processamento in arquivos_para_pre_processamento: # Iterando sobre a lista de arquivos na pasta download que serão movidos para a pasta de pré-processamento.
     caminho_origem = os.path.join(DOWNLOADS, arquivo_para_pre_processamento) # Montando o caminho absoluto da pasta de origem dos arquivos (download + arquivo)
