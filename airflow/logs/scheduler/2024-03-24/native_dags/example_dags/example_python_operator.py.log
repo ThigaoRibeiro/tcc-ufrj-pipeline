@@ -1,0 +1,778 @@
+[2024-03-24T05:14:59.606-0300] {processor.py:161} INFO - Started process (PID=15823) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:14:59.606-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:14:59.607-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:59.607-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:14:59.618-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:14:59.708-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:59.707-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2024-03-24T05:14:59.721-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:59.721-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:example_python_operator
+[2024-03-24T05:14:59.731-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:59.730-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2024-03-24T05:14:59.731-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:59.731-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:14:59.743-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:59.743-0300] {dag.py:3069} INFO - Creating ORM DAG for example_python_operator
+[2024-03-24T05:14:59.744-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:59.744-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:14:59.767-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.164 seconds
+[2024-03-24T05:15:46.587-0300] {processor.py:161} INFO - Started process (PID=16316) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:15:46.589-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:15:46.589-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:46.589-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:15:46.597-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:15:46.610-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:46.610-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:15:46.619-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:46.619-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:15:46.644-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.059 seconds
+[2024-03-24T05:16:39.883-0300] {processor.py:161} INFO - Started process (PID=16801) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:16:39.884-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:16:39.886-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:16:39.885-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:16:39.895-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:16:39.914-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:16:39.913-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:16:39.925-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:16:39.924-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:16:39.949-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.068 seconds
+[2024-03-24T05:17:33.709-0300] {processor.py:161} INFO - Started process (PID=17293) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:17:33.710-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:17:33.711-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:33.710-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:17:33.719-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:17:33.733-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:33.733-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:17:33.744-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:33.743-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:17:33.765-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.058 seconds
+[2024-03-24T05:18:28.897-0300] {processor.py:161} INFO - Started process (PID=17785) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:18:28.898-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:18:28.899-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:28.898-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:18:28.906-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:18:28.920-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:28.919-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:18:28.929-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:28.929-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:18:28.954-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.059 seconds
+[2024-03-24T05:19:19.491-0300] {processor.py:161} INFO - Started process (PID=18445) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:19:19.493-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:19:19.494-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:19.494-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:19:19.504-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:19:19.519-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:19.518-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:19:19.531-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:19.531-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:19:19.599-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.109 seconds
+[2024-03-24T05:20:11.261-0300] {processor.py:161} INFO - Started process (PID=18856) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:20:11.263-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:20:11.264-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:11.264-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:20:11.272-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:20:11.289-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:11.288-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:20:11.303-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:11.303-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:20:11.327-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.068 seconds
+[2024-03-24T05:20:55.709-0300] {processor.py:161} INFO - Started process (PID=19416) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:20:55.710-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:20:55.711-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:55.711-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:20:55.721-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:20:55.736-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:55.736-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:20:55.745-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:55.745-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:20:55.769-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.062 seconds
+[2024-03-24T05:21:47.337-0300] {processor.py:161} INFO - Started process (PID=19895) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:21:47.338-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:21:47.339-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:47.338-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:21:47.348-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:21:47.365-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:47.364-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:21:47.376-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:47.375-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:21:47.398-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.064 seconds
+[2024-03-24T05:22:39.963-0300] {processor.py:161} INFO - Started process (PID=20371) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:22:39.965-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:22:39.966-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:22:39.966-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:22:39.974-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:22:39.991-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:22:39.991-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:22:40.001-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:22:40.001-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:22:40.026-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.065 seconds
+[2024-03-24T05:23:30.357-0300] {processor.py:161} INFO - Started process (PID=20827) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:23:30.359-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:23:30.360-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:30.360-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:23:30.370-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:23:30.388-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:30.387-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:23:30.400-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:30.399-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:23:30.428-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.075 seconds
+[2024-03-24T05:24:23.098-0300] {processor.py:161} INFO - Started process (PID=21335) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:24:23.099-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:24:23.100-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:23.100-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:24:23.108-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:24:23.122-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:23.122-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:24:23.132-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:23.132-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:24:23.153-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.057 seconds
+[2024-03-24T05:25:15.573-0300] {processor.py:161} INFO - Started process (PID=21787) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:25:15.574-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:25:15.575-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:15.575-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:25:15.585-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:25:15.602-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:15.601-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:25:15.612-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:15.612-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:25:15.638-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.067 seconds
+[2024-03-24T05:26:10.157-0300] {processor.py:161} INFO - Started process (PID=22280) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:26:10.435-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:26:10.437-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:26:10.436-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:26:10.463-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:26:10.506-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:26:10.506-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:26:10.524-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:26:10.524-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:26:10.586-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.432 seconds
+[2024-03-24T05:27:09.116-0300] {processor.py:161} INFO - Started process (PID=22818) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:27:09.117-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:27:09.118-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:09.118-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:27:09.128-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:27:09.143-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:09.143-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:27:09.153-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:09.152-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:27:09.175-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.061 seconds
+[2024-03-24T05:28:03.878-0300] {processor.py:161} INFO - Started process (PID=23314) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:28:03.880-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:28:03.881-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:03.880-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:28:03.893-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:28:03.910-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:03.910-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:28:03.921-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:03.920-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:28:03.949-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-03-24T05:28:58.449-0300] {processor.py:161} INFO - Started process (PID=23804) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:28:58.451-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:28:58.453-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:58.452-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:28:58.462-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:28:58.475-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:58.475-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:28:58.484-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:58.484-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:28:58.505-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.059 seconds
+[2024-03-24T05:29:46.813-0300] {processor.py:161} INFO - Started process (PID=24312) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:29:46.815-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:29:46.816-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:46.815-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:29:46.824-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:29:46.839-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:46.839-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:29:46.848-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:46.848-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:29:46.870-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.062 seconds
+[2024-03-24T05:30:38.919-0300] {processor.py:161} INFO - Started process (PID=24797) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:30:38.920-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:30:38.921-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:30:38.921-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:30:38.934-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:30:38.951-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:30:38.951-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:30:38.960-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:30:38.959-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:30:38.984-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.068 seconds
+[2024-03-24T05:31:33.070-0300] {processor.py:161} INFO - Started process (PID=25285) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:31:33.071-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:31:33.072-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:33.072-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:31:33.082-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:31:33.101-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:33.101-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:31:33.113-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:33.113-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:31:33.145-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.079 seconds
+[2024-03-24T05:32:27.966-0300] {processor.py:161} INFO - Started process (PID=25783) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:32:27.968-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:32:27.968-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:27.968-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:32:27.977-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:32:27.992-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:27.992-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:32:28.005-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:28.005-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:32:28.029-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.065 seconds
+[2024-03-24T05:33:19.918-0300] {processor.py:161} INFO - Started process (PID=26258) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:33:19.919-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:33:19.920-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:19.920-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:33:19.929-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:33:19.946-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:19.946-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:33:19.955-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:19.955-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:33:19.978-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.062 seconds
+[2024-03-24T05:34:08.445-0300] {processor.py:161} INFO - Started process (PID=26646) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:34:08.447-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:34:08.448-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:08.448-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:34:08.455-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:34:08.470-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:08.470-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:34:08.480-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:08.480-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:34:08.505-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.063 seconds
+[2024-03-24T05:34:56.625-0300] {processor.py:161} INFO - Started process (PID=27149) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:34:56.626-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:34:56.628-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:56.627-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:34:56.636-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:34:56.653-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:56.652-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:34:56.664-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:56.663-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:34:56.710-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.087 seconds
+[2024-03-24T05:35:50.839-0300] {processor.py:161} INFO - Started process (PID=27644) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:35:50.840-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:35:50.841-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:35:50.840-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:35:50.851-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:35:50.868-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:35:50.867-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:35:50.878-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:35:50.878-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:35:50.906-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.069 seconds
+[2024-03-24T05:36:43.528-0300] {processor.py:161} INFO - Started process (PID=28131) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:36:43.531-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:36:43.533-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:43.532-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:36:43.548-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:36:43.586-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:43.585-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:36:43.605-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:43.604-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:36:43.691-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.166 seconds
+[2024-03-24T05:37:37.457-0300] {processor.py:161} INFO - Started process (PID=28621) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:37:37.459-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:37:37.460-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:37.460-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:37:37.473-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:37:37.489-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:37.489-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:37:37.498-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:37.498-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:37:37.522-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.069 seconds
+[2024-03-24T05:38:29.501-0300] {processor.py:161} INFO - Started process (PID=29304) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:38:29.502-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:38:29.503-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:38:29.503-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:38:29.513-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:38:29.529-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:38:29.528-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:38:29.537-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:38:29.537-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:38:29.562-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.063 seconds
+[2024-03-24T05:39:28.507-0300] {processor.py:161} INFO - Started process (PID=29894) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:39:28.509-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:39:28.510-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:28.509-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:39:28.519-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:39:28.535-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:28.535-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:39:28.546-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:28.545-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:39:28.568-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.063 seconds
+[2024-03-24T05:40:21.942-0300] {processor.py:161} INFO - Started process (PID=30380) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:40:21.947-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:40:21.948-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:21.948-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:40:21.955-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:40:21.970-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:21.970-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:40:21.981-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:21.981-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:40:22.013-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-03-24T05:41:18.476-0300] {processor.py:161} INFO - Started process (PID=30827) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:41:18.477-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:41:18.478-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:18.478-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:41:18.491-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:41:18.515-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:18.515-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:41:18.527-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:18.527-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:41:18.554-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.080 seconds
+[2024-03-24T05:42:11.472-0300] {processor.py:161} INFO - Started process (PID=31311) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:42:11.473-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:42:11.474-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:11.474-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:42:11.483-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:42:11.498-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:11.498-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:42:11.509-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:11.509-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:42:11.532-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.062 seconds
+[2024-03-24T05:43:03.633-0300] {processor.py:161} INFO - Started process (PID=31787) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:43:03.634-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:43:03.635-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:03.635-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:43:03.644-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:43:03.658-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:03.658-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:43:03.669-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:03.669-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:43:03.695-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.065 seconds
+[2024-03-24T05:43:58.585-0300] {processor.py:161} INFO - Started process (PID=32286) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:43:58.586-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:43:58.587-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:58.587-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:43:58.597-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:43:58.611-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:58.611-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:43:58.620-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:58.620-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:43:58.645-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.062 seconds
+[2024-03-24T05:44:45.617-0300] {processor.py:161} INFO - Started process (PID=32783) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:44:45.618-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:44:45.619-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:45.618-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:44:45.628-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:44:45.642-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:45.641-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:44:45.653-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:45.653-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:44:45.684-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.071 seconds
+[2024-03-24T05:45:36.322-0300] {processor.py:161} INFO - Started process (PID=33256) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:45:36.324-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:45:36.325-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:36.325-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:45:36.334-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:45:36.350-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:36.350-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:45:36.361-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:36.361-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:45:36.387-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.067 seconds
+[2024-03-24T05:46:29.908-0300] {processor.py:161} INFO - Started process (PID=33743) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:46:29.912-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:46:29.913-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:29.913-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:46:29.924-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:46:29.944-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:29.944-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:46:29.958-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:29.958-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:46:29.982-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.076 seconds
+[2024-03-24T05:47:22.449-0300] {processor.py:161} INFO - Started process (PID=34223) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:47:22.450-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:47:22.451-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:22.451-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:47:22.467-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:47:22.487-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:22.487-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:47:22.497-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:22.496-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:47:22.525-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.078 seconds
+[2024-03-24T05:48:16.545-0300] {processor.py:161} INFO - Started process (PID=34668) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:48:16.547-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:48:16.548-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:16.548-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:48:16.560-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:48:16.575-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:16.574-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:48:16.584-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:16.584-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:48:16.611-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.068 seconds
+[2024-03-24T05:49:08.227-0300] {processor.py:161} INFO - Started process (PID=35143) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:49:08.228-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:49:08.229-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:08.229-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:49:08.240-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:49:08.256-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:08.255-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:49:08.266-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:08.266-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:49:08.291-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.067 seconds
+[2024-03-24T05:49:57.348-0300] {processor.py:161} INFO - Started process (PID=35652) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:49:57.349-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:49:57.350-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:57.350-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:49:57.358-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:49:57.372-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:57.371-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:49:57.381-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:57.381-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:49:57.403-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.058 seconds
+[2024-03-24T05:50:50.093-0300] {processor.py:161} INFO - Started process (PID=36138) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:50:50.095-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:50:50.096-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:50.096-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:50:50.106-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:50:50.122-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:50.122-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:50:50.132-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:50.132-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:50:50.156-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.065 seconds
+[2024-03-24T05:51:39.318-0300] {processor.py:161} INFO - Started process (PID=36586) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:51:39.320-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:51:39.321-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:51:39.320-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:51:39.332-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:51:39.349-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:51:39.349-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:51:39.363-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:51:39.362-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:51:39.399-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.083 seconds
+[2024-03-24T05:52:33.924-0300] {processor.py:161} INFO - Started process (PID=37087) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:52:33.926-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:52:33.926-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:33.926-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:52:33.934-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:52:33.952-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:33.952-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:52:33.961-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:33.961-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:52:33.982-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.061 seconds
+[2024-03-24T05:53:23.551-0300] {processor.py:161} INFO - Started process (PID=37544) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:53:23.553-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:53:23.554-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:23.553-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:53:23.562-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:53:23.578-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:23.577-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:53:23.588-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:23.587-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:53:23.613-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.064 seconds
+[2024-03-24T05:54:14.366-0300] {processor.py:161} INFO - Started process (PID=37946) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:54:14.367-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:54:14.368-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:54:14.368-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:54:14.379-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:54:14.395-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:54:14.395-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:54:14.405-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:54:14.405-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:54:14.431-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.068 seconds
+[2024-03-24T05:55:11.294-0300] {processor.py:161} INFO - Started process (PID=38906) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:55:11.296-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:55:11.297-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:11.297-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:55:11.308-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:55:11.454-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:11.453-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_python_operator
+[2024-03-24T05:55:11.469-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:11.468-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_python_operator
+[2024-03-24T05:55:11.481-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:11.480-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:example_python_operator
+[2024-03-24T05:55:11.482-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:11.481-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:55:11.500-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:11.499-0300] {dag.py:3069} INFO - Creating ORM DAG for example_python_operator
+[2024-03-24T05:55:11.501-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:11.500-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:55:11.535-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.244 seconds
+[2024-03-24T05:55:41.899-0300] {processor.py:161} INFO - Started process (PID=39414) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:55:41.900-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:55:41.901-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:41.901-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:55:41.911-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:55:41.947-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:41.946-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:55:41.960-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:41.960-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:55:41.985-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.091 seconds
+[2024-03-24T05:56:12.108-0300] {processor.py:161} INFO - Started process (PID=39788) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:56:12.109-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:56:12.110-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:12.109-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:56:12.118-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:56:12.155-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:12.155-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:56:12.168-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:12.168-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:56:12.194-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.089 seconds
+[2024-03-24T05:56:42.517-0300] {processor.py:161} INFO - Started process (PID=40097) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:56:42.518-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:56:42.518-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:42.518-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:56:42.528-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:56:42.561-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:42.561-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:56:42.575-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:42.574-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:56:42.598-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.084 seconds
+[2024-03-24T05:57:13.431-0300] {processor.py:161} INFO - Started process (PID=40471) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:57:13.432-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:57:13.433-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:13.433-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:57:13.442-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:57:13.477-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:13.476-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:57:13.490-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:13.490-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:57:13.512-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.084 seconds
+[2024-03-24T05:57:43.768-0300] {processor.py:161} INFO - Started process (PID=40786) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:57:43.770-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:57:43.771-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:43.771-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:57:43.783-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:57:43.817-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:43.817-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:57:43.831-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:43.831-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:57:43.859-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.093 seconds
+[2024-03-24T05:58:14.900-0300] {processor.py:161} INFO - Started process (PID=41163) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:58:14.902-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:58:14.902-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:14.902-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:58:14.910-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:58:14.940-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:14.940-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:58:14.953-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:14.953-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:58:14.977-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.079 seconds
+[2024-03-24T05:58:45.887-0300] {processor.py:161} INFO - Started process (PID=41471) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:58:45.888-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:58:45.889-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:45.889-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:58:45.900-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:58:45.934-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:45.934-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:58:45.947-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:45.947-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:58:45.979-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.095 seconds
+[2024-03-24T05:59:16.771-0300] {processor.py:161} INFO - Started process (PID=41845) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:59:16.772-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:59:16.772-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:16.772-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:59:16.782-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:59:16.818-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:16.817-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:59:16.830-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:16.830-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:59:16.853-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.085 seconds
+[2024-03-24T05:59:47.735-0300] {processor.py:161} INFO - Started process (PID=42159) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:59:47.739-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T05:59:47.740-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:47.739-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:59:47.747-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T05:59:47.779-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:47.779-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:59:47.792-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:47.791-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T05:59:47.813-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.081 seconds
+[2024-03-24T06:00:19.133-0300] {processor.py:161} INFO - Started process (PID=42596) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:00:19.134-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:00:19.135-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:19.134-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:00:19.146-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:00:19.180-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:19.180-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:00:19.194-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:19.193-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:00:19.217-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.087 seconds
+[2024-03-24T06:00:50.837-0300] {processor.py:161} INFO - Started process (PID=42913) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:00:50.838-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:00:50.839-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:50.839-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:00:50.851-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:00:50.888-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:50.888-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:00:50.901-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:50.901-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:00:50.923-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.089 seconds
+[2024-03-24T06:01:21.140-0300] {processor.py:161} INFO - Started process (PID=43283) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:01:21.141-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:01:21.141-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:21.141-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:01:21.153-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:01:21.187-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:21.187-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:01:21.201-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:21.200-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:01:21.229-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.092 seconds
+[2024-03-24T06:01:52.254-0300] {processor.py:161} INFO - Started process (PID=43597) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:01:52.255-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:01:52.256-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:52.256-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:01:52.267-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:01:52.304-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:52.303-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:01:52.324-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:52.323-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:01:52.359-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.108 seconds
+[2024-03-24T06:02:22.709-0300] {processor.py:161} INFO - Started process (PID=43968) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:02:22.710-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:02:22.711-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:22.711-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:02:22.721-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:02:22.756-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:22.755-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:02:22.770-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:22.770-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:02:22.795-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.088 seconds
+[2024-03-24T06:02:53.907-0300] {processor.py:161} INFO - Started process (PID=44280) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:02:53.909-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:02:53.910-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:53.909-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:02:53.922-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:02:53.964-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:53.964-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:02:53.980-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:53.980-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:02:54.005-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.101 seconds
+[2024-03-24T06:03:24.217-0300] {processor.py:161} INFO - Started process (PID=44648) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:03:24.218-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:03:24.219-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:24.218-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:03:24.229-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:03:24.264-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:24.263-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:03:24.277-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:24.276-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:03:24.306-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.092 seconds
+[2024-03-24T06:03:54.331-0300] {processor.py:161} INFO - Started process (PID=44951) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:03:54.332-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:03:54.333-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:54.332-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:03:54.342-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:03:54.378-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:54.378-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:03:54.390-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:54.390-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:03:54.410-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.082 seconds
+[2024-03-24T06:04:24.515-0300] {processor.py:161} INFO - Started process (PID=45318) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:04:24.516-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:04:24.517-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:24.516-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:04:24.529-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:04:24.563-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:24.562-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:04:24.578-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:24.578-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:04:24.599-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.086 seconds
+[2024-03-24T06:04:54.698-0300] {processor.py:161} INFO - Started process (PID=45622) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:04:54.699-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:04:54.700-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:54.700-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:04:54.708-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:04:54.745-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:54.745-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:04:54.761-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:54.760-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:04:54.790-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.094 seconds
+[2024-03-24T06:05:25.470-0300] {processor.py:161} INFO - Started process (PID=46057) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:05:25.471-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:05:25.473-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:25.472-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:05:25.485-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:05:25.523-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:25.522-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:05:25.539-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:25.538-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:05:25.563-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.097 seconds
+[2024-03-24T06:05:56.309-0300] {processor.py:161} INFO - Started process (PID=46370) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:05:56.311-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:05:56.312-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:56.312-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:05:56.328-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:05:56.370-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:56.370-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:05:56.386-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:56.386-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:05:56.415-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.109 seconds
+[2024-03-24T06:06:26.510-0300] {processor.py:161} INFO - Started process (PID=46734) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:06:26.510-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:06:26.511-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:26.511-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:06:26.519-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:06:26.548-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:26.547-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:06:26.558-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:26.558-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:06:26.580-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.073 seconds
+[2024-03-24T06:06:56.663-0300] {processor.py:161} INFO - Started process (PID=47043) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:06:56.664-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:06:56.665-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:56.665-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:06:56.679-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:06:56.717-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:56.717-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:06:56.733-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:56.732-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:06:56.762-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.102 seconds
+[2024-03-24T06:07:27.109-0300] {processor.py:161} INFO - Started process (PID=47415) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:07:27.110-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:07:27.111-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:27.111-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:07:27.121-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:07:27.153-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:27.153-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:07:27.164-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:27.164-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:07:27.185-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.079 seconds
+[2024-03-24T06:07:57.983-0300] {processor.py:161} INFO - Started process (PID=47721) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:07:57.984-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:07:57.985-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:57.985-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:07:57.996-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:07:58.030-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:58.030-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:07:58.044-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:58.044-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:07:58.067-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.087 seconds
+[2024-03-24T06:08:28.676-0300] {processor.py:161} INFO - Started process (PID=48098) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:08:28.677-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:08:28.678-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:28.677-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:08:28.686-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:08:28.717-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:28.717-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:08:28.730-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:28.729-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:08:28.752-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.079 seconds
+[2024-03-24T06:08:59.440-0300] {processor.py:161} INFO - Started process (PID=48414) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:08:59.442-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:08:59.447-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:59.446-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:08:59.457-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:08:59.491-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:59.490-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:08:59.503-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:59.503-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:08:59.525-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.091 seconds
+[2024-03-24T06:09:30.223-0300] {processor.py:161} INFO - Started process (PID=48780) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:09:30.227-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:09:30.229-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:30.228-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:09:30.240-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:09:30.283-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:30.283-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:09:30.301-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:30.300-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:09:30.330-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.111 seconds
+[2024-03-24T06:10:00.889-0300] {processor.py:161} INFO - Started process (PID=49092) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:10:00.889-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:10:00.890-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:00.890-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:10:00.904-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:10:00.948-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:00.947-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:10:00.968-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:00.968-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:10:00.990-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.105 seconds
+[2024-03-24T06:10:31.116-0300] {processor.py:161} INFO - Started process (PID=49521) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:10:31.117-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:10:31.118-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:31.118-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:10:31.133-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:10:31.173-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:31.173-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:10:31.189-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:31.189-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:10:31.210-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.099 seconds
+[2024-03-24T06:11:01.435-0300] {processor.py:161} INFO - Started process (PID=49829) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:11:01.435-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:11:01.436-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:01.436-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:11:01.445-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:11:01.484-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:01.483-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:11:01.499-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:01.498-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:11:01.521-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.094 seconds
+[2024-03-24T06:11:31.606-0300] {processor.py:161} INFO - Started process (PID=50193) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:11:31.607-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:11:31.608-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:31.608-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:11:31.627-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:11:31.671-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:31.671-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:11:31.686-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:31.686-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:11:31.718-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.116 seconds
+[2024-03-24T06:12:02.008-0300] {processor.py:161} INFO - Started process (PID=50504) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:12:02.009-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:12:02.009-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:02.009-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:12:02.021-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:12:02.055-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:02.055-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:12:02.069-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:02.069-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:12:02.091-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.085 seconds
+[2024-03-24T06:12:33.038-0300] {processor.py:161} INFO - Started process (PID=50877) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:12:33.039-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:12:33.040-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:33.040-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:12:33.050-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:12:33.088-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:33.088-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:12:33.100-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:33.100-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:12:33.127-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.094 seconds
+[2024-03-24T06:13:03.760-0300] {processor.py:161} INFO - Started process (PID=51189) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:13:03.760-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:13:03.761-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:03.761-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:13:03.770-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:13:03.805-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:03.804-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:13:03.817-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:03.817-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:13:03.845-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.089 seconds
+[2024-03-24T06:13:34.046-0300] {processor.py:161} INFO - Started process (PID=51554) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:13:34.048-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:13:34.049-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:34.049-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:13:34.059-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:13:34.094-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:34.094-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:13:34.108-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:34.107-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:13:34.133-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.094 seconds
+[2024-03-24T06:14:04.322-0300] {processor.py:161} INFO - Started process (PID=51864) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:14:04.324-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:14:04.326-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:04.325-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:14:04.335-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:14:04.372-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:04.372-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:14:04.384-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:04.384-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:14:04.409-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.090 seconds
+[2024-03-24T06:14:34.544-0300] {processor.py:161} INFO - Started process (PID=52228) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:14:34.545-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:14:34.546-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:34.546-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:14:34.554-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:14:34.596-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:34.596-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:14:34.610-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:34.610-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:14:34.633-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.094 seconds
+[2024-03-24T06:15:05.687-0300] {processor.py:161} INFO - Started process (PID=52546) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:15:05.688-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:15:05.689-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:05.688-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:15:05.703-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:15:05.754-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:05.754-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:15:05.779-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:05.777-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:15:05.875-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.190 seconds
+[2024-03-24T06:15:36.095-0300] {processor.py:161} INFO - Started process (PID=52979) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:15:36.097-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:15:36.098-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:36.097-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:15:36.107-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:15:36.148-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:36.147-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:15:36.160-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:36.159-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:15:36.187-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.096 seconds
+[2024-03-24T06:16:06.613-0300] {processor.py:161} INFO - Started process (PID=53284) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:16:06.615-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:16:06.616-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:06.615-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:16:06.626-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:16:06.667-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:06.667-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:16:06.680-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:06.680-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:16:06.704-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.094 seconds
+[2024-03-24T06:16:36.845-0300] {processor.py:161} INFO - Started process (PID=53655) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:16:36.846-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:16:36.847-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:36.846-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:16:36.858-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:16:36.904-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:36.903-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:16:36.918-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:36.918-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:16:36.943-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.101 seconds
+[2024-03-24T06:17:07.210-0300] {processor.py:161} INFO - Started process (PID=53962) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:17:07.211-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:17:07.212-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:07.212-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:17:07.225-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:17:07.271-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:07.271-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:17:07.287-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:07.286-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:17:07.311-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.104 seconds
+[2024-03-24T06:17:37.475-0300] {processor.py:161} INFO - Started process (PID=54333) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:17:37.475-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:17:37.476-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:37.476-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:17:37.487-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:17:37.524-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:37.524-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:17:37.540-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:37.539-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:17:37.572-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.100 seconds
+[2024-03-24T06:18:08.528-0300] {processor.py:161} INFO - Started process (PID=54667) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:18:08.529-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:18:08.530-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:08.530-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:18:08.544-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:18:08.580-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:08.580-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:18:08.595-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:08.595-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:18:08.630-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.105 seconds
+[2024-03-24T06:18:38.832-0300] {processor.py:161} INFO - Started process (PID=55009) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:18:38.833-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:18:38.834-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:38.834-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:18:38.844-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:18:38.884-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:38.884-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:18:38.899-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:38.899-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:18:38.926-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.096 seconds
+[2024-03-24T06:19:09.730-0300] {processor.py:161} INFO - Started process (PID=55382) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:19:09.731-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:19:09.732-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:09.732-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:19:09.744-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:19:09.785-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:09.785-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:19:09.801-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:09.800-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:19:09.838-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.111 seconds
+[2024-03-24T06:19:40.611-0300] {processor.py:161} INFO - Started process (PID=55695) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:19:40.613-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:19:40.614-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:40.613-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:19:40.623-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:19:40.662-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:40.662-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:19:40.676-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:40.676-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:19:40.702-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.095 seconds
+[2024-03-24T06:20:10.915-0300] {processor.py:161} INFO - Started process (PID=56060) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:20:10.920-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:20:10.921-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:10.920-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:20:10.935-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:20:10.981-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:10.981-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:20:11.002-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:11.002-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:20:11.036-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.126 seconds
+[2024-03-24T06:20:41.517-0300] {processor.py:161} INFO - Started process (PID=56431) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:20:41.518-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:20:41.519-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:41.518-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:20:41.529-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:20:41.573-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:41.573-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:20:41.587-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:41.586-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:20:41.615-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.102 seconds
+[2024-03-24T06:21:11.653-0300] {processor.py:161} INFO - Started process (PID=56795) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:21:11.655-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:21:11.656-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:11.656-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:21:11.667-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:21:11.702-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:11.702-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:21:11.714-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:11.714-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:21:11.739-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.090 seconds
+[2024-03-24T06:21:42.119-0300] {processor.py:161} INFO - Started process (PID=57358) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:21:42.140-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:21:42.141-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:42.141-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:21:42.158-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:21:42.208-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:42.208-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:21:42.231-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:42.231-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:21:42.270-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.160 seconds
+[2024-03-24T06:22:12.762-0300] {processor.py:161} INFO - Started process (PID=57967) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:22:12.764-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:22:12.765-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:12.764-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:22:12.800-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:22:12.858-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:12.857-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:22:12.877-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:12.877-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:22:12.916-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.159 seconds
+[2024-03-24T06:22:43.381-0300] {processor.py:161} INFO - Started process (PID=58352) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:22:43.383-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:22:43.385-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:43.384-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:22:43.396-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:22:43.441-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:43.441-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:22:43.455-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:43.454-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:22:43.482-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.103 seconds
+[2024-03-24T06:23:13.690-0300] {processor.py:161} INFO - Started process (PID=58859) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:23:13.692-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:23:13.693-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:13.692-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:23:13.701-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:23:13.737-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:13.736-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:23:13.755-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:13.755-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:23:13.781-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.097 seconds
+[2024-03-24T06:23:44.669-0300] {processor.py:161} INFO - Started process (PID=59365) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:23:44.733-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:23:44.734-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:44.734-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:23:44.798-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:23:45.097-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:45.097-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:23:45.353-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:45.292-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:23:45.785-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 1.120 seconds
+[2024-03-24T06:24:16.343-0300] {processor.py:161} INFO - Started process (PID=59920) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:24:16.346-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:24:16.350-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:16.348-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:24:16.384-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:24:16.464-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:16.464-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:24:16.503-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:16.503-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:24:16.566-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.248 seconds
+[2024-03-24T06:24:46.698-0300] {processor.py:161} INFO - Started process (PID=60431) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:24:46.700-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:24:46.702-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:46.701-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:24:46.717-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:24:46.778-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:46.777-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:24:46.799-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:46.798-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:24:46.842-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.148 seconds
+[2024-03-24T06:25:17.144-0300] {processor.py:161} INFO - Started process (PID=61076) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:25:17.145-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:25:17.146-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:17.146-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:25:17.157-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:25:17.203-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:17.203-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:25:17.224-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:17.224-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:25:17.254-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.115 seconds
+[2024-03-24T06:25:47.419-0300] {processor.py:161} INFO - Started process (PID=61482) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:25:47.420-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:25:47.421-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:47.421-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:25:47.432-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:25:47.467-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:47.467-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:25:47.479-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:47.478-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:25:47.500-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.084 seconds
+[2024-03-24T06:26:17.636-0300] {processor.py:161} INFO - Started process (PID=61895) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:26:17.637-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:26:17.637-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:17.637-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:26:17.647-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:26:17.682-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:17.682-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:26:17.694-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:17.693-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:26:17.719-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.086 seconds
+[2024-03-24T06:26:48.243-0300] {processor.py:161} INFO - Started process (PID=62306) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:26:48.245-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:26:48.246-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:48.245-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:26:48.261-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:26:48.295-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:48.295-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:26:48.311-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:48.311-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:26:48.337-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.097 seconds
+[2024-03-24T06:27:18.623-0300] {processor.py:161} INFO - Started process (PID=62957) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:27:18.624-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py for tasks to queue
+[2024-03-24T06:27:18.625-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:27:18.624-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:27:18.634-0300] {processor.py:840} INFO - DAG(s) 'example_python_operator' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py
+[2024-03-24T06:27:18.665-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:27:18.665-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:27:18.679-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:27:18.679-0300] {dag.py:3834} INFO - Setting next_dagrun for example_python_operator to None, run_after=None
+[2024-03-24T06:27:18.795-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_python_operator.py took 0.175 seconds

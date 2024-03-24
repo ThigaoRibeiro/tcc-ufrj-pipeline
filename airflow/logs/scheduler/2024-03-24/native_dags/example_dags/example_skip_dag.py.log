@@ -1,0 +1,778 @@
+[2024-03-24T05:14:47.885-0300] {processor.py:161} INFO - Started process (PID=15669) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:14:47.885-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:14:47.886-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:47.886-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:14:47.891-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:14:47.981-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:47.981-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-03-24T05:14:47.994-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:47.993-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-03-24T05:14:48.003-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:48.003-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-03-24T05:14:48.004-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:48.003-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:14:48.012-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:48.012-0300] {dag.py:3069} INFO - Creating ORM DAG for example_skip_dag
+[2024-03-24T05:14:48.020-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:48.020-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:14:48.043-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.160 seconds
+[2024-03-24T05:15:37.765-0300] {processor.py:161} INFO - Started process (PID=16248) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:15:37.766-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:15:37.767-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:37.766-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:15:37.773-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:15:37.788-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:37.787-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:15:37.806-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:37.806-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:15:37.828-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.067 seconds
+[2024-03-24T05:16:30.883-0300] {processor.py:161} INFO - Started process (PID=16730) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:16:30.885-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:16:30.886-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:16:30.886-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:16:30.892-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:16:30.906-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:16:30.906-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:16:30.941-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:16:30.941-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:16:30.988-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.108 seconds
+[2024-03-24T05:17:18.227-0300] {processor.py:161} INFO - Started process (PID=17131) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:17:18.228-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:17:18.229-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:18.229-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:17:18.235-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:17:18.250-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:18.250-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:17:18.272-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:18.272-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:17:18.301-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.076 seconds
+[2024-03-24T05:18:13.534-0300] {processor.py:161} INFO - Started process (PID=17605) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:18:13.535-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:18:13.536-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:13.535-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:18:13.541-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:18:13.554-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:13.554-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:18:13.570-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:13.570-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:18:13.593-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.062 seconds
+[2024-03-24T05:19:04.346-0300] {processor.py:161} INFO - Started process (PID=18261) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:19:04.347-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:19:04.347-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:04.347-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:19:04.354-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:19:04.372-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:04.372-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:19:04.391-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:04.391-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:19:04.417-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.074 seconds
+[2024-03-24T05:19:55.806-0300] {processor.py:161} INFO - Started process (PID=18730) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:19:55.807-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:19:55.808-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:55.807-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:19:55.814-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:19:55.830-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:55.830-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:19:55.850-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:55.850-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:19:55.871-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.067 seconds
+[2024-03-24T05:20:41.855-0300] {processor.py:161} INFO - Started process (PID=19194) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:20:41.856-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:20:41.857-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:41.857-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:20:41.864-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:20:41.878-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:41.878-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:20:41.899-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:41.899-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:20:41.932-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.079 seconds
+[2024-03-24T05:21:32.441-0300] {processor.py:161} INFO - Started process (PID=19776) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:21:32.442-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:21:32.443-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:32.442-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:21:32.449-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:21:32.463-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:32.463-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:21:32.480-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:32.480-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:21:32.505-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.067 seconds
+[2024-03-24T05:22:23.350-0300] {processor.py:161} INFO - Started process (PID=20239) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:22:23.351-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:22:23.352-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:22:23.352-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:22:23.359-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:22:23.374-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:22:23.374-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:22:23.393-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:22:23.393-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:22:23.418-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.070 seconds
+[2024-03-24T05:23:17.172-0300] {processor.py:161} INFO - Started process (PID=20665) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:23:17.173-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:23:17.175-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:17.174-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:23:17.185-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:23:17.204-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:17.204-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:23:17.225-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:17.224-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:23:17.254-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.085 seconds
+[2024-03-24T05:24:07.959-0300] {processor.py:161} INFO - Started process (PID=21131) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:24:07.961-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:24:07.962-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:07.962-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:24:07.968-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:24:07.983-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:07.983-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:24:08.002-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:08.002-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:24:08.024-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.067 seconds
+[2024-03-24T05:25:00.063-0300] {processor.py:161} INFO - Started process (PID=21664) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:25:00.065-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:25:00.066-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:00.066-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:25:00.073-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:25:00.086-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:00.086-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:25:00.106-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:00.106-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:25:00.128-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.067 seconds
+[2024-03-24T05:25:52.974-0300] {processor.py:161} INFO - Started process (PID=22147) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:25:52.976-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:25:52.977-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:52.977-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:25:52.991-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:25:53.027-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:53.027-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:25:53.061-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:53.060-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:25:53.107-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.137 seconds
+[2024-03-24T05:26:49.898-0300] {processor.py:161} INFO - Started process (PID=22659) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:26:49.899-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:26:49.901-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:26:49.900-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:26:49.910-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:26:49.929-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:26:49.928-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:26:49.973-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:26:49.972-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:26:50.041-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.145 seconds
+[2024-03-24T05:27:44.899-0300] {processor.py:161} INFO - Started process (PID=23163) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:27:44.901-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:27:44.903-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:44.902-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:27:44.912-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:27:44.925-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:44.925-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:27:44.944-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:44.944-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:27:44.968-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.071 seconds
+[2024-03-24T05:28:40.446-0300] {processor.py:161} INFO - Started process (PID=23661) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:28:40.447-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:28:40.448-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:40.448-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:28:40.455-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:28:40.470-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:40.470-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:28:40.491-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:40.491-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:28:40.515-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.070 seconds
+[2024-03-24T05:29:31.151-0300] {processor.py:161} INFO - Started process (PID=24186) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:29:31.153-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:29:31.154-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:31.153-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:29:31.160-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:29:31.176-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:31.176-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:29:31.197-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:31.197-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:29:31.221-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.072 seconds
+[2024-03-24T05:30:19.647-0300] {processor.py:161} INFO - Started process (PID=24638) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:30:19.649-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:30:19.650-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:30:19.650-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:30:19.656-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:30:19.671-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:30:19.671-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:30:19.690-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:30:19.690-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:30:19.716-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.073 seconds
+[2024-03-24T05:31:14.696-0300] {processor.py:161} INFO - Started process (PID=25081) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:31:14.698-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:31:14.700-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:14.699-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:31:14.706-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:31:14.733-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:14.733-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:31:14.750-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:14.750-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:31:14.772-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2024-03-24T05:32:10.916-0300] {processor.py:161} INFO - Started process (PID=25589) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:32:10.917-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:32:10.918-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:10.917-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:32:10.925-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:32:10.939-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:10.939-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:32:10.970-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:10.968-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:32:11.004-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.091 seconds
+[2024-03-24T05:33:02.742-0300] {processor.py:161} INFO - Started process (PID=26062) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:33:02.744-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:33:02.745-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:02.744-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:33:02.751-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:33:02.766-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:02.766-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:33:02.784-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:02.784-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:33:02.808-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.070 seconds
+[2024-03-24T05:33:51.921-0300] {processor.py:161} INFO - Started process (PID=26516) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:33:51.923-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:33:51.924-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:51.923-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:33:51.930-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:33:51.943-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:51.943-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:33:51.961-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:51.960-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:33:51.985-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.067 seconds
+[2024-03-24T05:34:39.758-0300] {processor.py:161} INFO - Started process (PID=27018) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:34:39.759-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:34:39.760-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:39.760-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:34:39.768-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:34:39.786-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:39.785-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:34:39.814-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:39.814-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:34:39.854-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.099 seconds
+[2024-03-24T05:35:32.023-0300] {processor.py:161} INFO - Started process (PID=27495) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:35:32.029-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:35:32.030-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:35:32.030-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:35:32.037-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:35:32.050-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:35:32.050-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:35:32.068-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:35:32.067-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:35:32.099-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.079 seconds
+[2024-03-24T05:36:25.757-0300] {processor.py:161} INFO - Started process (PID=27986) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:36:25.758-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:36:25.758-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:25.758-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:36:25.764-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:36:25.779-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:25.779-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:36:25.798-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:25.797-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:36:25.823-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.069 seconds
+[2024-03-24T05:37:19.613-0300] {processor.py:161} INFO - Started process (PID=28442) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:37:19.615-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:37:19.616-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:19.615-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:37:19.623-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:37:19.637-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:19.637-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:37:19.655-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:19.655-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:37:19.681-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.071 seconds
+[2024-03-24T05:38:10.099-0300] {processor.py:161} INFO - Started process (PID=28960) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:38:10.101-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:38:10.101-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:38:10.101-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:38:10.108-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:38:10.121-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:38:10.121-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:38:10.142-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:38:10.142-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:38:10.167-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.070 seconds
+[2024-03-24T05:39:10.299-0300] {processor.py:161} INFO - Started process (PID=29627) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:39:10.301-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:39:10.301-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:10.301-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:39:10.306-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:39:10.320-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:10.319-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:39:10.335-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:10.335-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:39:10.359-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.061 seconds
+[2024-03-24T05:40:04.683-0300] {processor.py:161} INFO - Started process (PID=30184) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:40:04.687-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:40:04.688-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:04.687-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:40:04.696-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:40:04.716-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:04.715-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:40:04.735-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:04.734-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:40:04.758-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.077 seconds
+[2024-03-24T05:40:59.320-0300] {processor.py:161} INFO - Started process (PID=30678) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:40:59.321-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:40:59.322-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:59.322-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:40:59.328-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:40:59.343-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:59.342-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:40:59.361-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:59.361-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:40:59.386-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.068 seconds
+[2024-03-24T05:41:53.505-0300] {processor.py:161} INFO - Started process (PID=31168) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:41:53.507-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:41:53.507-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:53.507-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:41:53.514-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:41:53.530-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:53.530-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:41:53.549-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:53.549-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:41:53.574-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.072 seconds
+[2024-03-24T05:42:46.567-0300] {processor.py:161} INFO - Started process (PID=31654) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:42:46.568-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:42:46.568-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:46.568-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:42:46.575-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:42:46.590-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:46.589-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:42:46.607-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:46.607-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:42:46.629-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.065 seconds
+[2024-03-24T05:43:40.852-0300] {processor.py:161} INFO - Started process (PID=32144) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:43:40.854-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:43:40.855-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:40.855-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:43:40.861-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:43:40.875-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:40.875-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:43:40.894-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:40.894-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:43:40.916-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.066 seconds
+[2024-03-24T05:44:30.857-0300] {processor.py:161} INFO - Started process (PID=32666) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:44:30.860-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:44:30.861-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:30.861-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:44:30.867-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:44:30.881-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:30.881-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:44:30.900-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:30.900-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:44:30.923-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.068 seconds
+[2024-03-24T05:45:20.773-0300] {processor.py:161} INFO - Started process (PID=33129) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:45:20.777-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:45:20.778-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:20.778-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:45:20.788-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:45:20.802-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:20.802-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:45:20.819-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:20.819-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:45:20.843-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.073 seconds
+[2024-03-24T05:46:12.844-0300] {processor.py:161} INFO - Started process (PID=33542) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:46:12.846-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:46:12.847-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:12.846-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:46:12.855-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:46:12.869-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:12.869-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:46:12.888-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:12.888-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:46:12.912-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.070 seconds
+[2024-03-24T05:47:05.547-0300] {processor.py:161} INFO - Started process (PID=34025) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:47:05.549-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:47:05.550-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:05.549-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:47:05.557-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:47:05.572-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:05.572-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:47:05.596-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:05.595-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:47:05.621-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.076 seconds
+[2024-03-24T05:47:57.543-0300] {processor.py:161} INFO - Started process (PID=34521) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:47:57.544-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:47:57.545-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:57.545-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:47:57.553-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:47:57.580-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:57.580-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:47:57.598-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:57.597-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:47:57.620-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.080 seconds
+[2024-03-24T05:48:51.487-0300] {processor.py:161} INFO - Started process (PID=35011) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:48:51.489-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:48:51.490-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:51.489-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:48:51.497-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:48:51.510-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:51.510-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:48:51.527-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:51.527-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:48:51.550-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.065 seconds
+[2024-03-24T05:49:40.101-0300] {processor.py:161} INFO - Started process (PID=35519) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:49:40.102-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:49:40.103-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:40.103-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:49:40.110-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:49:40.127-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:40.126-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:49:40.149-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:40.149-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:49:40.197-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.098 seconds
+[2024-03-24T05:50:34.633-0300] {processor.py:161} INFO - Started process (PID=36012) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:50:34.635-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:50:34.636-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:34.636-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:50:34.642-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:50:34.656-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:34.656-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:50:34.675-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:34.675-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:50:34.698-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.067 seconds
+[2024-03-24T05:51:21.566-0300] {processor.py:161} INFO - Started process (PID=36449) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:51:21.567-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:51:21.568-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:51:21.568-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:51:21.573-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:51:21.587-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:51:21.586-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:51:21.602-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:51:21.602-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:51:21.625-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.062 seconds
+[2024-03-24T05:52:17.708-0300] {processor.py:161} INFO - Started process (PID=36897) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:52:17.710-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:52:17.711-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:17.711-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:52:17.718-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:52:17.735-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:17.735-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:52:17.752-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:17.752-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:52:17.774-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.068 seconds
+[2024-03-24T05:53:06.943-0300] {processor.py:161} INFO - Started process (PID=37355) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:53:06.944-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:53:06.945-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:06.945-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:53:06.951-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:53:06.966-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:06.966-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:53:06.984-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:06.984-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:53:07.009-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.069 seconds
+[2024-03-24T05:53:56.924-0300] {processor.py:161} INFO - Started process (PID=37811) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:53:56.926-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:53:56.927-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:56.926-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:53:56.932-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:53:56.950-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:56.949-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:53:56.968-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:56.967-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:53:56.990-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.069 seconds
+[2024-03-24T05:55:10.045-0300] {processor.py:161} INFO - Started process (PID=38855) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:55:10.047-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:55:10.048-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:10.048-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:55:10.055-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:55:10.224-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:10.223-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:example_skip_dag
+[2024-03-24T05:55:10.279-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:10.278-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:example_skip_dag
+[2024-03-24T05:55:10.303-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:10.303-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:example_skip_dag
+[2024-03-24T05:55:10.304-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:10.304-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:55:10.319-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:10.319-0300] {dag.py:3069} INFO - Creating ORM DAG for example_skip_dag
+[2024-03-24T05:55:10.332-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:10.332-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:55:10.358-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.317 seconds
+[2024-03-24T05:55:40.406-0300] {processor.py:161} INFO - Started process (PID=39384) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:55:40.407-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:55:40.408-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:40.408-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:55:40.415-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:55:40.444-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:40.444-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:55:40.467-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:40.467-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:55:40.488-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.084 seconds
+[2024-03-24T05:56:10.606-0300] {processor.py:161} INFO - Started process (PID=39757) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:56:10.613-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:56:10.618-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:10.617-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:56:10.627-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:56:10.675-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:10.675-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:56:10.706-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:10.705-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:56:10.732-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.132 seconds
+[2024-03-24T05:56:41.026-0300] {processor.py:161} INFO - Started process (PID=40070) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:56:41.026-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:56:41.027-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:41.027-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:56:41.033-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:56:41.070-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:41.070-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:56:41.093-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:41.093-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:56:41.115-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.093 seconds
+[2024-03-24T05:57:11.959-0300] {processor.py:161} INFO - Started process (PID=40442) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:57:11.960-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:57:11.961-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:11.961-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:57:11.967-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:57:11.999-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:11.999-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:57:12.024-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:12.023-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:57:12.046-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.089 seconds
+[2024-03-24T05:57:43.267-0300] {processor.py:161} INFO - Started process (PID=40760) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:57:43.268-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:57:43.269-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:43.269-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:57:43.276-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:57:43.308-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:43.307-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:57:43.331-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:43.330-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:57:43.354-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.090 seconds
+[2024-03-24T05:58:14.428-0300] {processor.py:161} INFO - Started process (PID=41138) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:58:14.430-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:58:14.431-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:14.430-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:58:14.437-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:58:14.472-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:14.472-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:58:14.497-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:14.496-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:58:14.517-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.092 seconds
+[2024-03-24T05:58:45.420-0300] {processor.py:161} INFO - Started process (PID=41452) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:58:45.422-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:58:45.423-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:45.423-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:58:45.429-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:58:45.463-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:45.462-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:58:45.485-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:45.485-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:58:45.507-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.090 seconds
+[2024-03-24T05:59:16.290-0300] {processor.py:161} INFO - Started process (PID=41825) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:59:16.291-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:59:16.292-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:16.292-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:59:16.298-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:59:16.332-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:16.331-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:59:16.355-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:16.355-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:59:16.377-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.089 seconds
+[2024-03-24T05:59:47.226-0300] {processor.py:161} INFO - Started process (PID=42139) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:59:47.228-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T05:59:47.229-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:47.228-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:59:47.235-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T05:59:47.268-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:47.268-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:59:47.293-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:47.292-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T05:59:47.325-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.102 seconds
+[2024-03-24T06:00:18.589-0300] {processor.py:161} INFO - Started process (PID=42576) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:00:18.590-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:00:18.590-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:18.590-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:00:18.596-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:00:18.629-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:18.628-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:00:18.653-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:18.653-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:00:18.673-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.086 seconds
+[2024-03-24T06:00:50.020-0300] {processor.py:161} INFO - Started process (PID=42892) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:00:50.022-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:00:50.023-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:50.023-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:00:50.034-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:00:50.088-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:50.088-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:00:50.134-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:50.134-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:00:50.175-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.159 seconds
+[2024-03-24T06:01:20.462-0300] {processor.py:161} INFO - Started process (PID=43261) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:01:20.463-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:01:20.464-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:20.464-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:01:20.473-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:01:20.508-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:20.507-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:01:20.534-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:20.534-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:01:20.559-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.101 seconds
+[2024-03-24T06:01:51.627-0300] {processor.py:161} INFO - Started process (PID=43576) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:01:51.633-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:01:51.634-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:51.634-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:01:51.640-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:01:51.687-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:51.687-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:01:51.725-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:51.724-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:01:51.748-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.124 seconds
+[2024-03-24T06:02:21.961-0300] {processor.py:161} INFO - Started process (PID=43941) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:02:21.962-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:02:21.963-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:21.963-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:02:21.971-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:02:22.011-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:22.011-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:02:22.039-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:22.039-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:02:22.064-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.107 seconds
+[2024-03-24T06:02:52.095-0300] {processor.py:161} INFO - Started process (PID=44247) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:02:52.096-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:02:52.096-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:52.096-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:02:52.102-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:02:52.137-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:52.137-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:02:52.161-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:52.161-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:02:52.188-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.096 seconds
+[2024-03-24T06:03:22.441-0300] {processor.py:161} INFO - Started process (PID=44611) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:03:22.442-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:03:22.443-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:22.443-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:03:22.449-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:03:22.480-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:22.479-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:03:22.502-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:22.502-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:03:22.530-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.092 seconds
+[2024-03-24T06:03:52.700-0300] {processor.py:161} INFO - Started process (PID=44923) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:03:52.701-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:03:52.701-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:52.701-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:03:52.708-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:03:52.741-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:52.741-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:03:52.766-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:52.766-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:03:52.791-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.094 seconds
+[2024-03-24T06:04:22.969-0300] {processor.py:161} INFO - Started process (PID=45287) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:04:22.974-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:04:22.976-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:22.975-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:04:22.983-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:04:23.019-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:23.019-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:04:23.047-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:23.047-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:04:23.070-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.103 seconds
+[2024-03-24T06:04:53.117-0300] {processor.py:161} INFO - Started process (PID=45596) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:04:53.118-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:04:53.118-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:53.118-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:04:53.123-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:04:53.155-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:53.155-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:04:53.176-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:53.175-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:04:53.198-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.084 seconds
+[2024-03-24T06:05:23.961-0300] {processor.py:161} INFO - Started process (PID=46027) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:05:23.965-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:05:23.966-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:23.966-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:05:23.975-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:05:24.026-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:24.025-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:05:24.056-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:24.056-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:05:24.079-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.121 seconds
+[2024-03-24T06:05:54.676-0300] {processor.py:161} INFO - Started process (PID=46339) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:05:54.677-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:05:54.678-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:54.677-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:05:54.689-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:05:54.737-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:54.736-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:05:54.781-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:54.780-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:05:54.816-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.144 seconds
+[2024-03-24T06:06:25.007-0300] {processor.py:161} INFO - Started process (PID=46710) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:06:25.008-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:06:25.009-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:25.008-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:06:25.014-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:06:25.048-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:25.047-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:06:25.074-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:25.074-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:06:25.099-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.095 seconds
+[2024-03-24T06:06:55.210-0300] {processor.py:161} INFO - Started process (PID=47014) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:06:55.211-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:06:55.211-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:55.211-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:06:55.217-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:06:55.245-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:55.245-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:06:55.268-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:55.267-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:06:55.289-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.081 seconds
+[2024-03-24T06:07:25.515-0300] {processor.py:161} INFO - Started process (PID=47383) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:07:25.519-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:07:25.520-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:25.520-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:07:25.528-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:07:25.572-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:25.571-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:07:25.605-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:25.605-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:07:25.630-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.118 seconds
+[2024-03-24T06:07:56.520-0300] {processor.py:161} INFO - Started process (PID=47697) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:07:56.522-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:07:56.523-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:56.522-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:07:56.529-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:07:56.561-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:56.560-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:07:56.584-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:56.584-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:07:56.608-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.091 seconds
+[2024-03-24T06:08:27.153-0300] {processor.py:161} INFO - Started process (PID=48068) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:08:27.154-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:08:27.155-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:27.155-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:08:27.161-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:08:27.195-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:27.195-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:08:27.218-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:27.218-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:08:27.241-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.090 seconds
+[2024-03-24T06:08:57.745-0300] {processor.py:161} INFO - Started process (PID=48383) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:08:57.745-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:08:57.746-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:57.746-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:08:57.752-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:08:57.783-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:57.783-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:08:57.807-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:57.807-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:08:57.829-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.087 seconds
+[2024-03-24T06:09:28.608-0300] {processor.py:161} INFO - Started process (PID=48756) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:09:28.609-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:09:28.611-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:28.610-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:09:28.619-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:09:28.661-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:28.661-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:09:28.702-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:28.702-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:09:28.733-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.129 seconds
+[2024-03-24T06:09:59.320-0300] {processor.py:161} INFO - Started process (PID=49062) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:09:59.321-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:09:59.322-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:59.321-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:09:59.329-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:09:59.366-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:59.365-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:09:59.388-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:59.388-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:09:59.414-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.097 seconds
+[2024-03-24T06:10:29.522-0300] {processor.py:161} INFO - Started process (PID=49494) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:10:29.523-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:10:29.524-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:29.524-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:10:29.532-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:10:29.570-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:29.569-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:10:29.599-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:29.598-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:10:29.624-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.105 seconds
+[2024-03-24T06:10:59.747-0300] {processor.py:161} INFO - Started process (PID=49797) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:10:59.748-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:10:59.750-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:59.750-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:10:59.756-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:10:59.793-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:59.793-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:10:59.836-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:59.835-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:10:59.865-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.122 seconds
+[2024-03-24T06:11:29.971-0300] {processor.py:161} INFO - Started process (PID=50166) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:11:29.972-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:11:29.973-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:29.972-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:11:29.978-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:11:30.012-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:30.011-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:11:30.037-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:30.036-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:11:30.057-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.089 seconds
+[2024-03-24T06:12:00.106-0300] {processor.py:161} INFO - Started process (PID=50470) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:12:00.107-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:12:00.108-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:00.108-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:12:00.114-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:12:00.156-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:00.156-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:12:00.181-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:00.181-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:12:00.207-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.104 seconds
+[2024-03-24T06:12:30.323-0300] {processor.py:161} INFO - Started process (PID=50841) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:12:30.324-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:12:30.325-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:30.325-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:12:30.331-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:12:30.371-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:30.370-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:12:30.397-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:30.397-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:12:30.423-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.105 seconds
+[2024-03-24T06:13:01.014-0300] {processor.py:161} INFO - Started process (PID=51146) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:13:01.015-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:13:01.016-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:01.015-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:13:01.027-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:13:01.063-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:01.063-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:13:01.096-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:01.095-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:13:01.129-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.118 seconds
+[2024-03-24T06:13:31.224-0300] {processor.py:161} INFO - Started process (PID=51517) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:13:31.227-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:13:31.229-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:31.228-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:13:31.242-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:13:31.309-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:31.308-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:13:31.346-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:31.346-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:13:31.388-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.169 seconds
+[2024-03-24T06:14:01.517-0300] {processor.py:161} INFO - Started process (PID=51821) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:14:01.517-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:14:01.518-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:01.518-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:14:01.531-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:14:01.568-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:01.568-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:14:01.599-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:01.598-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:14:01.625-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.111 seconds
+[2024-03-24T06:14:31.697-0300] {processor.py:161} INFO - Started process (PID=52191) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:14:31.699-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:14:31.700-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:31.699-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:14:31.706-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:14:31.760-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:31.759-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:14:31.800-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:31.800-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:14:31.834-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.139 seconds
+[2024-03-24T06:15:01.897-0300] {processor.py:161} INFO - Started process (PID=52497) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:15:01.898-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:15:01.898-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:01.898-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:15:01.903-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:15:01.958-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:01.957-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:15:01.987-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:01.987-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:15:02.016-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.122 seconds
+[2024-03-24T06:15:32.425-0300] {processor.py:161} INFO - Started process (PID=52932) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:15:32.426-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:15:32.426-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:32.426-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:15:32.435-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:15:32.475-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:32.474-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:15:32.510-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:32.510-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:15:32.554-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.132 seconds
+[2024-03-24T06:16:02.944-0300] {processor.py:161} INFO - Started process (PID=53237) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:16:02.948-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:16:02.949-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:02.948-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:16:02.955-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:16:02.997-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:02.995-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:16:03.036-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:03.036-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:16:03.065-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.124 seconds
+[2024-03-24T06:16:33.185-0300] {processor.py:161} INFO - Started process (PID=53607) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:16:33.186-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:16:33.187-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:33.187-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:16:33.194-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:16:33.233-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:33.230-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:16:33.264-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:33.263-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:16:33.291-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.112 seconds
+[2024-03-24T06:17:03.327-0300] {processor.py:161} INFO - Started process (PID=53913) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:17:03.335-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:17:03.336-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:03.336-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:17:03.342-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:17:03.378-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:03.378-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:17:03.406-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:03.406-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:17:03.438-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.112 seconds
+[2024-03-24T06:17:33.478-0300] {processor.py:161} INFO - Started process (PID=54282) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:17:33.479-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:17:33.479-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:33.479-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:17:33.490-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:17:33.526-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:33.526-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:17:33.555-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:33.554-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:17:33.582-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.107 seconds
+[2024-03-24T06:18:03.940-0300] {processor.py:161} INFO - Started process (PID=54589) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:18:03.942-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:18:03.943-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:03.942-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:18:03.948-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:18:03.993-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:03.993-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:18:04.023-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:04.022-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:18:04.046-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.112 seconds
+[2024-03-24T06:18:34.264-0300] {processor.py:161} INFO - Started process (PID=54960) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:18:34.265-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:18:34.265-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:34.265-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:18:34.272-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:18:34.313-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:34.313-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:18:34.344-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:34.343-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:18:34.366-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.105 seconds
+[2024-03-24T06:19:05.268-0300] {processor.py:161} INFO - Started process (PID=55274) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:19:05.269-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:19:05.270-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:05.269-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:19:05.278-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:19:05.317-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:05.317-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:19:05.344-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:05.344-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:19:05.368-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.103 seconds
+[2024-03-24T06:19:36.023-0300] {processor.py:161} INFO - Started process (PID=55640) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:19:36.024-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:19:36.026-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:36.025-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:19:36.033-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:19:36.083-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:36.082-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:19:36.112-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:36.112-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:19:36.140-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.121 seconds
+[2024-03-24T06:20:06.260-0300] {processor.py:161} INFO - Started process (PID=55951) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:20:06.262-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:20:06.263-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:06.263-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:20:06.269-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:20:06.317-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:06.316-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:20:06.358-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:06.357-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:20:06.384-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.128 seconds
+[2024-03-24T06:20:36.813-0300] {processor.py:161} INFO - Started process (PID=56377) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:20:36.814-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:20:36.816-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:36.815-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:20:36.825-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:20:36.889-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:36.888-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:20:36.935-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:36.935-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:20:36.972-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.164 seconds
+[2024-03-24T06:21:07.127-0300] {processor.py:161} INFO - Started process (PID=56687) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:21:07.128-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:21:07.138-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:07.137-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:21:07.144-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:21:07.185-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:07.185-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:21:07.219-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:07.219-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:21:07.248-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.124 seconds
+[2024-03-24T06:21:37.404-0300] {processor.py:161} INFO - Started process (PID=57304) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:21:37.405-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:21:37.406-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:37.406-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:21:37.412-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:21:37.453-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:37.452-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:21:37.479-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:37.479-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:21:37.506-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.104 seconds
+[2024-03-24T06:22:08.430-0300] {processor.py:161} INFO - Started process (PID=57799) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:22:08.430-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:22:08.431-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:08.431-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:22:08.440-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:22:08.513-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:08.513-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:22:08.549-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:08.548-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:22:08.575-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.148 seconds
+[2024-03-24T06:22:38.790-0300] {processor.py:161} INFO - Started process (PID=58304) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:22:38.791-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:22:38.792-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:38.791-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:22:38.799-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:22:38.848-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:38.848-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:22:38.884-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:38.884-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:22:38.924-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.137 seconds
+[2024-03-24T06:23:09.250-0300] {processor.py:161} INFO - Started process (PID=58773) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:23:09.250-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:23:09.251-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:09.251-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:23:09.260-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:23:09.296-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:09.296-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:23:09.324-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:09.324-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:23:09.349-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.103 seconds
+[2024-03-24T06:23:39.980-0300] {processor.py:161} INFO - Started process (PID=59168) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:23:39.982-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:23:39.983-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:39.983-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:23:40.019-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:23:40.133-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:40.133-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:23:40.206-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:40.206-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:23:40.284-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.306 seconds
+[2024-03-24T06:24:11.035-0300] {processor.py:161} INFO - Started process (PID=59843) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:24:11.036-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:24:11.037-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:11.037-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:24:11.063-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:24:11.159-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:11.158-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:24:11.212-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:11.211-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:24:11.250-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.217 seconds
+[2024-03-24T06:24:41.419-0300] {processor.py:161} INFO - Started process (PID=60368) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:24:41.430-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:24:41.431-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:41.431-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:24:41.442-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:24:41.514-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:41.514-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:24:41.572-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:41.572-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:24:41.617-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.201 seconds
+[2024-03-24T06:25:11.782-0300] {processor.py:161} INFO - Started process (PID=61018) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:25:11.783-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:25:11.785-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:11.784-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:25:11.796-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:25:11.861-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:11.861-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:25:11.899-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:11.899-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:25:11.933-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.155 seconds
+[2024-03-24T06:25:42.831-0300] {processor.py:161} INFO - Started process (PID=61413) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:25:42.832-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:25:42.833-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:42.832-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:25:42.838-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:25:42.878-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:42.877-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:25:42.907-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:42.906-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:25:42.933-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.106 seconds
+[2024-03-24T06:26:13.067-0300] {processor.py:161} INFO - Started process (PID=61846) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:26:13.068-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:26:13.069-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:13.069-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:26:13.075-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:26:13.107-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:13.107-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:26:13.134-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:13.134-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:26:13.158-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.094 seconds
+[2024-03-24T06:26:43.432-0300] {processor.py:161} INFO - Started process (PID=62169) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:26:43.435-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:26:43.435-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:43.435-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:26:43.444-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:26:43.479-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:43.479-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:26:43.508-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:43.508-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:26:43.662-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.234 seconds
+[2024-03-24T06:27:14.241-0300] {processor.py:161} INFO - Started process (PID=62868) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:27:14.241-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2024-03-24T06:27:14.242-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:27:14.242-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:27:14.250-0300] {processor.py:840} INFO - DAG(s) 'example_skip_dag' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2024-03-24T06:27:14.301-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:27:14.300-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:27:14.340-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:27:14.339-0300] {dag.py:3834} INFO - Setting next_dagrun for example_skip_dag to 2024-03-23 00:00:00+00:00, run_after=2024-03-24 00:00:00+00:00
+[2024-03-24T06:27:14.376-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.139 seconds

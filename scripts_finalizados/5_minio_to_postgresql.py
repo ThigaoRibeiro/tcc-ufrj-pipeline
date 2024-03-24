@@ -3,7 +3,8 @@
 ##############################################
 # pip install minio
 # pip install psycopg2-binary
-
+# pip install scipy
+##############################################
 import psycopg2
 from minio import Minio
 import io
@@ -19,17 +20,17 @@ config = dotenv_values(".env")
 # start_time = time.time()
 
 
-#############################
-### VARIÁVEIS DE AMBIENTE ###
-#############################
-HOST_MINIO = config.get("HOST_MINIO")
-ACCESS_KEY = config.get("ACCESS_KEY")
-SECRET_KEY = config.get("SECRET_KEY")
-HOST_POSTGRES = config.get("HOST_POSTGRES")
-DATABASE = config.get("DATABASE")
-USER = config.get("USER")
-PASSWORD =  config.get("PASSWORD")
-CREDENTIAL = config.get("TOKEN_API")
+# #############################
+# ### VARIÁVEIS DE AMBIENTE ###
+# #############################
+# HOST_MINIO = config.get("HOST_MINIO")
+# ACCESS_KEY = config.get("ACCESS_KEY")
+# SECRET_KEY = config.get("SECRET_KEY")
+# HOST_POSTGRES = config.get("HOST_POSTGRES")
+# DATABASE = config.get("DATABASE")
+# USER = config.get("USER")
+# PASSWORD =  config.get("PASSWORD")
+# CREDENTIAL = config.get("TOKEN_API")
 
 
 ####################################
@@ -43,9 +44,9 @@ DISTANCIAS = 'distancias'
 ##############################################
 ### CRIANDO UMA INSTÂNCIA DO CLIENTE MINIO ###
 ##############################################
-minioclient = Minio(HOST_MINIO,
-    access_key=ACCESS_KEY,
-    secret_key=SECRET_KEY,
+minioclient = Minio('localhost:9000',
+    access_key='minioadmin',
+    secret_key='minioadmin',
     secure=False)
 
 
@@ -53,10 +54,10 @@ minioclient = Minio(HOST_MINIO,
 ### ACESSANDO O BANCO DE DADOS POSTGRESQL ###
 #############################################
 db_config = {
-'host': HOST_POSTGRES,
-'database': DATABASE,
-'user': USER,
-'password': PASSWORD,
+'host': 'localhost',
+'database': 'postgres',
+'user': 'postgres',
+'password': 'postgres',
 }
 
 
@@ -82,10 +83,12 @@ def calc_dist_minkowski(row, p=3):
 ##########################################################
 ### TOKEN DA API PARA CALCULO DE DESEMPENHO ENERGÉTICO ###
 ##########################################################
-token_api = CREDENTIAL
+token_api = '5b3ce3597851110001cf624838eb860780704eca99c41867a83c9f6b'
 
 
-
+#################################################################
+### COMANDO PARA INSERT NA TABELA [tb_distancias_percorridas_api]
+#################################################################
 arquivos_rotas_gpx_csv = [arquivo_gpx for arquivo_gpx in minioclient.list_objects(CAMADA_GOLD) if arquivo_gpx.object_name.endswith(".csv")] #--> Listando todos os arquivos da camada bronze do datalake com extensão .csv
 for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista encontrada
     try:    
@@ -130,7 +133,7 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
         conn = psycopg2.connect(**db_config)
         cursor = conn.cursor()
         insert = f'''
-            insert into tb_distancias_percorridas_api (id_unico,nome_usuario,data_inicio_rota,data_fim_rota,hora_inicio_rota,hora_fim_rota,latitude_inicial,longitude_inicial,latitude_final,longitude_final,cidade,estado,pais,distancia_real_km_api,data_carga_banco)
+            insert into tb_distancias_percorridas_api (id_unico,nome_usuario,data_inicio_rota,data_fim_rota,inicio_rota,fim_rota,latitude_inicial,longitude_inicial,latitude_final,longitude_final,cidade,estado,pais,distancia_real_km_api,data_carga_banco)
             values (
                 '{id_unico}',
                 '{nome_usuario}',
@@ -152,24 +155,27 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
         conn.commit()
         conn.close()
     except Exception as e:        
-        print(f"Erro: {str(e)} no id {id_unico}")
+        print(f"Erro na consulta da API: {str(e)} no id {id_unico}")
         continue
 
-########################################
-### COMANDO SQL PARA A OPERAÇÃO COPY ###
-########################################
+
+################################################################
+### COMANDO SQL PARA A OPERAÇÃO COPY DA TABELA [tb_gpx_full] ###
+################################################################
 copy_sql = """
     COPY tb_gpx_full (id_rota, nome_usuario, latitude, longitude, elevacao, data_rota, hora_rota, cidade, estado, pais, carga_banco)
     FROM stdin WITH CSV HEADER DELIMITER as ';'
 """
 
+# copy_sql_distancia = """
+#     COPY tb_dist_euclidian_manhattan_minkowski (id_rota, nome_usuario, latitude, longitude, elevacao, data_rota, hora_rota, cidade, estado, pais, carga_banco)
+#     FROM stdin WITH CSV HEADER DELIMITER as ';'
+# """
 
-copy_sql_distancia = """
-    COPY tb_dist_euclidian_manhattan_minkowski (id_rota, nome_usuario, latitude, longitude, elevacao, data_rota, hora_rota, cidade, estado, pais, carga_banco)
-    FROM stdin WITH CSV HEADER DELIMITER as ';'
-"""
 
-
+#########################################################################
+### COMANDO PARA INSERT NA TABELA [tb_dist_euclidian_manhattan_minkowski]
+#########################################################################
 try:
     arquivos_rotas_gpx_csv = [arquivo_gpx for arquivo_gpx in minioclient.list_objects(CAMADA_GOLD) if arquivo_gpx.object_name.endswith(".csv")] #--> Listando todos os arquivos da camada bronze do datalake com extensão .csv
     for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista encontrada
@@ -218,42 +224,66 @@ try:
         # Definir a data de carga do banco como a hora atual
         data_carga_banco = datetime.now()
         # Criando o dataframe
-        df_distancias = pd.DataFrame({
-            'id_rota': [id_rota],
-            'nome_usuario': [nome_usuario],
-            'data_viagem': [data_viagem],
-            'hora_inicio': [hora_inicio],
-            'hora_fim': [hora_fim],
-            'tempo_viagem': [tempo_viagem],
-            'cidade': [cidade],
-            'pais': [pais],
-            'dist_euclidiana': [dist_euclidiana],
-            'dist_manhattan': [dist_manhattan],
-            'dist_minkowski': [dist_minkowski],
-            'data_carga_banco': [data_carga_banco]
-        })
+        # df_distancias = pd.DataFrame({
+        #     'id_rota': [id_rota],
+        #     'nome_usuario': [nome_usuario],
+        #     'data_viagem': [data_viagem],
+        #     'hora_inicio': [hora_inicio],
+        #     'hora_fim': [hora_fim],
+        #     'tempo_viagem': [tempo_viagem],
+        #     'cidade': [cidade],
+        #     'pais': [pais],
+        #     'dist_euclidiana': [dist_euclidiana],
+        #     'dist_manhattan': [dist_manhattan],
+        #     'dist_minkowski': [dist_minkowski],
+        #     'data_carga_banco': [data_carga_banco]
+        # })
+
+        conn = psycopg2.connect(**db_config)
+        cursor = conn.cursor()
+        insert_dist = f'''
+            insert into tb_dist_euclidian_manhattan_minkowski (id_rota,nome_usuario,data_viagem,hora_inicio,hora_fim,tempo_viagem,cidade,pais,dist_euclidiana,dist_manhattan,dist_minkowski,data_carga_banco)
+            values (
+                '{id_rota}',
+                '{nome_usuario}',
+                '{data_viagem}',
+                '{hora_inicio}',
+                '{hora_fim}',
+                '{tempo_viagem}',
+                '{cidade}',
+                '{pais}',
+                '{dist_euclidiana}',
+                '{dist_manhattan}',
+                '{dist_minkowski}',
+                '{data_carga_banco}'
+                )'''
+        cursor.execute(insert_dist)
+        conn.commit()
+        conn.close()    
 
 
-    # Converta o DataFrame enriquecido de volta para CSV
-        distancias_csv = df_distancias.to_csv(index=False, sep=';')
-        distancias_csv_bytes = distancias_csv.encode('utf-8')
+    # # Converta o DataFrame enriquecido de volta para CSV
+    #     distancias_csv = df_distancias.to_csv(index=False, sep=';')
+    #     distancias_csv_bytes = distancias_csv.encode('utf-8')
 
-    # Crie um buffer de bytes
-        distancias_csv_buffer = BytesIO(distancias_csv_bytes)
+    # # Crie um buffer de bytes
+    #     distancias_csv_buffer = BytesIO(distancias_csv_bytes)
 
-        minioclient.put_object(
-            DISTANCIAS,
-            arquivo_rotas_gpx_csv.object_name,  # Use o mesmo nome de arquivo
-            data=distancias_csv_buffer,
-            length=len(distancias_csv_bytes),
-            content_type='application/csv')
-
+    #     minioclient.put_object(
+    #         DISTANCIAS,
+    #         arquivo_rotas_gpx_csv.object_name,  # Use o mesmo nome de arquivo
+    #         data=distancias_csv_buffer,
+    #         length=len(distancias_csv_bytes),
+    #         content_type='application/csv')
 
 except Exception as e:
     # Em caso de erro, imprime a mensagem de erro
     print(f"Erro no insert da [tb_dist_euclidian_manhattam_minkowski]: {str(e)}")
 
 
+#########################################################
+### COMANDO PARA CARGA DO CSV NA TABELA [tb_gpx_full] ### 
+#########################################################
 try:
     # Lista todos os arquivos na camada "gold" do Minio que têm extensão .csv
     arquivos_rotas_gpx_csv = [arquivo_gpx for arquivo_gpx in minioclient.list_objects(CAMADA_GOLD) if arquivo_gpx.object_name.endswith(".csv")]
@@ -303,17 +333,9 @@ try:
         # Fecha a conexão com o banco de dados PostgreSQL
         conn.close()
 
-
-
-
-
-
-
-
 except Exception as e:
     # Em caso de erro, imprime a mensagem de erro
-    print(f"Erro: {str(e)}")
-
+    print(f"Erro na carga da tabela [tb_gpx_full]: {str(e)}")
 
 # end_time = time.time()
 # execution_time = end_time - start_time

@@ -27,13 +27,5 @@ with DAG (
         dag=dag,
     )
 
-# 2ª Tarefa
-#    regressao_linear = BashOperator(
-#        task_id='regressao_linear',
-#        bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/7_regressao_linear.py',        
-#        dag=dag,
-#    )
-
-# Definindo a ordem das tarefas
-#regressao_linear >> clustering
+# clustering
 clustering

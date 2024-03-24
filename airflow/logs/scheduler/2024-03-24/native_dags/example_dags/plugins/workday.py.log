@@ -1,0 +1,555 @@
+[2024-03-24T05:14:34.589-0300] {processor.py:161} INFO - Started process (PID=15566) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:14:34.590-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:14:34.591-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:34.590-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:14:34.934-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:14:34.943-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.356 seconds
+[2024-03-24T05:15:26.816-0300] {processor.py:161} INFO - Started process (PID=16157) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:15:26.819-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:15:26.820-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:26.820-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:15:27.121-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:15:27.130-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.317 seconds
+[2024-03-24T05:16:13.447-0300] {processor.py:161} INFO - Started process (PID=16527) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:16:13.448-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:16:13.450-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:16:13.449-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:16:13.777-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:16:13.783-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.338 seconds
+[2024-03-24T05:17:05.497-0300] {processor.py:161} INFO - Started process (PID=17005) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:17:05.498-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:17:05.499-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:05.498-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:17:05.925-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:17:05.932-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.437 seconds
+[2024-03-24T05:17:46.326-0300] {processor.py:161} INFO - Started process (PID=17390) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:17:46.327-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:17:46.328-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:46.328-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:17:46.654-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:17:46.661-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.338 seconds
+[2024-03-24T05:18:36.923-0300] {processor.py:161} INFO - Started process (PID=17851) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:18:36.924-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:18:36.925-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:36.925-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:18:37.462-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:18:37.468-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.548 seconds
+[2024-03-24T05:19:28.801-0300] {processor.py:161} INFO - Started process (PID=18515) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:19:28.803-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:19:28.804-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:28.803-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:19:29.255-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:19:29.263-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.465 seconds
+[2024-03-24T05:20:19.270-0300] {processor.py:161} INFO - Started process (PID=18975) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:20:19.271-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:20:19.273-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:19.272-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:20:19.706-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:20:19.713-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.445 seconds
+[2024-03-24T05:21:05.710-0300] {processor.py:161} INFO - Started process (PID=19499) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:21:05.711-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:21:05.712-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:05.712-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:21:06.138-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:21:06.143-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.435 seconds
+[2024-03-24T05:21:56.148-0300] {processor.py:161} INFO - Started process (PID=19962) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:21:56.150-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:21:56.152-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:56.151-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:21:56.607-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:21:56.615-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.468 seconds
+[2024-03-24T05:22:51.415-0300] {processor.py:161} INFO - Started process (PID=20462) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:22:51.417-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:22:51.418-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:22:51.418-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:22:51.822-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:22:51.827-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.416 seconds
+[2024-03-24T05:23:41.682-0300] {processor.py:161} INFO - Started process (PID=20920) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:23:41.685-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:23:41.686-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:41.685-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:23:42.098-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:23:42.105-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.426 seconds
+[2024-03-24T05:24:33.149-0300] {processor.py:161} INFO - Started process (PID=21449) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:24:33.150-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:24:33.151-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:33.151-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:24:33.578-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:24:33.585-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.438 seconds
+[2024-03-24T05:25:25.724-0300] {processor.py:161} INFO - Started process (PID=21928) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:25:25.726-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:25:25.726-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:25.726-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:25:26.171-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:25:26.177-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.456 seconds
+[2024-03-24T05:26:20.966-0300] {processor.py:161} INFO - Started process (PID=22434) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:26:20.970-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:26:20.972-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:26:20.971-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:26:21.374-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:26:21.379-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.417 seconds
+[2024-03-24T05:27:01.255-0300] {processor.py:161} INFO - Started process (PID=22750) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:27:01.257-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:27:01.258-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:01.258-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:27:01.759-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:27:01.765-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.513 seconds
+[2024-03-24T05:27:55.156-0300] {processor.py:161} INFO - Started process (PID=23243) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:27:55.158-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:27:55.159-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:55.159-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:27:55.598-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:27:55.604-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.451 seconds
+[2024-03-24T05:28:49.178-0300] {processor.py:161} INFO - Started process (PID=23731) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:28:49.180-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:28:49.181-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:49.180-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:28:49.570-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:28:49.577-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.403 seconds
+[2024-03-24T05:29:38.238-0300] {processor.py:161} INFO - Started process (PID=24241) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:29:38.239-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:29:38.240-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:38.240-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:29:38.666-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:29:38.672-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.437 seconds
+[2024-03-24T05:30:28.793-0300] {processor.py:161} INFO - Started process (PID=24713) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:30:28.794-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:30:28.795-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:30:28.795-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:30:29.231-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:30:29.237-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.447 seconds
+[2024-03-24T05:31:07.459-0300] {processor.py:161} INFO - Started process (PID=25018) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:31:07.461-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:31:07.462-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:07.462-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:31:07.855-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:31:07.861-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.404 seconds
+[2024-03-24T05:32:02.369-0300] {processor.py:161} INFO - Started process (PID=25520) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:32:02.370-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:32:02.371-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:02.371-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:32:02.796-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:32:02.803-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.437 seconds
+[2024-03-24T05:32:55.006-0300] {processor.py:161} INFO - Started process (PID=25996) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:32:55.007-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:32:55.008-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:55.008-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:32:55.463-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:32:55.469-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.467 seconds
+[2024-03-24T05:33:44.147-0300] {processor.py:161} INFO - Started process (PID=26456) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:33:44.149-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:33:44.149-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:44.149-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:33:44.599-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:33:44.605-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.461 seconds
+[2024-03-24T05:34:31.908-0300] {processor.py:161} INFO - Started process (PID=26953) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:34:31.911-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:34:31.912-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:31.911-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:34:32.318-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:34:32.324-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.418 seconds
+[2024-03-24T05:35:24.939-0300] {processor.py:161} INFO - Started process (PID=27438) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:35:24.940-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:35:24.941-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:35:24.941-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:35:25.374-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:35:25.379-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.443 seconds
+[2024-03-24T05:36:17.950-0300] {processor.py:161} INFO - Started process (PID=27861) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:36:17.952-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:36:17.953-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:17.953-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:36:18.453-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:36:18.462-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.515 seconds
+[2024-03-24T05:37:11.844-0300] {processor.py:161} INFO - Started process (PID=28350) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:37:11.845-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:37:11.846-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:11.846-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:37:12.239-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:37:12.244-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.402 seconds
+[2024-03-24T05:38:02.252-0300] {processor.py:161} INFO - Started process (PID=28891) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:38:02.253-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:38:02.254-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:38:02.254-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:38:02.746-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:38:02.752-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.502 seconds
+[2024-03-24T05:39:00.157-0300] {processor.py:161} INFO - Started process (PID=29544) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:39:00.158-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:39:00.159-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:00.159-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:39:00.585-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:39:00.591-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.437 seconds
+[2024-03-24T05:39:39.621-0300] {processor.py:161} INFO - Started process (PID=29980) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:39:39.622-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:39:39.623-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:39.623-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:39:40.035-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:39:40.040-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.422 seconds
+[2024-03-24T05:40:32.783-0300] {processor.py:161} INFO - Started process (PID=30465) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:40:32.786-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:40:32.788-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:32.787-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:40:33.401-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:40:33.408-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.628 seconds
+[2024-03-24T05:41:28.901-0300] {processor.py:161} INFO - Started process (PID=30969) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:41:28.903-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:41:28.904-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:28.903-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:41:29.539-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:41:29.556-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.657 seconds
+[2024-03-24T05:42:21.503-0300] {processor.py:161} INFO - Started process (PID=31452) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:42:21.505-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:42:21.505-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:21.505-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:42:21.954-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:42:21.961-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.460 seconds
+[2024-03-24T05:43:16.224-0300] {processor.py:161} INFO - Started process (PID=31885) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:43:16.226-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:43:16.227-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:16.226-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:43:16.657-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:43:16.663-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.442 seconds
+[2024-03-24T05:44:08.903-0300] {processor.py:161} INFO - Started process (PID=32369) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:44:08.905-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:44:08.905-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:08.905-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:44:09.353-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:44:09.361-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.460 seconds
+[2024-03-24T05:44:55.758-0300] {processor.py:161} INFO - Started process (PID=32863) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:44:55.759-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:44:55.761-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:55.760-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:44:56.188-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:44:56.195-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.439 seconds
+[2024-03-24T05:45:46.464-0300] {processor.py:161} INFO - Started process (PID=33336) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:45:46.466-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:45:46.467-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:46.467-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:45:46.863-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:45:46.870-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.409 seconds
+[2024-03-24T05:46:39.299-0300] {processor.py:161} INFO - Started process (PID=33814) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:46:39.301-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:46:39.303-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:39.302-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:46:39.711-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:46:39.718-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.422 seconds
+[2024-03-24T05:47:33.005-0300] {processor.py:161} INFO - Started process (PID=34314) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:47:33.007-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:47:33.008-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:33.007-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:47:33.473-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:47:33.479-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.478 seconds
+[2024-03-24T05:48:26.847-0300] {processor.py:161} INFO - Started process (PID=34811) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:48:26.848-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:48:26.849-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:26.849-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:48:27.260-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:48:27.267-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.422 seconds
+[2024-03-24T05:49:18.371-0300] {processor.py:161} INFO - Started process (PID=35223) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:49:18.373-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:49:18.374-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:18.374-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:49:18.774-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:49:18.780-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.411 seconds
+[2024-03-24T05:50:09.246-0300] {processor.py:161} INFO - Started process (PID=35748) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:50:09.247-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:50:09.248-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:09.247-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:50:09.655-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:50:09.661-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.419 seconds
+[2024-03-24T05:50:59.260-0300] {processor.py:161} INFO - Started process (PID=36208) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:50:59.262-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:50:59.263-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:59.262-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:50:59.667-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:50:59.675-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.417 seconds
+[2024-03-24T05:51:50.807-0300] {processor.py:161} INFO - Started process (PID=36682) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:51:50.809-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:51:50.810-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:51:50.809-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:51:51.248-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:51:51.254-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.448 seconds
+[2024-03-24T05:52:42.923-0300] {processor.py:161} INFO - Started process (PID=37158) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:52:42.925-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:52:42.926-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:42.926-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:52:43.332-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:52:43.338-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.418 seconds
+[2024-03-24T05:53:32.710-0300] {processor.py:161} INFO - Started process (PID=37615) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:53:32.712-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:53:32.713-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:32.713-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:53:33.081-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:53:33.087-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.380 seconds
+[2024-03-24T05:54:25.822-0300] {processor.py:161} INFO - Started process (PID=38161) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:54:25.824-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:54:25.825-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:54:25.825-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:54:26.219-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:54:26.226-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.405 seconds
+[2024-03-24T05:55:08.083-0300] {processor.py:161} INFO - Started process (PID=38786) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:55:08.084-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:55:08.085-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:08.085-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:55:08.594-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:55:08.632-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.552 seconds
+[2024-03-24T05:55:39.166-0300] {processor.py:161} INFO - Started process (PID=39350) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:55:39.166-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:55:39.167-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:39.167-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:55:39.589-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:55:39.617-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.454 seconds
+[2024-03-24T05:56:09.692-0300] {processor.py:161} INFO - Started process (PID=39723) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:56:09.693-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:56:09.694-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:09.694-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:56:10.053-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:56:10.079-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.390 seconds
+[2024-03-24T05:56:40.194-0300] {processor.py:161} INFO - Started process (PID=40048) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:56:40.194-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:56:40.195-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:40.195-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:56:40.603-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:56:40.627-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.436 seconds
+[2024-03-24T05:57:11.310-0300] {processor.py:161} INFO - Started process (PID=40423) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:57:11.312-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:57:11.314-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:11.313-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:57:11.788-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:57:11.811-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.505 seconds
+[2024-03-24T05:57:42.706-0300] {processor.py:161} INFO - Started process (PID=40746) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:57:42.707-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:57:42.708-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:42.708-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:57:43.218-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:57:43.243-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.542 seconds
+[2024-03-24T05:58:13.896-0300] {processor.py:161} INFO - Started process (PID=41124) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:58:13.898-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:58:13.898-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:13.898-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:58:14.381-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:58:14.405-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.513 seconds
+[2024-03-24T05:58:44.852-0300] {processor.py:161} INFO - Started process (PID=41437) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:58:44.858-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:58:44.859-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:44.859-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:58:45.375-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:58:45.397-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.550 seconds
+[2024-03-24T05:59:15.781-0300] {processor.py:161} INFO - Started process (PID=41811) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:59:15.782-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:59:15.783-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:15.783-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:59:16.245-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:59:16.269-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.491 seconds
+[2024-03-24T05:59:46.706-0300] {processor.py:161} INFO - Started process (PID=42124) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:59:46.708-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T05:59:46.709-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:46.709-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:59:47.180-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T05:59:47.204-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.502 seconds
+[2024-03-24T06:00:17.996-0300] {processor.py:161} INFO - Started process (PID=42562) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:00:17.998-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:00:17.999-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:17.999-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:00:18.541-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:00:18.567-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.575 seconds
+[2024-03-24T06:00:49.228-0300] {processor.py:161} INFO - Started process (PID=42877) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:00:49.232-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:00:49.233-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:49.233-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:00:49.966-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:00:49.992-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.768 seconds
+[2024-03-24T06:01:20.145-0300] {processor.py:161} INFO - Started process (PID=43250) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:01:20.146-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:01:20.148-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:20.148-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:01:20.722-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:01:20.750-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.610 seconds
+[2024-03-24T06:01:51.173-0300] {processor.py:161} INFO - Started process (PID=43559) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:01:51.175-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:01:51.176-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:51.175-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:01:51.741-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:01:51.767-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.598 seconds
+[2024-03-24T06:02:21.825-0300] {processor.py:161} INFO - Started process (PID=43935) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:02:21.826-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:02:21.827-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:21.826-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:02:22.369-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:02:22.392-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.570 seconds
+[2024-03-24T06:02:53.216-0300] {processor.py:161} INFO - Started process (PID=44257) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:02:53.216-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:02:53.217-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:53.217-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:02:53.741-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:02:53.765-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.552 seconds
+[2024-03-24T06:03:23.861-0300] {processor.py:161} INFO - Started process (PID=44635) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:03:23.870-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:03:23.872-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:23.871-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:03:24.366-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:03:24.393-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.535 seconds
+[2024-03-24T06:03:54.428-0300] {processor.py:161} INFO - Started process (PID=44956) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:03:54.428-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:03:54.429-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:54.429-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:03:54.846-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:03:54.868-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.443 seconds
+[2024-03-24T06:04:25.594-0300] {processor.py:161} INFO - Started process (PID=45327) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:04:25.595-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:04:25.596-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:25.596-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:04:26.068-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:04:26.094-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.505 seconds
+[2024-03-24T06:04:56.122-0300] {processor.py:161} INFO - Started process (PID=45641) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:04:56.123-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:04:56.123-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:56.123-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:04:56.557-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:04:56.584-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.465 seconds
+[2024-03-24T06:05:26.685-0300] {processor.py:161} INFO - Started process (PID=46075) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:05:26.686-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:05:26.687-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:26.687-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:05:27.222-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:05:27.250-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.568 seconds
+[2024-03-24T06:05:57.408-0300] {processor.py:161} INFO - Started process (PID=46376) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:05:57.409-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:05:57.410-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:57.410-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:05:57.913-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:05:57.936-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.531 seconds
+[2024-03-24T06:06:28.728-0300] {processor.py:161} INFO - Started process (PID=46757) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:06:28.729-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:06:28.730-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:28.729-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:06:29.234-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:06:29.258-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.533 seconds
+[2024-03-24T06:06:59.293-0300] {processor.py:161} INFO - Started process (PID=47074) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:06:59.294-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:06:59.295-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:59.295-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:06:59.716-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:06:59.738-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.448 seconds
+[2024-03-24T06:07:30.505-0300] {processor.py:161} INFO - Started process (PID=47448) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:07:30.507-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:07:30.508-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:30.508-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:07:30.997-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:07:31.021-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.520 seconds
+[2024-03-24T06:08:01.283-0300] {processor.py:161} INFO - Started process (PID=47760) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:08:01.285-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:08:01.287-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:01.286-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:08:01.744-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:08:01.766-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.487 seconds
+[2024-03-24T06:08:32.110-0300] {processor.py:161} INFO - Started process (PID=48138) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:08:32.112-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:08:32.112-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:32.112-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:08:32.755-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:08:32.784-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.677 seconds
+[2024-03-24T06:09:02.825-0300] {processor.py:161} INFO - Started process (PID=48447) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:09:02.827-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:09:02.828-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:02.827-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:09:03.380-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:09:03.407-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.586 seconds
+[2024-03-24T06:09:33.747-0300] {processor.py:161} INFO - Started process (PID=48820) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:09:33.749-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:09:33.751-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:33.750-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:09:34.490-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:09:34.518-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.778 seconds
+[2024-03-24T06:10:04.563-0300] {processor.py:161} INFO - Started process (PID=49141) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:10:04.565-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:10:04.566-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:04.566-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:10:05.051-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:10:05.074-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.515 seconds
+[2024-03-24T06:10:35.751-0300] {processor.py:161} INFO - Started process (PID=49577) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:10:35.752-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:10:35.753-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:35.753-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:10:36.299-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:10:36.335-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.586 seconds
+[2024-03-24T06:11:07.032-0300] {processor.py:161} INFO - Started process (PID=49892) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:11:07.034-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:11:07.035-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:07.034-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:11:07.492-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:11:07.519-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.492 seconds
+[2024-03-24T06:11:38.380-0300] {processor.py:161} INFO - Started process (PID=50266) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:11:38.383-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:11:38.384-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:38.384-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:11:38.890-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:11:38.913-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.535 seconds
+[2024-03-24T06:12:09.645-0300] {processor.py:161} INFO - Started process (PID=50641) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:12:09.646-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:12:09.646-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:09.646-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:12:10.104-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:12:10.127-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.485 seconds
+[2024-03-24T06:12:40.794-0300] {processor.py:161} INFO - Started process (PID=50955) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:12:40.794-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:12:40.795-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:40.795-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:12:41.258-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:12:41.282-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.490 seconds
+[2024-03-24T06:13:11.398-0300] {processor.py:161} INFO - Started process (PID=51320) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:13:11.399-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:13:11.399-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:11.399-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:13:11.851-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:13:11.877-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.482 seconds
+[2024-03-24T06:13:42.775-0300] {processor.py:161} INFO - Started process (PID=51635) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:13:42.776-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:13:42.782-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:42.779-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:13:43.249-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:13:43.274-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.504 seconds
+[2024-03-24T06:14:13.978-0300] {processor.py:161} INFO - Started process (PID=52009) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:14:13.980-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:14:13.980-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:13.980-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:14:14.441-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:14:14.465-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.489 seconds
+[2024-03-24T06:14:45.244-0300] {processor.py:161} INFO - Started process (PID=52324) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:14:45.256-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:14:45.257-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:45.257-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:14:45.773-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:14:45.807-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.567 seconds
+[2024-03-24T06:15:16.671-0300] {processor.py:161} INFO - Started process (PID=52763) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:15:16.672-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:15:16.672-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:16.672-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:15:17.183-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:15:17.213-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.545 seconds
+[2024-03-24T06:15:47.752-0300] {processor.py:161} INFO - Started process (PID=53078) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:15:47.753-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:15:47.754-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:47.754-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:15:48.241-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:15:48.265-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.516 seconds
+[2024-03-24T06:16:18.299-0300] {processor.py:161} INFO - Started process (PID=53448) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:16:18.301-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:16:18.302-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:18.302-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:16:18.774-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:16:18.798-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.504 seconds
+[2024-03-24T06:16:49.530-0300] {processor.py:161} INFO - Started process (PID=53763) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:16:49.534-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:16:49.535-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:49.535-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:16:50.018-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:16:50.042-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.515 seconds
+[2024-03-24T06:17:20.863-0300] {processor.py:161} INFO - Started process (PID=54140) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:17:20.864-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:17:20.865-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:20.864-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:17:21.381-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:17:21.409-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.548 seconds
+[2024-03-24T06:17:52.241-0300] {processor.py:161} INFO - Started process (PID=54455) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:17:52.242-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:17:52.242-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:52.242-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:17:52.725-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:17:52.750-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.513 seconds
+[2024-03-24T06:18:23.443-0300] {processor.py:161} INFO - Started process (PID=54828) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:18:23.444-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:18:23.445-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:23.445-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:18:24.067-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:18:24.106-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.667 seconds
+[2024-03-24T06:18:54.717-0300] {processor.py:161} INFO - Started process (PID=55144) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:18:54.718-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:18:54.719-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:54.719-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:18:55.208-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:18:55.230-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.516 seconds
+[2024-03-24T06:19:25.647-0300] {processor.py:161} INFO - Started process (PID=55511) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:19:25.649-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:19:25.650-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:25.649-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:19:26.130-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:19:26.155-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.511 seconds
+[2024-03-24T06:19:56.506-0300] {processor.py:161} INFO - Started process (PID=55823) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:19:56.506-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:19:56.507-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:56.507-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:19:56.988-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:19:57.014-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.511 seconds
+[2024-03-24T06:20:27.037-0300] {processor.py:161} INFO - Started process (PID=56256) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:20:27.038-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:20:27.039-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:27.039-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:20:27.531-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:20:27.553-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.518 seconds
+[2024-03-24T06:20:58.685-0300] {processor.py:161} INFO - Started process (PID=56581) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:20:58.687-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:20:58.688-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:58.687-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:20:59.177-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:20:59.203-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.521 seconds
+[2024-03-24T06:21:29.974-0300] {processor.py:161} INFO - Started process (PID=57115) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:21:29.975-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:21:29.976-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:29.975-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:21:30.410-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:21:30.460-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.489 seconds
+[2024-03-24T06:22:00.610-0300] {processor.py:161} INFO - Started process (PID=57654) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:22:00.611-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:22:00.613-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:00.612-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:22:01.329-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:22:01.361-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.763 seconds
+[2024-03-24T06:22:32.554-0300] {processor.py:161} INFO - Started process (PID=58227) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:22:32.556-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:22:32.557-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:32.557-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:22:33.187-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:22:33.211-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.662 seconds
+[2024-03-24T06:23:03.247-0300] {processor.py:161} INFO - Started process (PID=58685) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:23:03.248-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:23:03.248-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:03.248-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:23:03.667-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:23:03.692-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.448 seconds
+[2024-03-24T06:23:34.473-0300] {processor.py:161} INFO - Started process (PID=59063) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:23:34.475-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:23:34.476-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:34.476-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:23:35.192-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:23:35.220-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.753 seconds
+[2024-03-24T06:24:05.428-0300] {processor.py:161} INFO - Started process (PID=59702) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:24:05.429-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:24:05.431-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:05.430-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:24:06.677-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:24:06.750-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 1.329 seconds
+[2024-03-24T06:24:37.367-0300] {processor.py:161} INFO - Started process (PID=60325) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:24:37.369-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:24:37.370-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:37.370-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:24:38.135-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:24:38.180-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.815 seconds
+[2024-03-24T06:25:08.400-0300] {processor.py:161} INFO - Started process (PID=60900) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:25:08.401-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:25:08.402-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:08.402-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:25:09.562-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:25:09.590-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 1.193 seconds
+[2024-03-24T06:25:40.300-0300] {processor.py:161} INFO - Started process (PID=61386) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:25:40.300-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:25:40.303-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:40.303-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:25:40.758-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:25:40.785-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.488 seconds
+[2024-03-24T06:26:10.985-0300] {processor.py:161} INFO - Started process (PID=61823) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:26:10.987-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:26:10.988-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:10.987-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:26:11.571-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:26:11.598-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.617 seconds
+[2024-03-24T06:26:41.903-0300] {processor.py:161} INFO - Started process (PID=62146) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:26:41.904-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:26:41.905-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:41.904-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:26:42.369-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:26:42.393-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.493 seconds
+[2024-03-24T06:27:12.505-0300] {processor.py:161} INFO - Started process (PID=62767) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:27:12.507-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py for tasks to queue
+[2024-03-24T06:27:12.508-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:27:12.508-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:27:13.173-0300] {processor.py:842} WARNING - No viable dags retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py
+[2024-03-24T06:27:13.200-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/plugins/workday.py took 0.698 seconds

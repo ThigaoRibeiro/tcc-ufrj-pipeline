@@ -1,0 +1,932 @@
+[2024-03-24T05:14:19.184-0300] {processor.py:161} INFO - Started process (PID=15253) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:14:19.185-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:14:19.185-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:19.185-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:14:19.192-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:14:19.338-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:19.337-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2024-03-24T05:14:19.359-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:19.359-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2024-03-24T05:14:19.371-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:19.370-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2024-03-24T05:14:19.371-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:19.371-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:14:19.401-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:19.401-0300] {dag.py:3069} INFO - Creating ORM DAG for tutorial_objectstorage
+[2024-03-24T05:14:19.402-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:14:19.402-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:14:19.465-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.284 seconds
+[2024-03-24T05:15:13.838-0300] {processor.py:161} INFO - Started process (PID=15991) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:15:13.839-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:15:13.840-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:13.840-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:15:13.849-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:15:13.863-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:13.863-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:15:13.872-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:13.872-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:15:13.898-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.064 seconds
+[2024-03-24T05:15:50.587-0300] {processor.py:161} INFO - Started process (PID=16348) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:15:50.588-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:15:50.590-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:50.589-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:15:50.598-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:15:50.617-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:50.617-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:15:50.631-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:15:50.630-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:15:50.661-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.077 seconds
+[2024-03-24T05:16:26.246-0300] {processor.py:161} INFO - Started process (PID=16689) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:16:26.249-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:16:26.250-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:16:26.250-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:16:26.256-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:16:26.267-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:16:26.267-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:16:26.276-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:16:26.276-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:16:26.302-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.060 seconds
+[2024-03-24T05:17:02.768-0300] {processor.py:161} INFO - Started process (PID=16985) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:17:02.770-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:17:02.771-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:02.771-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:17:02.777-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:17:02.791-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:02.790-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:17:02.801-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:02.800-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:17:02.826-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.060 seconds
+[2024-03-24T05:17:38.860-0300] {processor.py:161} INFO - Started process (PID=17330) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:17:38.861-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:17:38.862-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:38.862-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:17:38.868-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:17:38.882-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:38.881-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:17:38.892-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:17:38.891-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:17:38.915-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.057 seconds
+[2024-03-24T05:18:16.304-0300] {processor.py:161} INFO - Started process (PID=17625) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:18:16.305-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:18:16.306-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:16.306-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:18:16.312-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:18:16.324-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:16.324-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:18:16.333-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:16.333-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:18:16.355-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.053 seconds
+[2024-03-24T05:18:49.200-0300] {processor.py:161} INFO - Started process (PID=17959) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:18:49.202-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:18:49.203-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:49.202-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:18:49.208-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:18:49.221-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:49.221-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:18:49.232-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:18:49.232-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:18:49.254-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.056 seconds
+[2024-03-24T05:19:24.785-0300] {processor.py:161} INFO - Started process (PID=18483) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:19:24.787-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:19:24.788-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:24.787-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:19:24.794-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:19:24.806-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:24.806-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:19:24.817-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:24.816-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:19:24.841-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.059 seconds
+[2024-03-24T05:19:58.661-0300] {processor.py:161} INFO - Started process (PID=18757) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:19:58.664-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:19:58.664-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:58.664-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:19:58.669-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:19:58.681-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:58.681-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:19:58.690-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:19:58.690-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:19:58.717-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.058 seconds
+[2024-03-24T05:20:31.128-0300] {processor.py:161} INFO - Started process (PID=19074) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:20:31.129-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:20:31.131-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:31.130-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:20:31.137-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:20:31.150-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:31.150-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:20:31.159-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:20:31.158-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:20:31.183-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.058 seconds
+[2024-03-24T05:21:18.410-0300] {processor.py:161} INFO - Started process (PID=19630) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:21:18.412-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:21:18.412-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:18.412-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:21:18.420-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:21:18.431-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:18.431-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:21:18.444-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:18.443-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:21:18.471-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.063 seconds
+[2024-03-24T05:21:52.494-0300] {processor.py:161} INFO - Started process (PID=19932) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:21:52.496-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:21:52.497-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:52.496-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:21:52.505-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:21:52.516-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:52.516-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:21:52.526-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:21:52.526-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:21:52.550-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.058 seconds
+[2024-03-24T05:22:26.783-0300] {processor.py:161} INFO - Started process (PID=20267) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:22:26.784-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:22:26.785-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:22:26.785-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:22:26.792-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:22:26.804-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:22:26.803-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:22:26.814-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:22:26.814-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:22:26.838-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.057 seconds
+[2024-03-24T05:23:02.958-0300] {processor.py:161} INFO - Started process (PID=20553) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:23:02.960-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:23:02.961-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:02.960-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:23:02.966-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:23:02.978-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:02.978-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:23:02.987-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:02.986-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:23:03.010-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.054 seconds
+[2024-03-24T05:23:35.374-0300] {processor.py:161} INFO - Started process (PID=20872) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:23:35.374-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:23:35.375-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:35.375-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:23:35.380-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:23:35.400-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:35.399-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:23:35.409-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:23:35.408-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:23:35.434-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.062 seconds
+[2024-03-24T05:24:11.414-0300] {processor.py:161} INFO - Started process (PID=21154) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:24:11.416-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:24:11.417-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:11.417-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:24:11.422-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:24:11.434-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:11.433-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:24:11.442-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:11.442-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:24:11.464-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.053 seconds
+[2024-03-24T05:24:45.139-0300] {processor.py:161} INFO - Started process (PID=21547) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:24:45.141-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:24:45.142-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:45.141-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:24:45.149-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:24:45.162-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:45.162-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:24:45.172-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:24:45.172-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:24:45.195-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.059 seconds
+[2024-03-24T05:25:20.699-0300] {processor.py:161} INFO - Started process (PID=21892) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:25:20.701-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:25:20.702-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:20.701-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:25:20.707-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:25:20.719-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:20.719-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:25:20.729-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:20.728-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:25:20.753-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.056 seconds
+[2024-03-24T05:25:55.738-0300] {processor.py:161} INFO - Started process (PID=22170) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:25:55.739-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:25:55.740-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:55.740-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:25:55.746-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:25:55.759-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:55.759-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:25:55.772-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:25:55.772-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:25:55.795-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.059 seconds
+[2024-03-24T05:26:36.163-0300] {processor.py:161} INFO - Started process (PID=22555) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:26:36.165-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:26:36.166-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:26:36.166-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:26:36.173-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:26:36.188-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:26:36.188-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:26:36.199-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:26:36.198-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:26:36.224-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.062 seconds
+[2024-03-24T05:27:14.102-0300] {processor.py:161} INFO - Started process (PID=22854) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:27:14.105-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:27:14.106-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:14.106-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:27:14.114-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:27:14.134-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:14.133-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:27:14.149-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:14.148-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:27:14.194-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.095 seconds
+[2024-03-24T05:27:50.048-0300] {processor.py:161} INFO - Started process (PID=23200) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:27:50.050-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:27:50.052-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:50.051-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:27:50.062-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:27:50.078-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:50.078-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:27:50.089-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:27:50.089-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:27:50.116-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.071 seconds
+[2024-03-24T05:28:25.864-0300] {processor.py:161} INFO - Started process (PID=23546) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:28:25.866-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:28:25.867-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:25.867-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:28:25.875-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:28:25.891-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:25.890-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:28:25.904-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:28:25.903-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:28:25.932-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.070 seconds
+[2024-03-24T05:29:03.325-0300] {processor.py:161} INFO - Started process (PID=23846) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:29:03.327-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:29:03.328-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:03.328-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:29:03.333-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:29:03.345-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:03.344-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:29:03.354-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:03.354-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:29:03.376-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.053 seconds
+[2024-03-24T05:29:36.525-0300] {processor.py:161} INFO - Started process (PID=24229) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:29:36.527-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:29:36.528-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:36.528-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:29:36.537-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:29:36.553-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:36.553-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:29:36.568-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:29:36.568-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:29:36.598-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.076 seconds
+[2024-03-24T05:30:23.076-0300] {processor.py:161} INFO - Started process (PID=24666) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:30:23.077-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:30:23.077-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:30:23.077-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:30:23.084-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:30:23.097-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:30:23.097-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:30:23.107-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:30:23.107-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:30:23.129-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.055 seconds
+[2024-03-24T05:31:00.015-0300] {processor.py:161} INFO - Started process (PID=24962) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:31:00.017-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:31:00.018-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:00.018-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:31:00.023-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:31:00.035-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:00.035-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:31:00.046-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:00.045-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:31:00.076-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.065 seconds
+[2024-03-24T05:31:36.077-0300] {processor.py:161} INFO - Started process (PID=25308) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:31:36.078-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:31:36.079-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:36.079-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:31:36.085-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:31:36.097-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:36.097-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:31:36.108-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:31:36.107-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:31:36.132-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.058 seconds
+[2024-03-24T05:32:12.912-0300] {processor.py:161} INFO - Started process (PID=25606) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:32:12.913-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:32:12.914-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:12.913-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:32:12.919-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:32:12.931-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:12.931-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:32:12.941-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:12.941-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:32:12.965-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.055 seconds
+[2024-03-24T05:32:48.697-0300] {processor.py:161} INFO - Started process (PID=25947) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:32:48.699-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:32:48.700-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:48.699-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:32:48.707-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:32:48.720-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:48.719-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:32:48.731-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:32:48.731-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:32:48.752-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.057 seconds
+[2024-03-24T05:33:23.351-0300] {processor.py:161} INFO - Started process (PID=26286) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:33:23.353-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:33:23.353-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:23.353-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:33:23.359-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:33:23.371-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:23.370-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:33:23.381-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:23.380-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:33:23.403-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.054 seconds
+[2024-03-24T05:33:54.701-0300] {processor.py:161} INFO - Started process (PID=26542) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:33:54.702-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:33:54.703-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:54.702-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:33:54.710-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:33:54.723-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:54.723-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:33:54.733-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:33:54.733-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:33:54.756-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.059 seconds
+[2024-03-24T05:34:26.761-0300] {processor.py:161} INFO - Started process (PID=26913) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:34:26.762-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:34:26.763-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:26.763-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:34:26.768-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:34:26.781-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:26.780-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:34:26.791-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:26.791-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:34:26.819-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.061 seconds
+[2024-03-24T05:34:59.081-0300] {processor.py:161} INFO - Started process (PID=27174) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:34:59.083-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:34:59.084-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:59.084-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:34:59.092-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:34:59.105-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:59.105-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:34:59.115-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:34:59.115-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:34:59.139-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.062 seconds
+[2024-03-24T05:35:35.440-0300] {processor.py:161} INFO - Started process (PID=27524) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:35:35.442-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:35:35.443-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:35:35.442-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:35:35.449-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:35:35.460-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:35:35.460-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:35:35.472-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:35:35.472-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:35:35.494-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.056 seconds
+[2024-03-24T05:36:12.586-0300] {processor.py:161} INFO - Started process (PID=27818) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:36:12.587-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:36:12.588-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:12.588-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:36:12.593-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:36:12.605-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:12.605-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:36:12.614-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:12.613-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:36:12.639-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.056 seconds
+[2024-03-24T05:36:46.379-0300] {processor.py:161} INFO - Started process (PID=28152) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:36:46.381-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:36:46.381-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:46.381-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:36:46.388-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:36:46.400-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:46.399-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:36:46.411-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:36:46.410-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:36:46.436-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.059 seconds
+[2024-03-24T05:37:22.575-0300] {processor.py:161} INFO - Started process (PID=28504) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:37:22.576-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:37:22.577-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:22.576-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:37:22.582-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:37:22.596-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:22.595-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:37:22.606-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:22.605-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:37:22.628-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.055 seconds
+[2024-03-24T05:37:57.012-0300] {processor.py:161} INFO - Started process (PID=28785) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:37:57.014-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:37:57.014-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:57.014-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:37:57.025-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:37:57.042-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:57.041-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:37:57.055-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:37:57.054-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:37:57.091-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.081 seconds
+[2024-03-24T05:38:32.541-0300] {processor.py:161} INFO - Started process (PID=29325) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:38:32.542-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:38:32.543-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:38:32.543-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:38:32.549-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:38:32.563-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:38:32.563-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:38:32.572-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:38:32.572-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:38:32.598-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.061 seconds
+[2024-03-24T05:39:13.173-0300] {processor.py:161} INFO - Started process (PID=29654) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:39:13.174-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:39:13.175-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:13.174-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:39:13.181-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:39:13.192-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:13.192-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:39:13.202-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:13.202-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:39:13.222-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.052 seconds
+[2024-03-24T05:39:49.408-0300] {processor.py:161} INFO - Started process (PID=30063) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:39:49.410-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:39:49.411-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:49.411-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:39:49.417-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:39:49.430-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:49.430-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:39:49.439-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:39:49.438-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:39:49.459-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.054 seconds
+[2024-03-24T05:40:25.482-0300] {processor.py:161} INFO - Started process (PID=30407) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:40:25.484-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:40:25.485-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:25.485-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:40:25.491-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:40:25.507-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:25.506-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:40:25.519-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:40:25.519-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:40:25.610-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.132 seconds
+[2024-03-24T05:41:01.572-0300] {processor.py:161} INFO - Started process (PID=30695) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:41:01.574-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:41:01.575-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:01.575-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:41:01.582-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:41:01.596-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:01.596-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:41:01.606-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:01.606-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:41:01.628-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.058 seconds
+[2024-03-24T05:41:39.094-0300] {processor.py:161} INFO - Started process (PID=31054) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:41:39.095-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:41:39.096-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:39.096-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:41:39.103-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:41:39.120-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:39.120-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:41:39.131-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:41:39.131-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:41:39.157-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.066 seconds
+[2024-03-24T05:42:13.796-0300] {processor.py:161} INFO - Started process (PID=31329) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:42:13.797-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:42:13.798-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:13.798-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:42:13.808-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:42:13.830-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:13.829-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:42:13.849-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:13.848-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:42:13.896-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.103 seconds
+[2024-03-24T05:42:49.333-0300] {processor.py:161} INFO - Started process (PID=31680) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:42:49.334-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:42:49.335-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:49.335-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:42:49.342-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:42:49.357-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:49.356-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:42:49.367-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:42:49.367-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:42:49.393-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.061 seconds
+[2024-03-24T05:43:25.386-0300] {processor.py:161} INFO - Started process (PID=32026) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:43:25.387-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:43:25.387-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:25.387-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:43:25.393-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:43:25.408-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:25.407-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:43:25.418-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:43:25.417-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:43:25.443-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.060 seconds
+[2024-03-24T05:44:01.456-0300] {processor.py:161} INFO - Started process (PID=32307) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:44:01.459-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:44:01.460-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:01.460-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:44:01.467-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:44:01.481-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:01.481-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:44:01.490-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:01.490-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:44:01.515-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.062 seconds
+[2024-03-24T05:44:33.624-0300] {processor.py:161} INFO - Started process (PID=32691) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:44:33.624-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:44:33.625-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:33.625-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:44:33.633-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:44:33.649-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:33.649-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:44:33.662-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:44:33.662-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:44:33.685-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.064 seconds
+[2024-03-24T05:45:06.052-0300] {processor.py:161} INFO - Started process (PID=32952) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:45:06.053-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:45:06.054-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:06.053-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:45:06.058-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:45:06.070-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:06.070-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:45:06.080-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:06.080-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:45:06.104-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.054 seconds
+[2024-03-24T05:45:40.694-0300] {processor.py:161} INFO - Started process (PID=33289) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:45:40.697-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:45:40.698-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:40.698-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:45:40.707-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:45:40.723-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:40.723-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:45:40.734-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:45:40.734-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:45:40.759-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.067 seconds
+[2024-03-24T05:46:15.747-0300] {processor.py:161} INFO - Started process (PID=33570) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:46:15.750-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:46:15.751-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:15.751-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:46:15.757-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:46:15.769-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:15.769-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:46:15.780-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:15.779-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:46:15.803-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.058 seconds
+[2024-03-24T05:46:50.510-0300] {processor.py:161} INFO - Started process (PID=33910) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:46:50.512-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:46:50.513-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:50.513-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:46:50.522-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:46:50.536-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:50.536-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:46:50.546-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:46:50.546-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:46:50.575-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.067 seconds
+[2024-03-24T05:47:26.687-0300] {processor.py:161} INFO - Started process (PID=34260) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:47:26.689-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:47:26.690-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:26.690-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:47:26.695-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:47:26.708-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:26.707-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:47:26.717-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:47:26.716-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:47:26.740-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.056 seconds
+[2024-03-24T05:48:02.128-0300] {processor.py:161} INFO - Started process (PID=34555) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:48:02.129-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:48:02.130-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:02.130-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:48:02.136-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:48:02.150-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:02.149-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:48:02.160-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:02.160-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:48:02.183-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.058 seconds
+[2024-03-24T05:48:37.707-0300] {processor.py:161} INFO - Started process (PID=34899) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:48:37.710-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:48:37.711-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:37.711-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:48:37.718-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:48:37.731-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:37.731-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:48:37.743-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:48:37.743-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:48:37.768-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.067 seconds
+[2024-03-24T05:49:12.095-0300] {processor.py:161} INFO - Started process (PID=35174) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:49:12.097-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:49:12.098-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:12.098-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:49:12.103-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:49:12.115-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:12.115-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:49:12.124-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:12.123-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:49:12.150-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.057 seconds
+[2024-03-24T05:49:44.276-0300] {processor.py:161} INFO - Started process (PID=35552) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:49:44.278-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:49:44.279-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:44.278-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:49:44.284-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:49:44.297-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:44.297-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:49:44.306-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:49:44.306-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:49:44.331-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.057 seconds
+[2024-03-24T05:50:19.802-0300] {processor.py:161} INFO - Started process (PID=35860) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:50:19.804-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:50:19.805-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:19.805-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:50:19.810-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:50:19.823-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:19.823-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:50:19.833-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:19.833-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:50:19.856-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.056 seconds
+[2024-03-24T05:50:52.958-0300] {processor.py:161} INFO - Started process (PID=36159) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:50:52.959-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:50:52.960-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:52.959-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:50:52.968-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:50:52.981-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:52.981-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:50:52.991-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:50:52.991-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:50:53.015-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.061 seconds
+[2024-03-24T05:51:25.378-0300] {processor.py:161} INFO - Started process (PID=36480) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:51:25.380-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:51:25.381-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:51:25.381-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:51:25.388-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:51:25.403-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:51:25.403-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:51:25.420-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:51:25.419-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:51:25.454-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.079 seconds
+[2024-03-24T05:52:02.359-0300] {processor.py:161} INFO - Started process (PID=36772) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:52:02.360-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:52:02.360-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:02.360-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:52:02.365-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:52:02.379-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:02.378-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:52:02.389-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:02.388-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:52:02.414-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.057 seconds
+[2024-03-24T05:52:38.330-0300] {processor.py:161} INFO - Started process (PID=37123) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:52:38.332-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:52:38.333-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:38.332-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:52:38.339-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:52:38.352-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:38.352-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:52:38.364-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:52:38.363-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:52:38.388-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.060 seconds
+[2024-03-24T05:53:11.487-0300] {processor.py:161} INFO - Started process (PID=37388) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:53:11.488-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:53:11.489-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:11.488-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:53:11.494-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:53:11.507-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:11.506-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:53:11.517-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:11.517-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:53:11.541-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.057 seconds
+[2024-03-24T05:53:43.315-0300] {processor.py:161} INFO - Started process (PID=37702) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:53:43.317-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:53:43.318-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:43.318-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:53:43.324-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:53:43.336-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:43.335-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:53:43.345-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:53:43.345-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:53:43.398-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.086 seconds
+[2024-03-24T05:54:18.540-0300] {processor.py:161} INFO - Started process (PID=37979) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:54:18.542-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:54:18.543-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:54:18.543-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:54:18.550-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:54:18.565-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:54:18.565-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:54:18.575-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:54:18.575-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:54:18.598-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.062 seconds
+[2024-03-24T05:55:06.403-0300] {processor.py:161} INFO - Started process (PID=38743) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:55:06.404-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:55:06.405-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:06.405-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:55:06.414-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:55:06.533-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:06.532-0300] {override.py:1769} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2024-03-24T05:55:06.550-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:06.550-0300] {override.py:1769} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2024-03-24T05:55:06.561-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:06.561-0300] {override.py:1769} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2024-03-24T05:55:06.562-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:06.562-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:55:06.575-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:06.574-0300] {dag.py:3069} INFO - Creating ORM DAG for tutorial_objectstorage
+[2024-03-24T05:55:06.575-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:06.575-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:55:06.600-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.199 seconds
+[2024-03-24T05:55:37.280-0300] {processor.py:161} INFO - Started process (PID=39310) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:55:37.281-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:55:37.282-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:37.282-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:55:37.291-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:55:37.327-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:37.327-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:55:37.342-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:55:37.342-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:55:37.366-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.091 seconds
+[2024-03-24T05:56:07.809-0300] {processor.py:161} INFO - Started process (PID=39646) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:56:07.811-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:56:07.811-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:07.811-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:56:07.819-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:56:07.847-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:07.846-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:56:07.857-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:07.857-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:56:07.875-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.068 seconds
+[2024-03-24T05:56:37.950-0300] {processor.py:161} INFO - Started process (PID=39993) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:56:37.950-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:56:37.951-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:37.951-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:56:37.956-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:56:37.987-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:37.986-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:56:37.999-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:56:37.998-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:56:38.020-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.073 seconds
+[2024-03-24T05:57:08.367-0300] {processor.py:161} INFO - Started process (PID=40366) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:57:08.368-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:57:08.369-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:08.369-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:57:08.374-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:57:08.402-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:08.401-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:57:08.412-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:08.412-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:57:08.431-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.067 seconds
+[2024-03-24T05:57:39.280-0300] {processor.py:161} INFO - Started process (PID=40679) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:57:39.281-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:57:39.282-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:39.281-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:57:39.290-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:57:39.324-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:39.324-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:57:39.334-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:57:39.334-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:57:39.358-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.081 seconds
+[2024-03-24T05:58:09.637-0300] {processor.py:161} INFO - Started process (PID=41051) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:58:09.638-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:58:09.638-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:09.638-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:58:09.644-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:58:09.675-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:09.674-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:58:09.686-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:09.686-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:58:09.706-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.072 seconds
+[2024-03-24T05:58:40.610-0300] {processor.py:161} INFO - Started process (PID=41364) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:58:40.611-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:58:40.612-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:40.612-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:58:40.617-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:58:40.645-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:40.644-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:58:40.656-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:58:40.656-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:58:40.677-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.069 seconds
+[2024-03-24T05:59:10.735-0300] {processor.py:161} INFO - Started process (PID=41729) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:59:10.735-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:59:10.736-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:10.736-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:59:10.742-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:59:10.770-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:10.770-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:59:10.783-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:10.782-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:59:10.805-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.073 seconds
+[2024-03-24T05:59:41.578-0300] {processor.py:161} INFO - Started process (PID=42041) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:59:41.579-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T05:59:41.579-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:41.579-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:59:41.584-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T05:59:41.612-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:41.612-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T05:59:41.623-0300] {logging_mixin.py:188} INFO - [2024-03-24T05:59:41.623-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T05:59:41.644-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.069 seconds
+[2024-03-24T06:00:11.694-0300] {processor.py:161} INFO - Started process (PID=42415) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:00:11.695-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:00:11.697-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:11.696-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:00:11.702-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:00:11.731-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:11.730-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:00:11.742-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:11.742-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:00:11.764-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.074 seconds
+[2024-03-24T06:00:41.972-0300] {processor.py:161} INFO - Started process (PID=42779) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:00:41.972-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:00:41.973-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:41.973-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:00:41.979-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:00:42.008-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:42.008-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:00:42.021-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:00:42.021-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:00:42.041-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.071 seconds
+[2024-03-24T06:01:12.815-0300] {processor.py:161} INFO - Started process (PID=43152) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:01:12.816-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:01:12.817-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:12.817-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:01:12.822-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:01:12.850-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:12.850-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:01:12.862-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:12.862-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:01:12.888-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.076 seconds
+[2024-03-24T06:01:43.052-0300] {processor.py:161} INFO - Started process (PID=43459) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:01:43.053-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:01:43.054-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:43.054-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:01:43.060-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:01:43.094-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:43.094-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:01:43.109-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:01:43.109-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:01:43.134-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.086 seconds
+[2024-03-24T06:02:13.216-0300] {processor.py:161} INFO - Started process (PID=43829) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:02:13.217-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:02:13.219-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:13.218-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:02:13.224-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:02:13.253-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:13.252-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:02:13.264-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:13.264-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:02:13.286-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.072 seconds
+[2024-03-24T06:02:43.572-0300] {processor.py:161} INFO - Started process (PID=44140) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:02:43.574-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:02:43.575-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:43.574-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:02:43.580-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:02:43.611-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:43.611-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:02:43.624-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:02:43.624-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:02:43.645-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.077 seconds
+[2024-03-24T06:03:13.816-0300] {processor.py:161} INFO - Started process (PID=44504) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:03:13.817-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:03:13.818-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:13.818-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:03:13.831-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:03:13.882-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:13.881-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:03:13.907-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:13.906-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:03:13.941-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.129 seconds
+[2024-03-24T06:03:44.114-0300] {processor.py:161} INFO - Started process (PID=44815) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:03:44.115-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:03:44.116-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:44.116-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:03:44.121-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:03:44.153-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:44.152-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:03:44.166-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:03:44.166-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:03:44.188-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.076 seconds
+[2024-03-24T06:04:14.638-0300] {processor.py:161} INFO - Started process (PID=45180) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:04:14.639-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:04:14.639-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:14.639-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:04:14.648-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:04:14.682-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:14.681-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:04:14.695-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:14.695-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:04:14.721-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.085 seconds
+[2024-03-24T06:04:45.618-0300] {processor.py:161} INFO - Started process (PID=45494) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:04:45.619-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:04:45.620-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:45.620-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:04:45.625-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:04:45.654-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:45.654-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:04:45.668-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:04:45.668-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:04:45.690-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.075 seconds
+[2024-03-24T06:05:16.284-0300] {processor.py:161} INFO - Started process (PID=45928) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:05:16.285-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:05:16.286-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:16.286-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:05:16.292-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:05:16.326-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:16.326-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:05:16.338-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:16.338-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:05:16.358-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.077 seconds
+[2024-03-24T06:05:46.591-0300] {processor.py:161} INFO - Started process (PID=46234) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:05:46.592-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:05:46.592-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:46.592-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:05:46.598-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:05:46.625-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:46.625-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:05:46.636-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:05:46.636-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:05:46.656-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.068 seconds
+[2024-03-24T06:06:17.467-0300] {processor.py:161} INFO - Started process (PID=46605) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:06:17.468-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:06:17.469-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:17.469-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:06:17.474-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:06:17.502-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:17.501-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:06:17.512-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:17.512-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:06:17.534-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.069 seconds
+[2024-03-24T06:06:47.623-0300] {processor.py:161} INFO - Started process (PID=46916) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:06:47.624-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:06:47.625-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:47.625-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:06:47.630-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:06:47.661-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:47.660-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:06:47.673-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:06:47.673-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:06:47.695-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.075 seconds
+[2024-03-24T06:07:18.187-0300] {processor.py:161} INFO - Started process (PID=47281) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:07:18.188-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:07:18.189-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:18.189-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:07:18.193-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:07:18.221-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:18.221-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:07:18.232-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:18.231-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:07:18.253-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.068 seconds
+[2024-03-24T06:07:49.153-0300] {processor.py:161} INFO - Started process (PID=47595) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:07:49.154-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:07:49.155-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:49.155-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:07:49.160-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:07:49.195-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:49.195-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:07:49.207-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:07:49.207-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:07:49.229-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.079 seconds
+[2024-03-24T06:08:19.917-0300] {processor.py:161} INFO - Started process (PID=47968) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:08:19.918-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:08:19.919-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:19.919-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:08:19.924-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:08:19.954-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:19.954-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:08:19.966-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:19.966-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:08:19.988-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.073 seconds
+[2024-03-24T06:08:50.941-0300] {processor.py:161} INFO - Started process (PID=48289) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:08:50.942-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:08:50.955-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:50.954-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:08:50.963-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:08:50.995-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:50.995-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:08:51.007-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:08:51.006-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:08:51.028-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.093 seconds
+[2024-03-24T06:09:21.551-0300] {processor.py:161} INFO - Started process (PID=48653) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:09:21.558-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:09:21.559-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:21.559-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:09:21.567-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:09:21.603-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:21.603-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:09:21.616-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:21.616-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:09:21.649-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.100 seconds
+[2024-03-24T06:09:51.726-0300] {processor.py:161} INFO - Started process (PID=48964) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:09:51.727-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:09:51.728-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:51.728-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:09:51.735-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:09:51.772-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:51.771-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:09:51.793-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:09:51.793-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:09:51.820-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.098 seconds
+[2024-03-24T06:10:21.909-0300] {processor.py:161} INFO - Started process (PID=49389) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:10:21.914-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:10:21.915-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:21.915-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:10:21.921-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:10:21.953-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:21.953-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:10:21.968-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:21.968-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:10:21.990-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.083 seconds
+[2024-03-24T06:10:52.084-0300] {processor.py:161} INFO - Started process (PID=49700) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:10:52.085-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:10:52.086-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:52.085-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:10:52.092-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:10:52.126-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:52.126-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:10:52.141-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:10:52.141-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:10:52.164-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.083 seconds
+[2024-03-24T06:11:22.332-0300] {processor.py:161} INFO - Started process (PID=50064) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:11:22.335-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:11:22.336-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:22.336-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:11:22.342-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:11:22.376-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:22.376-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:11:22.391-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:22.391-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:11:22.418-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.090 seconds
+[2024-03-24T06:11:52.676-0300] {processor.py:161} INFO - Started process (PID=50375) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:11:52.676-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:11:52.677-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:52.677-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:11:52.684-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:11:52.720-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:52.720-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:11:52.734-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:11:52.733-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:11:52.759-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.087 seconds
+[2024-03-24T06:12:22.932-0300] {processor.py:161} INFO - Started process (PID=50739) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:12:22.934-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:12:22.936-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:22.935-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:12:22.943-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:12:22.977-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:22.977-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:12:22.992-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:22.992-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:12:23.014-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.084 seconds
+[2024-03-24T06:12:53.064-0300] {processor.py:161} INFO - Started process (PID=51043) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:12:53.065-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:12:53.073-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:53.072-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:12:53.093-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:12:53.183-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:53.182-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:12:53.210-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:12:53.210-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:12:53.264-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.206 seconds
+[2024-03-24T06:13:23.617-0300] {processor.py:161} INFO - Started process (PID=51414) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:13:23.618-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:13:23.618-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:23.618-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:13:23.626-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:13:23.657-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:23.657-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:13:23.670-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:23.669-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:13:23.700-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.086 seconds
+[2024-03-24T06:13:53.984-0300] {processor.py:161} INFO - Started process (PID=51726) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:13:53.984-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:13:53.985-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:53.985-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:13:53.991-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:13:54.021-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:54.021-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:13:54.034-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:13:54.034-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:13:54.060-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.079 seconds
+[2024-03-24T06:14:24.223-0300] {processor.py:161} INFO - Started process (PID=52089) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:14:24.226-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:14:24.228-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:24.227-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:14:24.234-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:14:24.267-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:24.267-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:14:24.281-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:24.280-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:14:24.303-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.083 seconds
+[2024-03-24T06:14:54.568-0300] {processor.py:161} INFO - Started process (PID=52401) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:14:54.569-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:14:54.570-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:54.570-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:14:54.577-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:14:54.607-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:54.607-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:14:54.624-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:14:54.624-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:14:54.654-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.088 seconds
+[2024-03-24T06:15:24.914-0300] {processor.py:161} INFO - Started process (PID=52830) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:15:24.916-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:15:24.916-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:24.916-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:15:24.922-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:15:24.953-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:24.953-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:15:24.967-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:24.967-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:15:24.989-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.078 seconds
+[2024-03-24T06:15:55.447-0300] {processor.py:161} INFO - Started process (PID=53142) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:15:55.449-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:15:55.450-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:55.450-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:15:55.455-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:15:55.487-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:55.486-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:15:55.503-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:15:55.503-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:15:55.525-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.082 seconds
+[2024-03-24T06:16:25.569-0300] {processor.py:161} INFO - Started process (PID=53505) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:16:25.570-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:16:25.571-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:25.571-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:16:25.577-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:16:25.611-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:25.610-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:16:25.624-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:25.624-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:16:25.646-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.080 seconds
+[2024-03-24T06:16:55.770-0300] {processor.py:161} INFO - Started process (PID=53815) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:16:55.773-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:16:55.774-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:55.773-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:16:55.780-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:16:55.817-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:55.817-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:16:55.830-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:16:55.830-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:16:55.859-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.091 seconds
+[2024-03-24T06:17:26.081-0300] {processor.py:161} INFO - Started process (PID=54183) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:17:26.081-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:17:26.082-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:26.082-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:17:26.088-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:17:26.116-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:26.116-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:17:26.131-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:26.131-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:17:26.155-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.083 seconds
+[2024-03-24T06:17:56.467-0300] {processor.py:161} INFO - Started process (PID=54494) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:17:56.468-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:17:56.470-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:56.469-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:17:56.475-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:17:56.506-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:56.506-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:17:56.518-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:17:56.517-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:17:56.542-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.078 seconds
+[2024-03-24T06:18:26.678-0300] {processor.py:161} INFO - Started process (PID=54858) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:18:26.678-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:18:26.679-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:26.679-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:18:26.685-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:18:26.717-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:26.716-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:18:26.732-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:26.732-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:18:26.758-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.086 seconds
+[2024-03-24T06:18:56.925-0300] {processor.py:161} INFO - Started process (PID=55168) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:18:56.926-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:18:56.926-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:56.926-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:18:56.932-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:18:56.966-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:56.965-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:18:56.983-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:18:56.983-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:18:57.007-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.085 seconds
+[2024-03-24T06:19:27.318-0300] {processor.py:161} INFO - Started process (PID=55533) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:19:27.319-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:19:27.320-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:27.320-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:19:27.328-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:19:27.356-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:27.355-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:19:27.371-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:27.371-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:19:27.397-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.081 seconds
+[2024-03-24T06:19:57.708-0300] {processor.py:161} INFO - Started process (PID=55844) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:19:57.709-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:19:57.711-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:57.710-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:19:57.717-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:19:57.754-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:57.754-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:19:57.769-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:19:57.769-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:19:57.796-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.091 seconds
+[2024-03-24T06:20:28.179-0300] {processor.py:161} INFO - Started process (PID=56270) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:20:28.182-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:20:28.182-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:28.182-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:20:28.188-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:20:28.219-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:28.218-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:20:28.234-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:28.233-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:20:28.257-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.083 seconds
+[2024-03-24T06:20:58.544-0300] {processor.py:161} INFO - Started process (PID=56575) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:20:58.546-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:20:58.547-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:58.547-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:20:58.554-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:20:58.590-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:58.589-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:20:58.606-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:20:58.606-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:20:58.630-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.095 seconds
+[2024-03-24T06:21:28.674-0300] {processor.py:161} INFO - Started process (PID=57071) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:21:28.675-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:21:28.676-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:28.676-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:21:28.686-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:21:28.717-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:28.717-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:21:28.733-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:28.733-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:21:28.758-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.087 seconds
+[2024-03-24T06:21:59.306-0300] {processor.py:161} INFO - Started process (PID=57559) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:21:59.308-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:21:59.309-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:59.309-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:21:59.318-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:21:59.364-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:59.363-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:21:59.384-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:21:59.384-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:21:59.421-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.128 seconds
+[2024-03-24T06:22:29.975-0300] {processor.py:161} INFO - Started process (PID=58191) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:22:29.976-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:22:29.977-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:29.976-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:22:29.984-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:22:30.017-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:30.017-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:22:30.035-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:22:30.035-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:22:30.062-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.090 seconds
+[2024-03-24T06:23:00.338-0300] {processor.py:161} INFO - Started process (PID=58631) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:23:00.339-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:23:00.340-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:00.340-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:23:00.346-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:23:00.386-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:00.384-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:23:00.401-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:00.400-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:23:00.427-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.095 seconds
+[2024-03-24T06:23:30.573-0300] {processor.py:161} INFO - Started process (PID=59006) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:23:30.574-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:23:30.575-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:30.574-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:23:30.581-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:23:30.613-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:30.613-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:23:30.625-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:23:30.625-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:23:30.648-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.079 seconds
+[2024-03-24T06:24:01.431-0300] {processor.py:161} INFO - Started process (PID=59606) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:24:01.443-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:24:01.444-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:01.444-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:24:01.452-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:24:01.538-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:01.537-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:24:01.584-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:01.584-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:24:01.637-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.211 seconds
+[2024-03-24T06:24:31.884-0300] {processor.py:161} INFO - Started process (PID=60210) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:24:31.885-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:24:31.886-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:31.885-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:24:31.895-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:24:31.929-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:31.929-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:24:31.946-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:24:31.946-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:24:31.975-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.093 seconds
+[2024-03-24T06:25:02.785-0300] {processor.py:161} INFO - Started process (PID=60746) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:25:02.793-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:25:02.794-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:02.794-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:25:02.815-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:25:02.879-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:02.879-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:25:02.909-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:02.909-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:25:03.033-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.262 seconds
+[2024-03-24T06:25:33.115-0300] {processor.py:161} INFO - Started process (PID=61259) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:25:33.116-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:25:33.117-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:33.117-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:25:33.124-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:25:33.158-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:33.158-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:25:33.173-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:25:33.172-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:25:33.201-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.088 seconds
+[2024-03-24T06:26:03.375-0300] {processor.py:161} INFO - Started process (PID=61655) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:26:03.376-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:26:03.376-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:03.376-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:26:03.382-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:26:03.410-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:03.410-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:26:03.422-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:03.422-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:26:03.443-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.071 seconds
+[2024-03-24T06:26:33.507-0300] {processor.py:161} INFO - Started process (PID=62044) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:26:33.507-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:26:33.508-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:33.508-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:26:33.515-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:26:33.543-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:33.542-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:26:33.555-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:26:33.554-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:26:33.575-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.072 seconds
+[2024-03-24T06:27:04.222-0300] {processor.py:161} INFO - Started process (PID=62545) to work on /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:27:04.223-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-03-24T06:27:04.224-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:27:04.223-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:27:04.229-0300] {processor.py:840} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-03-24T06:27:04.258-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:27:04.258-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-24T06:27:04.271-0300] {logging_mixin.py:188} INFO - [2024-03-24T06:27:04.271-0300] {dag.py:3834} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-03-24T06:27:04.295-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.076 seconds
