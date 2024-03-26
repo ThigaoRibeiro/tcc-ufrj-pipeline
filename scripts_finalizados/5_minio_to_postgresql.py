@@ -109,7 +109,7 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
         cidade = df.loc[df.index[0], 'cidade']
         estado = df.loc[df.index[0], 'estado']
         pais = df.loc[df.index[0], 'pais']
-        id_unico = f'{id_rota}__{data_inicio_rota}__{inicio_rota}__{nome_usuario}'
+        id_unico = f'{id_rota}__{nome_usuario}'
         data_carga_banco = df.loc[df.index[0], 'data_carga_banco']
         longitude_inicial_float = float(longitude_inicial)
         latitude_inicial_float = float(latitude_inicial)    

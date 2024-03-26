@@ -191,7 +191,7 @@ try:
         cursor.execute(truncate)
 
         copy_sql = """
-            COPY tb_consumo_veiculos (classe,drive,fuel_type,make,model,transmission,years,cylinders,displacement,city_km_l,highway_km_l)
+            COPY tb_consumo_veiculos (classe, cylinders, displacement, drive, fuel_type, make, model, transmission, year, city_km_l, highway_km_l)
             FROM stdin WITH CSV HEADER DELIMITER as ';'
         """
 
