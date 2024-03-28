@@ -1,3 +1,6 @@
+###############################################
+#### IMPORTAÇÃO DAS BIBLIOTECAS NECESSÁRIAS ###
+###############################################
 import pandas as pd
 from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
@@ -8,21 +11,31 @@ from io import StringIO, BytesIO
 import psycopg2
 from datetime import datetime
 data_hora_atual = datetime.now()
-from time import sleep
+import time
+#from time import sleep
 from decimal import Decimal
+
+
+##############################
+### DEFINIÇÃO DE VARIÁVEIS ### 
+##############################
 CLUSTERING = 'clustering'
 ML_RESULTS = 'resultados-ml'
-
-import time
 start_time = time.time()
 
 
+##############################################
+### CRIANDO UMA INSTÂNCIA DO CLIENTE MINIO ###
+##############################################
 minioclient = Minio('localhost:9000',
     access_key='minioadmin',
     secret_key='minioadmin',
     secure=False)
 
 
+#############################################
+### ACESSANDO O BANCO DE DADOS POSTGRESQL ###
+#############################################
 db_config = {
 'host': 'localhost',
 'database': 'postgres',
@@ -31,13 +44,102 @@ db_config = {
 }
 
 
+#####################################################################
+### EXCLUINDO QUALQUER ARQUIVO QUE EXISTA NO BUCKET DE CLUSTERING ###
+#####################################################################
 arquivos_clustering = [arquivo for arquivo in minioclient.list_objects(CLUSTERING) if arquivo.object_name.endswith(".csv")]
 ## Itera sobre cada arquivo CSV encontrado no Minio
 for arquivo_clustering in arquivos_clustering:
-    # Obtém o objeto do arquivo CSV do Minio      
+    # Exclui qualquer arquivo que exista no Bucket de clustering no MINIO
     nome_arquivo = arquivo_clustering.object_name    
     minioclient.remove_object(CLUSTERING, nome_arquivo)
 
+
+############################################################
+### CRIAÇÃO DA VIEW  [vw_valores_combustivel_por_viagem] ###
+############################################################
+conn = psycopg2.connect(**db_config)
+cursor = conn.cursor()
+
+create_view = '''
+create or replace view vw_valores_combustivel_por_viagem as
+with 
+cons as (
+	select 
+		marca,
+		modelo,
+		tipo_combustivel,
+		avg(media_consumo_km_l) as media_consumo_km_l
+	from(
+		select 
+			distinct 
+			make as marca,						
+			split_part(model,' ', 1) as modelo,
+			fuel_type as tipo_combustivel,		
+			avg((city_km_l::numeric + highway_km_l::numeric) / 2) as media_consumo_km_l
+		from tb_consumo_veiculos
+		group by 
+			make,model,fuel_type ) as tabela
+	group by
+		marca,modelo,tipo_combustivel),
+	
+val_combus as (
+	select 	
+		estado,	
+		case 
+			when split_part(produto,' ', 1) = 'GASOLINA' then 'gas' else split_part(produto,' ', 1) end as produto,
+		AVG(preco_medio_revenda::numeric) as preco_medio_revenda 
+	from preco_combustivel_semanal
+	where estado = 'RIO DE JANEIRO'
+	group by 
+		estado, split_part(produto,' ', 1)),
+
+tb_consumo as (
+	select 
+		dist_perco.id_unico,
+		dist_perco.nome_usuario, 
+		cons.tipo_combustivel,
+		dist_perco.data_inicio_rota,
+		dist_perco.hora_inicio_rota,	
+		dist_perco.hora_fim_rota,	
+		cons.media_consumo_km_l,
+		dist_perco.dist_euclidiana,
+		dist_perco.dist_euclidiana::numeric / cons.media_consumo_km_l::numeric as cons_por_km,
+		val_combus.preco_medio_revenda,
+		(dist_perco.dist_euclidiana::numeric / cons.media_consumo_km_l::numeric) * val_combus.preco_medio_revenda::numeric as custo_trajeto  
+	from vw_distancias_percorridas as dist_perco	
+	left join cons on split_part(LOWER(dist_perco.nome_usuario),'_',1) = cons.marca and split_part(LOWER(dist_perco.nome_usuario),'_',2) = cons.modelo
+	left join val_combus on cons.tipo_combustivel = val_combus.produto
+	where dist_perco.data_inicio_rota is not null)
+
+select 
+	distinct 
+	tb_consumo.id_unico as id_unico,
+	tb_consumo.nome_usuario as nome_usuario,
+	tb_consumo.tipo_combustivel as tipo_combustivel,	
+	tb_consumo.data_inicio_rota as data_rota,	
+	tb_consumo.hora_inicio_rota as inicio_viagem, 	
+	tb_consumo.hora_fim_rota as fim_viagem,	
+	tb_consumo.media_consumo_km_l as media_consumo_km_l,
+	tb_consumo.dist_euclidiana as dist_km,
+	tb_consumo.cons_por_km as cons_por_km,
+	tb_consumo.preco_medio_revenda as preco_medio_revenda,
+	tb_consumo.custo_trajeto as custo_trajeto
+from tb_consumo
+where media_consumo_km_l is not null
+order by dist_km desc
+'''
+cursor.execute(create_view)
+conn.commit()
+conn.close()
+
+
+
+##########################################################################
+### CRIAÇÃO DO DATAFRAME PARA FILTRAGEM DOS DADOS PARA USO COM K-MEANS ###
+##########################################################################
+conn = psycopg2.connect(**db_config)
+cursor = conn.cursor()
 
 sql_query = """
 select	
@@ -56,12 +158,12 @@ group by
 	custo_trajeto 
 """
 
-conn = psycopg2.connect(**db_config)
-cursor = conn.cursor()
 cursor.execute(sql_query)
 resultados_agrup_veiculos = cursor.fetchall()
 conn.close()
 df_agrup_veiculos = pd.DataFrame(resultados_agrup_veiculos, columns=[desc[0] for desc in cursor.description])
+
+
 
 # Selecionando colunas relevantes
 X = df_agrup_veiculos[['dist_km', 'media_consumo_km_l']]
