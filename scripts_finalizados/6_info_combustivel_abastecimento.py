@@ -190,10 +190,10 @@ try:
         truncate = """ truncate table tb_consumo_veiculos; """
         cursor.execute(truncate)
 
-        copy_sql = """
-            COPY tb_consumo_veiculos (classe, cylinders, displacement, drive, fuel_type, make, model, transmission, year, city_km_l, highway_km_l)
-            FROM stdin WITH CSV HEADER DELIMITER as ';'
-        """
+        # copy_sql = """
+        #     COPY tb_consumo_veiculos (classe, cylinders, displacement, drive, fuel_type, make, model, transmission, year, city_km_l, highway_km_l)
+        #     FROM stdin WITH CSV HEADER DELIMITER as ';'
+        # """
 
         # Itera sobre cada arquivo CSV encontrado no Minio
         for arquivo_consumo_veiculo in arquivo_consumo_veiculos:
@@ -208,12 +208,44 @@ try:
             csv_buffer = BytesIO(csv_bytes)
             nome_arquivo = arquivo_consumo_veiculo.object_name
 
+            for i in range(len(df)):
+                classe = df['class'].iloc[i]
+                cylinders = df['cylinders'].iloc[i]
+                displacement = df['displacement'].iloc[i]
+                drive = df['drive'].iloc[i]
+                fuel_type = df['fuel_type'].iloc[i]
+                make = df['make'].iloc[i]
+                model = df['model'].iloc[i]
+                transmission = df['transmission'].iloc[i]
+                year = df['year'].iloc[i]
+                city_km_l = df['city_km/l'].iloc[i]
+                highway_km_l = df['highway_km/l'].iloc[i]
+
+
+                insert = f'''
+                    insert into tb_consumo_veiculos (classe,cylinders,displacement,drive,fuel_type,make,model,transmission,"year",city_km_l,highway_km_l)
+                    values (
+                    '{classe}',
+                    '{cylinders}',
+                    '{displacement}',
+                    '{drive}',
+                    '{fuel_type}',
+                    '{make}',
+                    '{model}',
+                    '{transmission}',
+                    '{year}',
+                    '{city_km_l}',
+                    '{highway_km_l}'
+                    )'''
+                cursor.execute(insert)
+
+
 
             # Usa io.StringIO para criar um objeto de arquivo legível a partir da string CSV
-            with io.StringIO(csv_decod) as file:        
+            # with io.StringIO(csv_decod) as file:        
 
                 # Executa o comando COPY para inserir os dados no banco de dados PostgreSQL
-                cursor.copy_expert(sql=copy_sql, file=file)
+                # cursor.copy_expert(sql=copy_sql, file=file)
 
             ## Commit para salvar as alterações no banco de dados    
             conn.commit()
@@ -229,12 +261,12 @@ except Exception as e:
     print(f"Erro: {str(e)}")
 
 
-end_time = time.time()
-execution_time = end_time - start_time
+# end_time = time.time()
+# execution_time = end_time - start_time
 
-hours, remainder = divmod(execution_time, 3600)
-minutes, remainder = divmod(remainder, 60)
-seconds, milliseconds = divmod(remainder, 1)
+# hours, remainder = divmod(execution_time, 3600)
+# minutes, remainder = divmod(remainder, 60)
+# seconds, milliseconds = divmod(remainder, 1)
 
-print(f"Tempo de execução: {int(hours)} horas, {int(minutes)} minutos, {int(seconds)} segundos e {int(milliseconds * 1000)} milissegundos")
+# print(f"Tempo de execução: {int(hours)} horas, {int(minutes)} minutos, {int(seconds)} segundos e {int(milliseconds * 1000)} milissegundos")
 
