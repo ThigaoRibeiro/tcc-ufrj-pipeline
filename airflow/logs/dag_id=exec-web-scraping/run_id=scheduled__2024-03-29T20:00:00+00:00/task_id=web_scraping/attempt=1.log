@@ -1,0 +1,57 @@
+[2024-03-29T17:20:02.490-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: exec-web-scraping.web_scraping scheduled__2024-03-29T20:00:00+00:00 [queued]>
+[2024-03-29T17:20:02.500-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: exec-web-scraping.web_scraping scheduled__2024-03-29T20:00:00+00:00 [queued]>
+[2024-03-29T17:20:02.500-0300] {taskinstance.py:2193} INFO - Starting attempt 1 of 6
+[2024-03-29T17:20:02.512-0300] {taskinstance.py:2217} INFO - Executing <Task(BashOperator): web_scraping> on 2024-03-29 20:00:00+00:00
+[2024-03-29T17:20:02.515-0300] {standard_task_runner.py:60} INFO - Started process 54165 to run task
+[2024-03-29T17:20:02.518-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'exec-web-scraping', 'web_scraping', 'scheduled__2024-03-29T20:00:00+00:00', '--job-id', '99', '--raw', '--subdir', 'DAGS_FOLDER/dag_web_scrapping_load_to_minio.py', '--cfg-path', '/tmp/tmpcvkwoh72']
+[2024-03-29T17:20:02.519-0300] {standard_task_runner.py:88} INFO - Job 99: Subtask web_scraping
+[2024-03-29T17:20:02.599-0300] {task_command.py:423} INFO - Running <TaskInstance: exec-web-scraping.web_scraping scheduled__2024-03-29T20:00:00+00:00 [running]> on host DESKTOP-RPMMOLA.
+[2024-03-29T17:20:02.737-0300] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='thiago' AIRFLOW_CTX_DAG_ID='exec-web-scraping' AIRFLOW_CTX_TASK_ID='web_scraping' AIRFLOW_CTX_EXECUTION_DATE='2024-03-29T20:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-29T20:00:00+00:00'
+[2024-03-29T17:20:02.738-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-29T17:20:02.738-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/thiago/tcc_ufrj/scripts_finalizados/1_webScraping_openstreetmap.py']
+[2024-03-29T17:20:02.744-0300] {subprocess.py:86} INFO - Output:
+[2024-03-29T17:20:15.871-0300] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-03-29T17:20:15.872-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/scripts_finalizados/1_webScraping_openstreetmap.py", line 61, in <module>
+[2024-03-29T17:20:15.872-0300] {subprocess.py:93} INFO -     conteudo_pagina_download = navegador.page_source # Obtendo o conteúdo HTML da página de download.
+[2024-03-29T17:20:15.873-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 448, in page_source
+[2024-03-29T17:20:15.873-0300] {subprocess.py:93} INFO -     return self.execute(Command.GET_PAGE_SOURCE)["value"]
+[2024-03-29T17:20:15.874-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/selenium/webdriver/remote/webdriver.py", line 347, in execute
+[2024-03-29T17:20:15.874-0300] {subprocess.py:93} INFO -     self.error_handler.check_response(response)
+[2024-03-29T17:20:15.874-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/selenium/webdriver/remote/errorhandler.py", line 229, in check_response
+[2024-03-29T17:20:15.874-0300] {subprocess.py:93} INFO -     raise exception_class(message, screen, stacktrace)
+[2024-03-29T17:20:15.875-0300] {subprocess.py:93} INFO - selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+[2024-03-29T17:20:15.875-0300] {subprocess.py:93} INFO - from unknown error: web view not found
+[2024-03-29T17:20:15.875-0300] {subprocess.py:93} INFO -   (Session info: chrome=123.0.6312.58)
+[2024-03-29T17:20:15.875-0300] {subprocess.py:93} INFO - Stacktrace:
+[2024-03-29T17:20:15.875-0300] {subprocess.py:93} INFO - #0 0x55cf0497a8a3 <unknown>
+[2024-03-29T17:20:15.876-0300] {subprocess.py:93} INFO - #1 0x55cf046708c6 <unknown>
+[2024-03-29T17:20:15.876-0300] {subprocess.py:93} INFO - #2 0x55cf0464798d <unknown>
+[2024-03-29T17:20:15.876-0300] {subprocess.py:93} INFO - #3 0x55cf046e5a2d <unknown>
+[2024-03-29T17:20:15.876-0300] {subprocess.py:93} INFO - #4 0x55cf046fb5a6 <unknown>
+[2024-03-29T17:20:15.877-0300] {subprocess.py:93} INFO - #5 0x55cf046dd343 <unknown>
+[2024-03-29T17:20:15.877-0300] {subprocess.py:93} INFO - #6 0x55cf046ae593 <unknown>
+[2024-03-29T17:20:15.877-0300] {subprocess.py:93} INFO - #7 0x55cf046aef5e <unknown>
+[2024-03-29T17:20:15.877-0300] {subprocess.py:93} INFO - #8 0x55cf0493e88b <unknown>
+[2024-03-29T17:20:15.877-0300] {subprocess.py:93} INFO - #9 0x55cf049427e5 <unknown>
+[2024-03-29T17:20:15.877-0300] {subprocess.py:93} INFO - #10 0x55cf0492c5b1 <unknown>
+[2024-03-29T17:20:15.877-0300] {subprocess.py:93} INFO - #11 0x55cf04943372 <unknown>
+[2024-03-29T17:20:15.878-0300] {subprocess.py:93} INFO - #12 0x55cf049118bf <unknown>
+[2024-03-29T17:20:15.878-0300] {subprocess.py:93} INFO - #13 0x55cf04969768 <unknown>
+[2024-03-29T17:20:15.878-0300] {subprocess.py:93} INFO - #14 0x55cf0496993b <unknown>
+[2024-03-29T17:20:15.879-0300] {subprocess.py:93} INFO - #15 0x55cf049799f4 <unknown>
+[2024-03-29T17:20:15.879-0300] {subprocess.py:93} INFO - #16 0x7f75c4105ac3 <unknown>
+[2024-03-29T17:20:15.879-0300] {subprocess.py:93} INFO - 
+[2024-03-29T17:20:15.991-0300] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-03-29T17:20:16.011-0300] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-03-29T17:20:16.015-0300] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=exec-web-scraping, task_id=web_scraping, execution_date=20240329T200000, start_date=20240329T202002, end_date=20240329T202016
+[2024-03-29T17:20:16.027-0300] {standard_task_runner.py:107} ERROR - Failed to execute job 99 for task web_scraping (Bash command failed. The command returned a non-zero exit code 1.; 54165)
+[2024-03-29T17:20:16.033-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-29T17:20:16.065-0300] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

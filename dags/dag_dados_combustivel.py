@@ -21,7 +21,7 @@ with DAG (
 
 # Tarefa para executar o script WebScraping_OpenStreetMap_v2.py
     exec_dados_combustivel_consumo = BashOperator(
-        task_id='load_minio_to_bucket',
+        task_id='combustivel_abastecimento',
         bash_command='python3 /home/thiago/tcc_ufrj/scripts_finalizados/6_info_combustivel_abastecimento.py',
         dag=dag,        
     )

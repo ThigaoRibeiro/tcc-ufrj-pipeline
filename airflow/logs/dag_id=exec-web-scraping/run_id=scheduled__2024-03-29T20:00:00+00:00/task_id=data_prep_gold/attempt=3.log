@@ -1,0 +1,16 @@
+[2024-03-29T17:37:56.944-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: exec-web-scraping.data_prep_gold scheduled__2024-03-29T20:00:00+00:00 [queued]>
+[2024-03-29T17:37:56.956-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: exec-web-scraping.data_prep_gold scheduled__2024-03-29T20:00:00+00:00 [queued]>
+[2024-03-29T17:37:56.956-0300] {taskinstance.py:2193} INFO - Starting attempt 3 of 6
+[2024-03-29T17:37:56.970-0300] {taskinstance.py:2217} INFO - Executing <Task(BashOperator): data_prep_gold> on 2024-03-29 20:00:00+00:00
+[2024-03-29T17:37:56.973-0300] {standard_task_runner.py:60} INFO - Started process 62951 to run task
+[2024-03-29T17:37:56.975-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'exec-web-scraping', 'data_prep_gold', 'scheduled__2024-03-29T20:00:00+00:00', '--job-id', '108', '--raw', '--subdir', 'DAGS_FOLDER/dag_web_scrapping_load_to_minio.py', '--cfg-path', '/tmp/tmp4rhv6en2']
+[2024-03-29T17:37:56.976-0300] {standard_task_runner.py:88} INFO - Job 108: Subtask data_prep_gold
+[2024-03-29T17:37:57.047-0300] {task_command.py:423} INFO - Running <TaskInstance: exec-web-scraping.data_prep_gold scheduled__2024-03-29T20:00:00+00:00 [running]> on host DESKTOP-RPMMOLA.
+[2024-03-29T17:37:57.167-0300] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='thiago' AIRFLOW_CTX_DAG_ID='exec-web-scraping' AIRFLOW_CTX_TASK_ID='data_prep_gold' AIRFLOW_CTX_EXECUTION_DATE='2024-03-29T20:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='3' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-29T20:00:00+00:00'
+[2024-03-29T17:37:57.168-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-29T17:37:57.169-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/thiago/tcc_ufrj/scripts_finalizados/4_data_prep_gold.py']
+[2024-03-29T17:37:57.174-0300] {subprocess.py:86} INFO - Output:
+[2024-03-29T17:38:22.401-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-29T17:38:22.450-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=exec-web-scraping, task_id=data_prep_gold, execution_date=20240329T200000, start_date=20240329T203756, end_date=20240329T203822
+[2024-03-29T17:38:22.484-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-29T17:38:22.518-0300] {taskinstance.py:3312} INFO - 1 downstream tasks scheduled from follow-on schedule check
