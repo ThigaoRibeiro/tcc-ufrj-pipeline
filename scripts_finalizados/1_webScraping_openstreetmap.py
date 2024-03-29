@@ -4,7 +4,7 @@
 ## pip install selenium
 ## pip install webdriver-manager
 ## pip install BeautifulSoup4
-#
+##############################################
 from selenium import webdriver # Importa o módulo do Selenium de automação de navegador.
 from webdriver_manager.chrome import ChromeDriverManager # Importa o gerenciador de driver para o Chrome.
 from selenium.webdriver.chrome.service import Service # Importa o serviço do driver do Chrome.
@@ -132,7 +132,9 @@ for arquivo_para_pre_processamento in arquivos_para_pre_processamento: # Iterand
         print(f"Erro ao mover o arquivo: '{arquivo_para_pre_processamento}': {e}.") #--> Exibindo o erro
 
 
-
+###########################################################
+### CALCULANDO O TEMPO DE EXECUÇÃO DO SCRIPT (OPCIONAL) ###
+###########################################################
 # end_time = time.time()
 # execution_time = end_time - start_time
 # 

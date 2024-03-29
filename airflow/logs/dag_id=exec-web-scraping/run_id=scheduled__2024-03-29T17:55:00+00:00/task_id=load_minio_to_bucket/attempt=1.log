@@ -1,0 +1,17 @@
+[2024-03-29T15:07:30.191-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: exec-web-scraping.load_minio_to_bucket scheduled__2024-03-29T17:55:00+00:00 [queued]>
+[2024-03-29T15:07:30.202-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: exec-web-scraping.load_minio_to_bucket scheduled__2024-03-29T17:55:00+00:00 [queued]>
+[2024-03-29T15:07:30.202-0300] {taskinstance.py:2193} INFO - Starting attempt 1 of 6
+[2024-03-29T15:07:30.216-0300] {taskinstance.py:2217} INFO - Executing <Task(BashOperator): load_minio_to_bucket> on 2024-03-29 17:55:00+00:00
+[2024-03-29T15:07:30.219-0300] {standard_task_runner.py:60} INFO - Started process 37743 to run task
+[2024-03-29T15:07:30.221-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'exec-web-scraping', 'load_minio_to_bucket', 'scheduled__2024-03-29T17:55:00+00:00', '--job-id', '24', '--raw', '--subdir', 'DAGS_FOLDER/dag_web_scrapping_load_to_minio.py', '--cfg-path', '/tmp/tmp1qkqx2gk']
+[2024-03-29T15:07:30.222-0300] {standard_task_runner.py:88} INFO - Job 24: Subtask load_minio_to_bucket
+[2024-03-29T15:07:30.308-0300] {task_command.py:423} INFO - Running <TaskInstance: exec-web-scraping.load_minio_to_bucket scheduled__2024-03-29T17:55:00+00:00 [running]> on host DESKTOP-RPMMOLA.
+[2024-03-29T15:07:30.437-0300] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='thiago' AIRFLOW_CTX_DAG_ID='exec-web-scraping' AIRFLOW_CTX_TASK_ID='load_minio_to_bucket' AIRFLOW_CTX_EXECUTION_DATE='2024-03-29T17:55:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-29T17:55:00+00:00'
+[2024-03-29T15:07:30.438-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-29T15:07:30.439-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/thiago/tcc_ufrj/scripts_finalizados/5_minio_to_postgresql.py']
+[2024-03-29T15:07:30.445-0300] {subprocess.py:86} INFO - Output:
+[2024-03-29T15:07:31.242-0300] {subprocess.py:93} INFO - Não existem arquivos CSV no bucket. Nenhuma carga de dados será executada.
+[2024-03-29T15:07:31.380-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-29T15:07:31.427-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=exec-web-scraping, task_id=load_minio_to_bucket, execution_date=20240329T175500, start_date=20240329T180730, end_date=20240329T180731
+[2024-03-29T15:07:31.477-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-29T15:07:31.505-0300] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

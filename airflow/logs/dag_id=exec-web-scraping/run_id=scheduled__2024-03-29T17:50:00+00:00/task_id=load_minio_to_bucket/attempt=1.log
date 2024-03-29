@@ -1,0 +1,36 @@
+[2024-03-29T15:04:09.257-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: exec-web-scraping.load_minio_to_bucket scheduled__2024-03-29T17:50:00+00:00 [queued]>
+[2024-03-29T15:04:09.266-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: exec-web-scraping.load_minio_to_bucket scheduled__2024-03-29T17:50:00+00:00 [queued]>
+[2024-03-29T15:04:09.267-0300] {taskinstance.py:2193} INFO - Starting attempt 1 of 6
+[2024-03-29T15:04:09.280-0300] {taskinstance.py:2217} INFO - Executing <Task(BashOperator): load_minio_to_bucket> on 2024-03-29 17:50:00+00:00
+[2024-03-29T15:04:09.283-0300] {standard_task_runner.py:60} INFO - Started process 33616 to run task
+[2024-03-29T15:04:09.286-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'exec-web-scraping', 'load_minio_to_bucket', 'scheduled__2024-03-29T17:50:00+00:00', '--job-id', '21', '--raw', '--subdir', 'DAGS_FOLDER/dag_web_scrapping_load_to_minio.py', '--cfg-path', '/tmp/tmpapaxftks']
+[2024-03-29T15:04:09.287-0300] {standard_task_runner.py:88} INFO - Job 21: Subtask load_minio_to_bucket
+[2024-03-29T15:04:09.375-0300] {task_command.py:423} INFO - Running <TaskInstance: exec-web-scraping.load_minio_to_bucket scheduled__2024-03-29T17:50:00+00:00 [running]> on host DESKTOP-RPMMOLA.
+[2024-03-29T15:04:09.493-0300] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='thiago' AIRFLOW_CTX_DAG_ID='exec-web-scraping' AIRFLOW_CTX_TASK_ID='load_minio_to_bucket' AIRFLOW_CTX_EXECUTION_DATE='2024-03-29T17:50:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-29T17:50:00+00:00'
+[2024-03-29T15:04:09.494-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-29T15:04:09.494-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/thiago/tcc_ufrj/scripts_finalizados/5_minio_to_postgresql.py']
+[2024-03-29T15:04:09.502-0300] {subprocess.py:86} INFO - Output:
+[2024-03-29T15:05:16.757-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314438__TOYOTA_COROLLA_HYBRID_TSS2_2019
+[2024-03-29T15:05:16.758-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314441__HONDA_ACCORD_2018
+[2024-03-29T15:05:16.758-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314441__TOYOTA_PRIUS_2017-20
+[2024-03-29T15:05:16.759-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314441__VOLKSWAGEN_PASSAT_2022
+[2024-03-29T15:05:16.759-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314442__HONDA_CIVIC_2016
+[2024-03-29T15:05:16.759-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314442__HYUNDAI_IONIQ_PHEV_2020
+[2024-03-29T15:05:16.760-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314442__TOYOTA_RAV4_HYBRID_2019
+[2024-03-29T15:05:16.760-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314443__FORD_EXPLORER
+[2024-03-29T15:05:16.760-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314443__HYUNDAI_IONIQ_PHEV_2020
+[2024-03-29T15:05:16.761-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314443__TOYOTA_PRIUS_v_2017
+[2024-03-29T15:05:16.761-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314445__VOLKSWAGEN_ATLAS_CROSS_SPORT
+[2024-03-29T15:05:16.761-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314445__VOLKSWAGEN_PASSAT_2022
+[2024-03-29T15:05:16.761-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314445__VOLKSWAGEN_TIGUAN_2022
+[2024-03-29T15:05:16.761-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314583__HONDA_ACCORD_2018
+[2024-03-29T15:05:16.762-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314583__HONDA_PILOT_2017
+[2024-03-29T15:05:16.762-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314583__KIA_EV6_2022
+[2024-03-29T15:05:16.762-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314669__HYUNDAI_IONIQ_PHEV_2020
+[2024-03-29T15:05:16.763-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314669__HYUNDAI_SANTA_FE_2019
+[2024-03-29T15:05:16.763-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'routes' no id 11314669__LEXUS_RX_2016
+[2024-03-29T15:05:16.764-0300] {subprocess.py:93} INFO - Erro no insert da [tb_dist_euclidian_manhattam_minkowski]: Cannot set a DataFrame with multiple columns to the single column dist_euclidiana
+[2024-03-29T15:05:16.953-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-29T15:05:17.005-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=exec-web-scraping, task_id=load_minio_to_bucket, execution_date=20240329T175000, start_date=20240329T180409, end_date=20240329T180517
+[2024-03-29T15:05:17.029-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-29T15:05:17.057-0300] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

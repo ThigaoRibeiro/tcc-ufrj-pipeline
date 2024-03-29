@@ -8016,3 +8016,568 @@ File Path                                                                       
 [2024-03-24T06:27:19.969-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
 [2024-03-24T06:27:20.206-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
 [2024-03-24T06:27:20.334-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-29T14:48:41.369-0300] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-29T14:48:41.373-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-29T14:48:41.374-0300] {manager.py:471} INFO - Checking for new files in /home/thiago/tcc_ufrj/dags every 300 seconds
+[2024-03-29T14:48:41.375-0300] {manager.py:738} INFO - Searching for files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T14:48:41.378-0300] {manager.py:741} INFO - There are 3 files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T14:48:41.562-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  14974  0.05s             0           0
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     0           0
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             14973  0.05s             0           0
+================================================================================
+[2024-03-29T14:49:11.805-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             15360  0.01s             1           0  0.16s           2024-03-29T17:48:41
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  15361  0.00s             1           0  0.15s           2024-03-29T17:48:41
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.13s           2024-03-29T17:48:41
+================================================================================
+[2024-03-29T14:49:42.174-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  15836  0.00s             1           0  0.22s           2024-03-29T17:49:12
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             15835  0.01s             1           0  0.21s           2024-03-29T17:49:12
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.18s           2024-03-29T17:49:12
+================================================================================
+[2024-03-29T14:49:49.074-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-29T14:50:05.816-0300] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-29T14:50:05.816-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-29T14:50:05.817-0300] {manager.py:471} INFO - Checking for new files in /home/thiago/tcc_ufrj/dags every 300 seconds
+[2024-03-29T14:50:05.817-0300] {manager.py:738} INFO - Searching for files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T14:50:05.819-0300] {manager.py:741} INFO - There are 3 files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T14:50:05.985-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  16240  0.08s             0           0
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     0           0
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             16239  0.09s             0           0
+================================================================================
+[2024-03-29T14:50:36.252-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  17375  0.00s             1           0  0.21s           2024-03-29T17:50:06
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             17374  0.01s             1           0  0.20s           2024-03-29T17:50:06
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T17:50:06
+================================================================================
+[2024-03-29T14:51:06.632-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.26s           2024-03-29T17:50:36
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  17799  0.00s             1           0  0.23s           2024-03-29T17:50:36
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             17798  0.01s             1           0  0.22s           2024-03-29T17:50:36
+================================================================================
+[2024-03-29T14:51:36.913-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  18070  0.00s             1           0  0.13s           2024-03-29T17:51:06
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             18069  0.01s             1           0  0.13s           2024-03-29T17:51:06
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.12s           2024-03-29T17:51:06
+================================================================================
+[2024-03-29T14:51:49.757-0300] {manager.py:451} INFO - Exiting gracefully upon receiving signal 15
+[2024-03-29T14:56:05.780-0300] {manager.py:469} INFO - Processing files using up to 2 processes at a time 
+[2024-03-29T14:56:05.793-0300] {manager.py:470} INFO - Process each file at most once every 30 seconds
+[2024-03-29T14:56:05.794-0300] {manager.py:471} INFO - Checking for new files in /home/thiago/tcc_ufrj/dags every 300 seconds
+[2024-03-29T14:56:05.796-0300] {manager.py:738} INFO - Searching for files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T14:56:05.800-0300] {manager.py:741} INFO - There are 3 files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T14:56:05.925-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  ----------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  20756  0.05s             0           0
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     0           0
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             20755  0.06s             0           0
+================================================================================
+[2024-03-29T14:56:36.222-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             21891  0.01s             1           0  0.20s           2024-03-29T17:56:06
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  21892  0.00s             1           0  0.19s           2024-03-29T17:56:06
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.12s           2024-03-29T17:56:06
+================================================================================
+[2024-03-29T14:57:06.612-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  22726  0.00s             1           0  0.24s           2024-03-29T17:56:36
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             22725  0.01s             1           0  0.23s           2024-03-29T17:56:36
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.19s           2024-03-29T17:56:36
+================================================================================
+[2024-03-29T14:57:36.895-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.17s           2024-03-29T17:57:06
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  23667  0.00s             1           0  0.15s           2024-03-29T17:57:06
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             23666  0.01s             1           0  0.14s           2024-03-29T17:57:06
+================================================================================
+[2024-03-29T14:58:07.253-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  24564  0.00s             1           0  0.20s           2024-03-29T17:57:37
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             24562  0.01s             1           0  0.17s           2024-03-29T17:57:37
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.13s           2024-03-29T17:57:37
+================================================================================
+[2024-03-29T14:58:37.543-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  25589  0.00s             1           0  0.13s           2024-03-29T17:58:07
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             25588  0.01s             1           0  0.13s           2024-03-29T17:58:07
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T17:58:07
+================================================================================
+[2024-03-29T14:59:07.892-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  26051  0.00s             1           0  0.20s           2024-03-29T17:58:37
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             26050  0.01s             1           0  0.20s           2024-03-29T17:58:37
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.16s           2024-03-29T17:58:37
+================================================================================
+[2024-03-29T14:59:38.172-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  27052  0.00s             1           0  0.13s           2024-03-29T17:59:08
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             27051  0.01s             1           0  0.13s           2024-03-29T17:59:08
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.11s           2024-03-29T17:59:08
+================================================================================
+[2024-03-29T15:00:08.462-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  27875  0.00s             1           0  0.15s           2024-03-29T17:59:38
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             27874  0.01s             1           0  0.14s           2024-03-29T17:59:38
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.12s           2024-03-29T17:59:38
+================================================================================
+[2024-03-29T15:00:38.737-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             28924  0.01s             1           0  0.14s           2024-03-29T18:00:08
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  28925  0.00s             1           0  0.13s           2024-03-29T18:00:08
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.12s           2024-03-29T18:00:08
+================================================================================
+[2024-03-29T15:01:06.002-0300] {manager.py:738} INFO - Searching for files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T15:01:06.005-0300] {manager.py:741} INFO - There are 3 files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T15:01:09.048-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  29810  0.00s             1           0  0.14s           2024-03-29T18:00:38
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             29809  0.01s             1           0  0.14s           2024-03-29T18:00:38
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:00:38
+================================================================================
+[2024-03-29T15:01:39.332-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  30758  0.00s             1           0  0.12s           2024-03-29T18:01:09
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             30757  0.01s             1           0  0.12s           2024-03-29T18:01:09
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:01:09
+================================================================================
+[2024-03-29T15:02:09.602-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.14s           2024-03-29T18:01:39
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  31072  0.00s             1           0  0.11s           2024-03-29T18:01:39
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             31071  0.01s             1           0  0.11s           2024-03-29T18:01:39
+================================================================================
+[2024-03-29T15:02:39.863-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             31636  0.01s             1           0  0.11s           2024-03-29T18:02:09
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  31637  0.00s             1           0  0.11s           2024-03-29T18:02:09
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:02:09
+================================================================================
+[2024-03-29T15:03:10.145-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             32322  0.01s             1           0  0.15s           2024-03-29T18:02:40
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  32323  0.00s             1           0  0.14s           2024-03-29T18:02:39
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.11s           2024-03-29T18:02:40
+================================================================================
+[2024-03-29T15:03:40.443-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  32957  0.00s             1           0  0.15s           2024-03-29T18:03:10
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             32956  0.01s             1           0  0.14s           2024-03-29T18:03:10
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.14s           2024-03-29T18:03:10
+================================================================================
+[2024-03-29T15:04:10.729-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  33645  0.00s             1           0  0.14s           2024-03-29T18:03:40
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             33644  0.01s             1           0  0.13s           2024-03-29T18:03:40
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:03:40
+================================================================================
+[2024-03-29T15:04:41.032-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  34310  0.00s             1           0  0.16s           2024-03-29T18:04:10
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             34309  0.01s             1           0  0.16s           2024-03-29T18:04:10
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.13s           2024-03-29T18:04:11
+================================================================================
+[2024-03-29T15:05:11.312-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  34963  0.00s             1           0  0.13s           2024-03-29T18:04:41
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.13s           2024-03-29T18:04:41
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             34962  0.01s             1           0  0.13s           2024-03-29T18:04:41
+================================================================================
+[2024-03-29T15:05:41.622-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  35993  0.00s             1           0  0.16s           2024-03-29T18:05:11
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             35992  0.01s             1           0  0.15s           2024-03-29T18:05:11
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.13s           2024-03-29T18:05:11
+================================================================================
+[2024-03-29T15:06:06.184-0300] {manager.py:738} INFO - Searching for files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T15:06:06.185-0300] {manager.py:741} INFO - There are 3 files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T15:06:11.980-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.28s           2024-03-29T18:05:42
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  36714  0.00s             1           0  0.21s           2024-03-29T18:05:41
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             36713  0.01s             1           0  0.19s           2024-03-29T18:05:41
+================================================================================
+[2024-03-29T15:06:42.247-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             36927  0.01s             1           0  0.13s           2024-03-29T18:06:12
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  36928  0.00s             1           0  0.12s           2024-03-29T18:06:12
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.11s           2024-03-29T18:06:12
+================================================================================
+[2024-03-29T15:07:12.537-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  37326  0.00s             1           0  0.15s           2024-03-29T18:06:42
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             37325  0.01s             1           0  0.15s           2024-03-29T18:06:42
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:06:42
+================================================================================
+[2024-03-29T15:07:42.828-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  38068  0.01s             1           0  0.13s           2024-03-29T18:07:12
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             38067  0.02s             1           0  0.12s           2024-03-29T18:07:12
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.11s           2024-03-29T18:07:12
+================================================================================
+[2024-03-29T15:08:13.100-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             38628  0.01s             1           0  0.13s           2024-03-29T18:07:42
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  38629  0.00s             1           0  0.13s           2024-03-29T18:07:42
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:07:43
+================================================================================
+[2024-03-29T15:08:43.389-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  39205  0.00s             1           0  0.14s           2024-03-29T18:08:13
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             39204  0.01s             1           0  0.13s           2024-03-29T18:08:13
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:08:13
+================================================================================
+[2024-03-29T15:09:13.685-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  39801  0.00s             1           0  0.15s           2024-03-29T18:08:43
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             39800  0.01s             1           0  0.15s           2024-03-29T18:08:43
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.13s           2024-03-29T18:08:43
+================================================================================
+[2024-03-29T15:09:43.966-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  40260  0.00s             1           0  0.13s           2024-03-29T18:09:13
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             40259  0.01s             1           0  0.13s           2024-03-29T18:09:13
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.11s           2024-03-29T18:09:13
+================================================================================
+[2024-03-29T15:10:14.248-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             40888  0.01s             1           0  0.14s           2024-03-29T18:09:44
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  40889  0.00s             1           0  0.14s           2024-03-29T18:09:44
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.12s           2024-03-29T18:09:44
+================================================================================
+[2024-03-29T15:10:44.545-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  41208  0.00s             1           0  0.14s           2024-03-29T18:10:14
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             41207  0.01s             1           0  0.12s           2024-03-29T18:10:14
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.11s           2024-03-29T18:10:14
+================================================================================
+[2024-03-29T15:11:06.805-0300] {manager.py:738} INFO - Searching for files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T15:11:06.808-0300] {manager.py:741} INFO - There are 3 files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T15:11:14.867-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  41460  0.00s             1           0  0.16s           2024-03-29T18:10:44
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             41459  0.01s             1           0  0.15s           2024-03-29T18:10:44
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:10:44
+================================================================================
+[2024-03-29T15:11:45.138-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  41709  0.00s             1           0  0.13s           2024-03-29T18:11:14
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             41708  0.01s             1           0  0.12s           2024-03-29T18:11:14
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:11:15
+================================================================================
+[2024-03-29T15:12:15.399-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  42025  0.00s             1           0  0.12s           2024-03-29T18:11:45
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             42024  0.01s             1           0  0.11s           2024-03-29T18:11:45
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:11:45
+================================================================================
+[2024-03-29T15:12:45.687-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  42440  0.00s             1           0  0.14s           2024-03-29T18:12:15
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             42439  0.01s             1           0  0.12s           2024-03-29T18:12:15
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.11s           2024-03-29T18:12:15
+================================================================================
+[2024-03-29T15:13:15.955-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  42810  0.00s             1           0  0.12s           2024-03-29T18:12:45
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.11s           2024-03-29T18:12:45
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             42809  0.01s             1           0  0.11s           2024-03-29T18:12:45
+================================================================================
+[2024-03-29T15:13:46.234-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  42935  0.00s             1           0  0.12s           2024-03-29T18:13:16
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             42934  0.01s             1           0  0.12s           2024-03-29T18:13:16
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:13:16
+================================================================================
+[2024-03-29T15:14:16.510-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  43207  0.00s             1           0  0.12s           2024-03-29T18:13:46
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             43206  0.01s             1           0  0.12s           2024-03-29T18:13:46
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.10s           2024-03-29T18:13:46
+================================================================================
+[2024-03-29T15:14:46.833-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.17s           2024-03-29T18:14:16
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  43404  0.00s             1           0  0.15s           2024-03-29T18:14:16
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             43403  0.01s             1           0  0.14s           2024-03-29T18:14:16
+================================================================================
+[2024-03-29T15:15:17.174-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  44110  0.00s             1           0  0.19s           2024-03-29T18:14:47
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             44109  0.01s             1           0  0.19s           2024-03-29T18:14:47
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.15s           2024-03-29T18:14:47
+================================================================================
+[2024-03-29T15:15:47.493-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  44309  0.01s             1           0  0.13s           2024-03-29T18:15:17
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             44308  0.04s             1           0  0.12s           2024-03-29T18:15:17
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.11s           2024-03-29T18:15:17
+================================================================================
+[2024-03-29T15:16:06.882-0300] {manager.py:738} INFO - Searching for files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T15:16:06.886-0300] {manager.py:741} INFO - There are 3 files in /home/thiago/tcc_ufrj/dags
+[2024-03-29T15:16:18.005-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  44595  0.00s             1           0  0.28s           2024-03-29T18:15:47
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             44594  0.02s             1           0  0.26s           2024-03-29T18:15:47
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.24s           2024-03-29T18:15:47
+================================================================================
+[2024-03-29T15:16:48.395-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  44804  0.02s             1           0  0.20s           2024-03-29T18:16:18
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             44803  0.02s             1           0  0.19s           2024-03-29T18:16:18
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.19s           2024-03-29T18:16:18
+================================================================================
+[2024-03-29T15:17:18.805-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  45164  0.00s             1           0  0.26s           2024-03-29T18:16:48
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             45163  0.01s             1           0  0.26s           2024-03-29T18:16:48
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.18s           2024-03-29T18:16:48
+================================================================================
+[2024-03-29T15:17:49.112-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  45597  0.00s             1           0  0.15s           2024-03-29T18:17:18
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             45596  0.01s             1           0  0.14s           2024-03-29T18:17:18
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.14s           2024-03-29T18:17:19
+================================================================================
+[2024-03-29T15:18:19.419-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  45976  0.00s             1           0  0.16s           2024-03-29T18:17:49
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             45975  0.01s             1           0  0.15s           2024-03-29T18:17:49
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.15s           2024-03-29T18:17:49
+================================================================================
+[2024-03-29T15:18:49.710-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.15s           2024-03-29T18:18:19
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  46189  0.01s             1           0  0.13s           2024-03-29T18:18:19
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             46190  0.00s             1           0  0.12s           2024-03-29T18:18:19
+================================================================================
+[2024-03-29T15:19:20.089-0300] {manager.py:879} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                        PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run
+-------------------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py  46687  0.01s             1           0  0.23s           2024-03-29T18:18:49
+/home/thiago/tcc_ufrj/dags/dag_machine_learning.py             46688  0.00s             1           0  0.14s           2024-03-29T18:18:49
+/home/thiago/tcc_ufrj/dags/dag_dados_combustivel.py                                     1           0  0.11s           2024-03-29T18:18:49
+================================================================================

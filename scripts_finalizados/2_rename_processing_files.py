@@ -4,23 +4,23 @@
 # pip install minio 
 # pip install gpxpy
 # pip install pandas 
-
+##############################################
 import gpxpy #--> Importação dos módulos relacionados a trabalhar com arquivos GPX
 import gpxpy.gpx 
 import pandas as pd #--> Importação da biblioteca pandas para análise e manipulação de dados
 import os #--> # Importação do módulo os para interagir com o sistema operacional
 from minio import Minio #--> O módulo minio é usado para interagir com um servidor MinIO
 from minio.error import S3Error #--> O módulo S3Error é uma exceção específica do MinIO para exibição de forma semelhante ao Amazon S3
-
-
 # import time
 # start_time = time.time()
+
 
 ##############################
 ### DEFINIÇÃO DE VARIÁVEIS ### 
 ##############################
 PRE_PROCESSAMENTO = '/home/thiago/tcc_ufrj/PRE_PROCESSAMENTO' #--> PRE_PROCESSAMENTO recebe o caminho do diretório com os arquivos pré processados
 CAMADA_BRONZE = 'bronze' #--> CAMADA_BRONZE recebe uma string que representa uma camada ("layer") no servidor MinIO.
+
 
 ##############################################
 ### CRIANDO UMA INSTÂNCIA DO CLIENTE MINIO ###
@@ -29,6 +29,7 @@ minioclient = Minio('localhost:9000', #--> O cliente é configurado para se cone
     access_key='minioadmin', #--> A chave de acesso = usuário
     secret_key='minioadmin', #--> A chave secreta = Senha 
     secure=False) #--> Sem usar conexão segura (HTTPS).
+
 
 ###########################################################
 ### CONVERTENDO OS ARQUIVOS COM A EXTENSÃO .GPX EM .CSV ###
@@ -75,7 +76,9 @@ for nome_arquivo in arquivos_para_datalake: #--> Iterando sobre cada item da lis
             print(f"Erro ao enviar o arquivo: {nome_arquivo} -> Erro: {e}") #--> Exibindo o erro
 
 
-
+###########################################################
+### CALCULANDO O TEMPO DE EXECUÇÃO DO SCRIPT (OPCIONAL) ###
+###########################################################
 # end_time = time.time()
 # execution_time = end_time - start_time
 # 

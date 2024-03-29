@@ -1,0 +1,19 @@
+[2024-03-29T15:12:43.654-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: exec-web-scraping.load_minio_to_bucket scheduled__2024-03-29T18:05:00+00:00 [queued]>
+[2024-03-29T15:12:43.663-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: exec-web-scraping.load_minio_to_bucket scheduled__2024-03-29T18:05:00+00:00 [queued]>
+[2024-03-29T15:12:43.664-0300] {taskinstance.py:2193} INFO - Starting attempt 1 of 6
+[2024-03-29T15:12:43.678-0300] {taskinstance.py:2217} INFO - Executing <Task(BashOperator): load_minio_to_bucket> on 2024-03-29 18:05:00+00:00
+[2024-03-29T15:12:43.681-0300] {standard_task_runner.py:60} INFO - Started process 42377 to run task
+[2024-03-29T15:12:43.684-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'exec-web-scraping', 'load_minio_to_bucket', 'scheduled__2024-03-29T18:05:00+00:00', '--job-id', '35', '--raw', '--subdir', 'DAGS_FOLDER/dag_web_scrapping_load_to_minio.py', '--cfg-path', '/tmp/tmp0udirkh4']
+[2024-03-29T15:12:43.686-0300] {standard_task_runner.py:88} INFO - Job 35: Subtask load_minio_to_bucket
+[2024-03-29T15:12:43.777-0300] {task_command.py:423} INFO - Running <TaskInstance: exec-web-scraping.load_minio_to_bucket scheduled__2024-03-29T18:05:00+00:00 [running]> on host DESKTOP-RPMMOLA.
+[2024-03-29T15:12:43.938-0300] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='thiago' AIRFLOW_CTX_DAG_ID='exec-web-scraping' AIRFLOW_CTX_TASK_ID='load_minio_to_bucket' AIRFLOW_CTX_EXECUTION_DATE='2024-03-29T18:05:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-29T18:05:00+00:00'
+[2024-03-29T15:12:43.939-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-29T15:12:43.940-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/thiago/tcc_ufrj/scripts_finalizados/5_minio_to_postgresql.py']
+[2024-03-29T15:12:43.951-0300] {subprocess.py:86} INFO - Output:
+[2024-03-29T15:13:05.022-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'duration' no id 11314445__LEXUS_RX_2020
+[2024-03-29T15:13:05.022-0300] {subprocess.py:93} INFO - Erro na consulta da API: 'duration' no id 11314679__TOYOTA_CAMRY_HYBRID_2021
+[2024-03-29T15:13:05.022-0300] {subprocess.py:93} INFO - Erro no insert da [tb_dist_euclidian_manhattam_minkowski]: Cannot set a DataFrame with multiple columns to the single column dist_euclidiana
+[2024-03-29T15:13:05.154-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-29T15:13:05.198-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=exec-web-scraping, task_id=load_minio_to_bucket, execution_date=20240329T180500, start_date=20240329T181243, end_date=20240329T181305
+[2024-03-29T15:13:05.246-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-29T15:13:05.275-0300] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

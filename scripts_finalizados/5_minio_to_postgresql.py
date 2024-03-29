@@ -13,7 +13,6 @@ import pandas as pd
 import requests
 from scipy.spatial.distance import euclidean, cityblock, minkowski
 from datetime import datetime
-
 from dotenv import dotenv_values
 config = dotenv_values(".env")
 # import time
@@ -59,6 +58,76 @@ db_config = {
 'user': 'postgres',
 'password': 'postgres',
 }
+
+
+##################################################################################################################################################
+### CRIAÇÃO DAS TABELAS [tb_gpx_full] - [tb_distancias_percorridas_api] - [tb_dist_euclidian_manhattan_minkowski] NO BANCO DE DADOS POSTGRESQL ###
+##################################################################################################################################################
+conn = psycopg2.connect(**db_config)
+cursor = conn.cursor()
+
+create_tb_gpx_full = '''
+CREATE TABLE IF NOT EXISTS public.tb_gpx_full (
+	id_rota text NULL,
+	nome_usuario text NULL,
+	latitude text NULL,
+	longitude text NULL,
+	elevacao text NULL,
+	data_rota text NULL,
+	hora_rota text NULL,
+	cidade text NULL,
+	estado text NULL,
+	pais text NULL,
+	carga_banco text NULL
+);
+CREATE INDEX IF NOT EXISTS idx_carga_banco ON public.tb_gpx_full USING btree (carga_banco);
+CREATE INDEX IF NOT EXISTS idx_data_rota ON public.tb_gpx_full USING btree (data_rota);
+CREATE INDEX IF NOT EXISTS idx_id_rota ON public.tb_gpx_full USING btree (id_rota);'''
+cursor.execute(create_tb_gpx_full)
+conn.commit()
+
+create_tb_distancias_percorridas_api = '''
+CREATE TABLE IF NOT EXISTS public.tb_distancias_percorridas_api (
+	id_unico text NULL,
+	nome_usuario text NULL,
+	data_inicio_rota text NULL,
+	data_fim_rota text NULL,
+	inicio_rota text NULL,
+	fim_rota text NULL,
+	latitude_inicial text NULL,
+	longitude_inicial text NULL,
+	latitude_final text NULL,
+	longitude_final text NULL,
+	cidade text NULL,
+	estado text NULL,
+	pais text NULL,
+	distancia_real_km_api text NULL,
+	data_carga_banco text NULL
+);'''
+cursor.execute(create_tb_distancias_percorridas_api)
+conn.commit()
+
+create_tb_dist_euclidian_manhattan_minkowski = '''
+CREATE TABLE IF NOT EXISTS public.tb_dist_euclidian_manhattan_minkowski (
+	id_rota text NULL,
+	nome_usuario text NULL,
+	data_viagem text NULL,
+	hora_inicio text NULL,
+	hora_fim text NULL,
+	tempo_viagem text NULL,
+	cidade text NULL,
+	pais text NULL,
+	dist_euclidiana text NULL,
+	dist_manhattan text NULL,
+	dist_minkowski text NULL,
+	data_carga_banco text NULL
+);'''
+
+cursor.execute(create_tb_dist_euclidian_manhattan_minkowski)
+conn.commit()
+
+
+conn.close()
 
 
 #############################################################################
@@ -203,8 +272,7 @@ try:
         hora_inicio = df['hora'].iloc[0]
         hora_fim = df['hora'].iloc[-1]  # Última ocorrência de hora
         cidade = df['cidade'].iloc[0]
-        pais = df['pais'].iloc[0]
-        
+        pais = df['pais'].iloc[0]        
         
         # Calcular o tempo de viagem
         primeira_hora = pd.to_datetime(hora_inicio)
@@ -212,8 +280,7 @@ try:
         if ultima_hora > primeira_hora:
             tempo_viagem = ultima_hora - primeira_hora
         else:
-            tempo_viagem = primeira_hora - ultima_hora
-        
+            tempo_viagem = primeira_hora - ultima_hora        
         
         # Calcular as somas das distâncias
         dist_euclidiana = df['dist_euclidiana'].sum()
