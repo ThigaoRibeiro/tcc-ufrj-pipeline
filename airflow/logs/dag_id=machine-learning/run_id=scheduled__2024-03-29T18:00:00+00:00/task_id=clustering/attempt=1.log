@@ -1,0 +1,16 @@
+[2024-03-29T15:49:14.770-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: machine-learning.clustering scheduled__2024-03-29T18:00:00+00:00 [queued]>
+[2024-03-29T15:49:14.782-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: machine-learning.clustering scheduled__2024-03-29T18:00:00+00:00 [queued]>
+[2024-03-29T15:49:14.783-0300] {taskinstance.py:2193} INFO - Starting attempt 1 of 6
+[2024-03-29T15:49:14.799-0300] {taskinstance.py:2217} INFO - Executing <Task(BashOperator): clustering> on 2024-03-29 18:00:00+00:00
+[2024-03-29T15:49:14.802-0300] {standard_task_runner.py:60} INFO - Started process 66473 to run task
+[2024-03-29T15:49:14.804-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'machine-learning', 'clustering', 'scheduled__2024-03-29T18:00:00+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/dag_machine_learning.py', '--cfg-path', '/tmp/tmpipznn7qp']
+[2024-03-29T15:49:14.806-0300] {standard_task_runner.py:88} INFO - Job 49: Subtask clustering
+[2024-03-29T15:49:14.901-0300] {task_command.py:423} INFO - Running <TaskInstance: machine-learning.clustering scheduled__2024-03-29T18:00:00+00:00 [running]> on host DESKTOP-RPMMOLA.
+[2024-03-29T15:49:15.055-0300] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='thiago' AIRFLOW_CTX_DAG_ID='machine-learning' AIRFLOW_CTX_TASK_ID='clustering' AIRFLOW_CTX_EXECUTION_DATE='2024-03-29T18:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-29T18:00:00+00:00'
+[2024-03-29T15:49:15.056-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-29T15:49:15.057-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/thiago/tcc_ufrj/scripts_finalizados/7_clustering.py']
+[2024-03-29T15:49:15.063-0300] {subprocess.py:86} INFO - Output:
+[2024-03-29T15:49:17.753-0300] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-03-29T15:49:17.816-0300] {taskinstance.py:1149} INFO - Marking task as SUCCESS. dag_id=machine-learning, task_id=clustering, execution_date=20240329T180000, start_date=20240329T184914, end_date=20240329T184917
+[2024-03-29T15:49:17.868-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 0
+[2024-03-29T15:49:17.899-0300] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check

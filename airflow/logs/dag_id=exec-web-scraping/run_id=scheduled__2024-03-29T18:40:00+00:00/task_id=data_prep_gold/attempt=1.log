@@ -1,0 +1,47 @@
+[2024-03-29T16:07:24.957-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: exec-web-scraping.data_prep_gold scheduled__2024-03-29T18:40:00+00:00 [queued]>
+[2024-03-29T16:07:24.967-0300] {taskinstance.py:1979} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: exec-web-scraping.data_prep_gold scheduled__2024-03-29T18:40:00+00:00 [queued]>
+[2024-03-29T16:07:24.968-0300] {taskinstance.py:2193} INFO - Starting attempt 1 of 6
+[2024-03-29T16:07:24.982-0300] {taskinstance.py:2217} INFO - Executing <Task(BashOperator): data_prep_gold> on 2024-03-29 18:40:00+00:00
+[2024-03-29T16:07:24.985-0300] {standard_task_runner.py:60} INFO - Started process 13069 to run task
+[2024-03-29T16:07:24.988-0300] {standard_task_runner.py:87} INFO - Running: ['airflow', 'tasks', 'run', 'exec-web-scraping', 'data_prep_gold', 'scheduled__2024-03-29T18:40:00+00:00', '--job-id', '66', '--raw', '--subdir', 'DAGS_FOLDER/dag_web_scrapping_load_to_minio.py', '--cfg-path', '/tmp/tmpjlfnp33k']
+[2024-03-29T16:07:24.989-0300] {standard_task_runner.py:88} INFO - Job 66: Subtask data_prep_gold
+[2024-03-29T16:07:25.064-0300] {task_command.py:423} INFO - Running <TaskInstance: exec-web-scraping.data_prep_gold scheduled__2024-03-29T18:40:00+00:00 [running]> on host DESKTOP-RPMMOLA.
+[2024-03-29T16:07:25.195-0300] {taskinstance.py:2513} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='thiago' AIRFLOW_CTX_DAG_ID='exec-web-scraping' AIRFLOW_CTX_TASK_ID='data_prep_gold' AIRFLOW_CTX_EXECUTION_DATE='2024-03-29T18:40:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2024-03-29T18:40:00+00:00'
+[2024-03-29T16:07:25.196-0300] {subprocess.py:63} INFO - Tmp dir root location: /tmp
+[2024-03-29T16:07:25.197-0300] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'python3 /home/thiago/tcc_ufrj/scripts_finalizados/4_data_prep_gold.py']
+[2024-03-29T16:07:25.204-0300] {subprocess.py:86} INFO - Output:
+[2024-03-29T16:07:26.816-0300] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-03-29T16:07:26.817-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/geopy/geocoders/base.py", line 368, in _call_geocoder
+[2024-03-29T16:07:26.817-0300] {subprocess.py:93} INFO -     result = self.adapter.get_json(url, timeout=timeout, headers=req_headers)
+[2024-03-29T16:07:26.817-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/geopy/adapters.py", line 472, in get_json
+[2024-03-29T16:07:26.818-0300] {subprocess.py:93} INFO -     resp = self._request(url, timeout=timeout, headers=headers)
+[2024-03-29T16:07:26.818-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/geopy/adapters.py", line 500, in _request
+[2024-03-29T16:07:26.818-0300] {subprocess.py:93} INFO -     raise AdapterHTTPError(
+[2024-03-29T16:07:26.818-0300] {subprocess.py:93} INFO - geopy.adapters.AdapterHTTPError: Non-successful status code 403
+[2024-03-29T16:07:26.818-0300] {subprocess.py:93} INFO - 
+[2024-03-29T16:07:26.819-0300] {subprocess.py:93} INFO - The above exception was the direct cause of the following exception:
+[2024-03-29T16:07:26.819-0300] {subprocess.py:93} INFO - 
+[2024-03-29T16:07:26.820-0300] {subprocess.py:93} INFO - Traceback (most recent call last):
+[2024-03-29T16:07:26.820-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/scripts_finalizados/4_data_prep_gold.py", line 57, in <module>
+[2024-03-29T16:07:26.820-0300] {subprocess.py:93} INFO -     location = geolocator.reverse(last_location_str)
+[2024-03-29T16:07:26.820-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/geopy/geocoders/nominatim.py", line 372, in reverse
+[2024-03-29T16:07:26.821-0300] {subprocess.py:93} INFO -     return self._call_geocoder(url, callback, timeout=timeout)
+[2024-03-29T16:07:26.821-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/geopy/geocoders/base.py", line 388, in _call_geocoder
+[2024-03-29T16:07:26.821-0300] {subprocess.py:93} INFO -     res = self._adapter_error_handler(error)
+[2024-03-29T16:07:26.821-0300] {subprocess.py:93} INFO -   File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/geopy/geocoders/base.py", line 411, in _adapter_error_handler
+[2024-03-29T16:07:26.821-0300] {subprocess.py:93} INFO -     raise exc_cls(str(error)) from error
+[2024-03-29T16:07:26.822-0300] {subprocess.py:93} INFO - geopy.exc.GeocoderInsufficientPrivileges: Non-successful status code 403
+[2024-03-29T16:07:26.949-0300] {subprocess.py:97} INFO - Command exited with return code 1
+[2024-03-29T16:07:26.971-0300] {taskinstance.py:2731} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 444, in _execute_task
+    result = _execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/models/taskinstance.py", line 414, in _execute_callable
+    return execute_callable(context=context, **execute_callable_kwargs)
+  File "/home/thiago/tcc_ufrj/venv/lib/python3.10/site-packages/airflow/operators/bash.py", line 212, in execute
+    raise AirflowException(
+airflow.exceptions.AirflowException: Bash command failed. The command returned a non-zero exit code 1.
+[2024-03-29T16:07:26.975-0300] {taskinstance.py:1149} INFO - Marking task as UP_FOR_RETRY. dag_id=exec-web-scraping, task_id=data_prep_gold, execution_date=20240329T184000, start_date=20240329T190724, end_date=20240329T190726
+[2024-03-29T16:07:26.989-0300] {standard_task_runner.py:107} ERROR - Failed to execute job 66 for task data_prep_gold (Bash command failed. The command returned a non-zero exit code 1.; 13069)
+[2024-03-29T16:07:27.006-0300] {local_task_job_runner.py:234} INFO - Task exited with return code 1
+[2024-03-29T16:07:27.038-0300] {taskinstance.py:3312} INFO - 0 downstream tasks scheduled from follow-on schedule check
