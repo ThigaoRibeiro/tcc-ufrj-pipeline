@@ -345,7 +345,7 @@ try:
 
 except Exception as e:
     # Em caso de erro, imprime a mensagem de erro
-    print(f"Erro no insert da [tb_dist_euclidian_manhattam_minkowski]: {str(e)}")
+    print(f"Erro no insert da [tb_dist_euclidian_manhattam_minkowski] para o ID: {id_rota} - Usuário: {nome_usuario}: {str(e)}")
 
 
 #########################################################
