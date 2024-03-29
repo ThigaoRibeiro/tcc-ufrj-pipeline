@@ -376,3 +376,73 @@
 [2024-03-29T15:19:20.145-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:19:20.145-0300] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-03-29T15:19:20.180-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:19:20.180-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
 [2024-03-29T15:19:20.208-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.125 seconds
+[2024-03-29T15:19:50.364-0300] {processor.py:161} INFO - Started process (PID=46985) to work on /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:19:50.365-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py for tasks to queue
+[2024-03-29T15:19:50.366-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:19:50.366-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:19:50.377-0300] {processor.py:840} INFO - DAG(s) 'exec-web-scraping' retrieved from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:19:50.417-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:19:50.417-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T15:19:50.447-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:19:50.447-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
+[2024-03-29T15:19:50.473-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.112 seconds
+[2024-03-29T15:20:20.630-0300] {processor.py:161} INFO - Started process (PID=47340) to work on /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:20:20.632-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py for tasks to queue
+[2024-03-29T15:20:20.634-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:20:20.633-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:20:20.647-0300] {processor.py:840} INFO - DAG(s) 'exec-web-scraping' retrieved from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:20:20.690-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:20:20.689-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T15:20:20.721-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:20:20.721-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
+[2024-03-29T15:20:20.747-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.120 seconds
+[2024-03-29T15:20:50.913-0300] {processor.py:161} INFO - Started process (PID=47670) to work on /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:20:50.913-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py for tasks to queue
+[2024-03-29T15:20:50.914-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:20:50.914-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:20:50.928-0300] {processor.py:840} INFO - DAG(s) 'exec-web-scraping' retrieved from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:20:50.964-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:20:50.964-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T15:20:50.996-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:20:50.996-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
+[2024-03-29T15:20:51.019-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.110 seconds
+[2024-03-29T15:21:21.195-0300] {processor.py:161} INFO - Started process (PID=47929) to work on /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:21:21.196-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py for tasks to queue
+[2024-03-29T15:21:21.197-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:21:21.197-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:21:21.209-0300] {processor.py:840} INFO - DAG(s) 'exec-web-scraping' retrieved from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:21:21.259-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:21:21.258-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T15:21:21.328-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:21:21.327-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
+[2024-03-29T15:21:21.363-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.171 seconds
+[2024-03-29T15:21:51.533-0300] {processor.py:161} INFO - Started process (PID=48250) to work on /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:21:51.538-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py for tasks to queue
+[2024-03-29T15:21:51.539-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:21:51.538-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:21:51.551-0300] {processor.py:840} INFO - DAG(s) 'exec-web-scraping' retrieved from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:21:51.591-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:21:51.591-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T15:21:51.619-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:21:51.619-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
+[2024-03-29T15:21:51.661-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.132 seconds
+[2024-03-29T15:22:21.831-0300] {processor.py:161} INFO - Started process (PID=48720) to work on /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:22:21.835-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py for tasks to queue
+[2024-03-29T15:22:21.837-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:22:21.836-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:22:21.850-0300] {processor.py:840} INFO - DAG(s) 'exec-web-scraping' retrieved from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:22:21.893-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:22:21.893-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T15:22:21.931-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:22:21.931-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
+[2024-03-29T15:22:21.954-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.126 seconds
+[2024-03-29T15:22:52.106-0300] {processor.py:161} INFO - Started process (PID=48953) to work on /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:22:52.107-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py for tasks to queue
+[2024-03-29T15:22:52.108-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:22:52.108-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:22:52.120-0300] {processor.py:840} INFO - DAG(s) 'exec-web-scraping' retrieved from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:22:52.156-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:22:52.156-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T15:22:52.181-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:22:52.181-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
+[2024-03-29T15:22:52.204-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.101 seconds
+[2024-03-29T15:23:22.362-0300] {processor.py:161} INFO - Started process (PID=49274) to work on /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:23:22.364-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py for tasks to queue
+[2024-03-29T15:23:22.365-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:23:22.365-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:23:22.377-0300] {processor.py:840} INFO - DAG(s) 'exec-web-scraping' retrieved from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:23:22.415-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:23:22.415-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T15:23:22.442-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:23:22.441-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
+[2024-03-29T15:23:22.467-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.108 seconds
+[2024-03-29T15:23:52.634-0300] {processor.py:161} INFO - Started process (PID=49471) to work on /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:23:52.636-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py for tasks to queue
+[2024-03-29T15:23:52.636-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:23:52.636-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:23:52.647-0300] {processor.py:840} INFO - DAG(s) 'exec-web-scraping' retrieved from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:23:52.685-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:23:52.685-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T15:23:52.725-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:23:52.725-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
+[2024-03-29T15:23:52.754-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.124 seconds
+[2024-03-29T15:24:22.917-0300] {processor.py:161} INFO - Started process (PID=49857) to work on /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:24:22.918-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py for tasks to queue
+[2024-03-29T15:24:22.920-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:24:22.919-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:24:22.932-0300] {processor.py:840} INFO - DAG(s) 'exec-web-scraping' retrieved from /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py
+[2024-03-29T15:24:22.970-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:24:22.970-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T15:24:22.998-0300] {logging_mixin.py:188} INFO - [2024-03-29T15:24:22.998-0300] {dag.py:3834} INFO - Setting next_dagrun for exec-web-scraping to 2024-03-29 18:15:00+00:00, run_after=2024-03-29 18:30:00+00:00
+[2024-03-29T15:24:23.022-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_web_scrapping_load_to_minio.py took 0.109 seconds
