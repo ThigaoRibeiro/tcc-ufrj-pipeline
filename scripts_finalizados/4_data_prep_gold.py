@@ -1,32 +1,48 @@
+##############################################
+### IMPORTAÇÃO DAS BIBLIOTECAS NECESSÁRIAS ###
+##############################################
 # pip install minio
 # pip install pandas
 # pip install numpy
 # pip install geopy
-
+##############################################
 from minio import Minio
 from minio.error import S3Error
 from io import StringIO, BytesIO
 import pandas as pd
 from geopy.geocoders import Nominatim
 from datetime import datetime
-
-
 # import time
 # start_time = time.time()
 
 
+####################################
+### DEFINIÇÃO DA CAMADA NO MINIO ###
+####################################
 CAMADA_SILVER = 'silver'
 CAMADA_GOLD = 'gold'
 
+
+##############################################
+### CRIANDO UMA INSTÂNCIA DO CLIENTE MINIO ###
+##############################################
 minioclient = Minio('localhost:9000',
     access_key='minioadmin',
     secret_key='minioadmin',
     secure=False)
 
+
+########################################################
+### CRIAÇÃO DA FUNÇÃO PARA COMPARAÇÃO DE LOCALIZAÇÃO ###
+########################################################
 def are_locations_equal(location1, location2):
     return location1 == location2
 
 
+
+#############################################################################
+### LISTANDO ARQUIVOS DO BUCKET SILVER E OS TRANSFORMANDO EM UM DATAFRAME ###
+#############################################################################
 arquivos_rotas_gpx_csv = [arquivo_gpx for arquivo_gpx in minioclient.list_objects(CAMADA_SILVER) if arquivo_gpx.object_name.endswith(".csv")]
 for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:    
     obj_rota_csv = minioclient.get_object(CAMADA_SILVER, arquivo_rotas_gpx_csv.object_name)        
@@ -34,12 +50,20 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
     arquivo_csv = StringIO(csv_decod)
     df = pd.read_csv(arquivo_csv,sep=';')
 
+
+    #######################################################################################################################################
+    ### PROCESSANDO O DATAFRAME EM LOTES E CONSUMINDO DADOS DA BIBLIOTECA GEOPY PARA VERIFICAR A LOCALIDADE DE ONDE AS ROTAS OCORRERAM ###
+    #######################################################################################################################################
     batch_size = 1000
     batch_list = [df[i:i+batch_size].copy() for i in range(0, len(df), batch_size)]
     geolocator = Nominatim(user_agent="geoapiExercises", timeout=10)
     processed_batches = []  # Inicialize a lista de lotes processados
     last_location = {}
 
+    
+    ################################################################################################
+    ### VERIFICANDO SE A LOCALIDADE (CIDADE-ESTADO) DO INICIO DA ROTA É O MESMO DO FINAL DA ROTA ###
+    ################################################################################################
     for batch_df in batch_list:
         # Obtenha a primeira e a última linha do lote
         first_row = batch_df.iloc[0]
@@ -57,6 +81,10 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
             location = geolocator.reverse(last_location_str)
             last_location = location
 
+    
+        ######################################################################################################################
+        ### ADICIONANDO AS INFORMAÇÕES OBTIDAS (CIDADE - ESTADO - PAÍS) COM LAT-LONG INICIAL E LAT-LONG FINAL NO DATAFRAME ###
+        ######################################################################################################################
         address = location.raw['address']
         cidade = address.get('county') or address.get('city') or address.get('suburb')
         estado = address.get('ISO3166-2-lvl4')#.split('-')[1]
@@ -70,6 +98,10 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
         data_carga_banco = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
         df['data_carga_banco'] = data_carga_banco
 
+
+    ##########################################################################
+    ### CONVERTENDO O DATAFRAME EM CSV PARA POSTERIOR CARGA NO BUCKET GOLD ### 
+    ##########################################################################
     # Converta o DataFrame enriquecido de volta para CSV
     enriched_csv = df.to_csv(index=False, sep=';')
     enriched_csv_bytes = enriched_csv.encode('utf-8')
@@ -87,6 +119,9 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
     minioclient.remove_object(CAMADA_SILVER, arquivo_rotas_gpx_csv.object_name) #--> Removendo o arquivo do bucket
 
 
+###########################################################
+### CALCULANDO O TEMPO DE EXECUÇÃO DO SCRIPT (OPCIONAL) ###
+###########################################################
 # end_time = time.time()
 # execution_time = end_time - start_time
 # 

@@ -2287,3 +2287,38 @@
 [2024-03-29T17:52:39.066-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:52:39.066-0300] {dag.py:3047} INFO - Sync 1 DAGs
 [2024-03-29T17:52:39.095-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:52:39.095-0300] {dag.py:3834} INFO - Setting next_dagrun for machine-learning to 2024-03-29 20:40:00+00:00, run_after=2024-03-29 21:00:00+00:00
 [2024-03-29T17:52:39.120-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_machine_learning.py took 0.108 seconds
+[2024-03-29T17:53:09.287-0300] {processor.py:161} INFO - Started process (PID=74933) to work on /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:53:09.288-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_machine_learning.py for tasks to queue
+[2024-03-29T17:53:09.289-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:53:09.288-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:53:09.300-0300] {processor.py:840} INFO - DAG(s) 'machine-learning' retrieved from /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:53:09.341-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:53:09.341-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T17:53:09.366-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:53:09.366-0300] {dag.py:3834} INFO - Setting next_dagrun for machine-learning to 2024-03-29 20:40:00+00:00, run_after=2024-03-29 21:00:00+00:00
+[2024-03-29T17:53:09.389-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_machine_learning.py took 0.105 seconds
+[2024-03-29T17:53:39.564-0300] {processor.py:161} INFO - Started process (PID=75335) to work on /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:53:39.566-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_machine_learning.py for tasks to queue
+[2024-03-29T17:53:39.568-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:53:39.567-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:53:39.598-0300] {processor.py:840} INFO - DAG(s) 'machine-learning' retrieved from /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:53:39.669-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:53:39.669-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T17:53:39.710-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:53:39.710-0300] {dag.py:3834} INFO - Setting next_dagrun for machine-learning to 2024-03-29 20:40:00+00:00, run_after=2024-03-29 21:00:00+00:00
+[2024-03-29T17:53:39.741-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_machine_learning.py took 0.185 seconds
+[2024-03-29T17:54:09.907-0300] {processor.py:161} INFO - Started process (PID=75480) to work on /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:54:09.908-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_machine_learning.py for tasks to queue
+[2024-03-29T17:54:09.909-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:54:09.909-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:54:09.920-0300] {processor.py:840} INFO - DAG(s) 'machine-learning' retrieved from /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:54:09.956-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:54:09.956-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T17:54:09.986-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:54:09.986-0300] {dag.py:3834} INFO - Setting next_dagrun for machine-learning to 2024-03-29 20:40:00+00:00, run_after=2024-03-29 21:00:00+00:00
+[2024-03-29T17:54:10.012-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_machine_learning.py took 0.107 seconds
+[2024-03-29T17:54:40.179-0300] {processor.py:161} INFO - Started process (PID=75683) to work on /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:54:40.181-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_machine_learning.py for tasks to queue
+[2024-03-29T17:54:40.182-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:54:40.181-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:54:40.194-0300] {processor.py:840} INFO - DAG(s) 'machine-learning' retrieved from /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:54:40.231-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:54:40.231-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T17:54:40.258-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:54:40.258-0300] {dag.py:3834} INFO - Setting next_dagrun for machine-learning to 2024-03-29 20:40:00+00:00, run_after=2024-03-29 21:00:00+00:00
+[2024-03-29T17:54:40.280-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_machine_learning.py took 0.104 seconds
+[2024-03-29T17:55:10.442-0300] {processor.py:161} INFO - Started process (PID=75845) to work on /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:55:10.444-0300] {processor.py:830} INFO - Processing file /home/thiago/tcc_ufrj/dags/dag_machine_learning.py for tasks to queue
+[2024-03-29T17:55:10.445-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:55:10.444-0300] {dagbag.py:540} INFO - Filling up the DagBag from /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:55:10.453-0300] {processor.py:840} INFO - DAG(s) 'machine-learning' retrieved from /home/thiago/tcc_ufrj/dags/dag_machine_learning.py
+[2024-03-29T17:55:10.488-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:55:10.487-0300] {dag.py:3047} INFO - Sync 1 DAGs
+[2024-03-29T17:55:10.513-0300] {logging_mixin.py:188} INFO - [2024-03-29T17:55:10.512-0300] {dag.py:3834} INFO - Setting next_dagrun for machine-learning to 2024-03-29 20:40:00+00:00, run_after=2024-03-29 21:00:00+00:00
+[2024-03-29T17:55:10.532-0300] {processor.py:183} INFO - Processing /home/thiago/tcc_ufrj/dags/dag_machine_learning.py took 0.093 seconds
