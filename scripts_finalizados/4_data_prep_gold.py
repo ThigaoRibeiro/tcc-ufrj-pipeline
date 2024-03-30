@@ -39,7 +39,6 @@ def are_locations_equal(location1, location2):
     return location1 == location2
 
 
-
 #############################################################################
 ### LISTANDO ARQUIVOS DO BUCKET SILVER E OS TRANSFORMANDO EM UM DATAFRAME ###
 #############################################################################
@@ -130,4 +129,3 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
 # seconds, milliseconds = divmod(remainder, 1)
 # 
 # print(f"Tempo de execução: {int(hours)} horas, {int(minutes)} minutos, {int(seconds)} segundos e {int(milliseconds * 1000)} milissegundos")
-

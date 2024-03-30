@@ -125,8 +125,6 @@ CREATE TABLE IF NOT EXISTS public.tb_dist_euclidian_manhattan_minkowski (
 
 cursor.execute(create_tb_dist_euclidian_manhattan_minkowski)
 conn.commit()
-
-
 conn.close()
 
 
@@ -184,7 +182,7 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv: #--> Iterando sobre a lista
         latitude_inicial_float = float(latitude_inicial)    
         longitude_final_float = float(longitude_final)
         latitude_final_float = float(latitude_final)    
-        #body = {"coordinates":[[8.681495,49.41461],[8.687872,49.420318]],"radiuses":"-1"}
+        # body = {"coordinates":[[8.681495,49.41461],[8.687872,49.420318]],"radiuses":"-1"}
         body = {"coordinates": [[longitude_inicial_float, latitude_inicial_float],[longitude_final_float, latitude_final_float]],"radiuses": "-1"}
 
         headers = {
@@ -404,6 +402,10 @@ except Exception as e:
     # Em caso de erro, imprime a mensagem de erro
     print(f"Erro na carga da tabela [tb_gpx_full]: {str(e)}")
 
+
+###########################################################
+### CALCULANDO O TEMPO DE EXECUÇÃO DO SCRIPT (OPCIONAL) ###
+###########################################################
 # end_time = time.time()
 # execution_time = end_time - start_time
 # 
