@@ -55,7 +55,7 @@ for arquivo_rotas_gpx_csv in arquivos_rotas_gpx_csv:
     #######################################################################################################################################
     batch_size = 1000
     batch_list = [df[i:i+batch_size].copy() for i in range(0, len(df), batch_size)]
-    geolocator = Nominatim(user_agent="geoapiExercises", timeout=10)
+    geolocator = Nominatim(user_agent="thiago_tcc", timeout=10)
     processed_batches = []  # Inicialize a lista de lotes processados
     last_location = {}
 
